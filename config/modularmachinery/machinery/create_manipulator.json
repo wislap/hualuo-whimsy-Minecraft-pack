@@ -1,0 +1,1845 @@
+{
+    "registryname": "createmanipulator",
+    "localizedname": "创造装配室",
+    "parts": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcontroller@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch",
+                "modularmachinery:blockmepatternprovider"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:trimmed@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:trimmed@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:table_ultimate@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "draconicevolution:draconic_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "draconicevolution:draconic_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:trimmed@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:trimmed@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "draconicevolution:draconic_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:storage@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch",
+                "modularmachinery:blockmepatternprovider"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch",
+                "modularmachinery:blockmepatternprovider"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "mekanism:energycube@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "draconicevolution:draconic_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:crafting_core@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "draconicevolution:crafting_injector@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "draconicevolution:draconic_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "draconicevolution:crafting_injector@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:trimmed@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:trimmed@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockoutputbus",
+                "modularmachinery:blockmeitemoutputbus"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "draconicevolution:crafting_injector@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "draconicevolution:draconic_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:trimmed@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "draconicevolution:draconic_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:trimmed@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "draconicevolution:crafting_injector@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "modularmachinery:blockinputbus",
+                "modularmachinery:blockmepatternprovider"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:trimmed@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "draconicevolution:draconic_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:storage@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockinputbus",
+                "modularmachinery:blockmeitemoutputbus",
+                "modularmachinery:blockmepatternprovider"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "draconicevolution:draconic_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "draconicevolution:draconic_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:trimmed@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch",
+                "modularmachinery:blockmepatternprovider"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:trimmed@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:quartz_glass@0"
+            ]
+        }
+    ]}

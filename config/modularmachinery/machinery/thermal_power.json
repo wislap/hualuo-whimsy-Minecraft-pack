@@ -1,0 +1,2157 @@
+{
+    "registryname": "thermalpower",
+    "localizedname": "大型热力发电厂",
+    "parts": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcontroller@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "chisel:blockbronze@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "galaxyspace:futureglass_none@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "chisel:blockcobalt@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "galaxyspace:futureglass_none@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "chisel:blockcobalt@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "galaxyspace:futureglass_none@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "galaxyspace:futureglass_none@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "galaxyspace:futureglass_none@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch",
+                "modularmachinery:blockmefluidoutputbus"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "galaxyspace:futureglass_none@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "chisel:blockbronze@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "galaxyspace:futureglass_none@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "chisel:blockbronze@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "galaxyspace:futureglass_none@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "galaxyspace:futureglass_none@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "extraplanets:mercury@11"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "ic2:glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "galaxyspace:futureglass_none@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "botania:storage@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "galaxyspace:futureglass_none@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "extraplanets:mercury@11"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "botania:storage@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "ic2:glass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "chisel:blockcobalt@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockenergyoutputhatch"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "ic2:glass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "galaxyspace:futureglass_none@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "galaxyspace:futureglass_none@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "galaxyspace:futureglass_none@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "ic2:glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "ic2:glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "galaxyspace:futureglass_none@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "ic2:glass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "chisel:blockcobalt@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "ic2:glass@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "botania:storage@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "chisel:blockcobalt@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "galaxyspace:futureglass_none@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "ic2:glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "ic2:glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "galaxyspace:futureglass_none@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "galaxyspace:futureglass_none@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "botania:storage@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "galaxyspace:futureglass_none@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "galaxyspace:futureglass_none@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "extraplanets:mercury@11"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "chisel:blockcobalt@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "botania:storage@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "chisel:blockbronze@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "botania:storage@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "ic2:glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "galaxyspace:futureglass_none@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "chisel:blockbronze@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "chisel:blockbronze@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "galaxyspace:futureglass_none@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "chisel:blockcobalt@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "chisel:blockbronze@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "chisel:blockbronze@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "ic2:glass@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "chisel:blockbronze@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "ic2:glass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "chisel:blockcobalt@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockfluidinputhatch",
+                "modularmachinery:blockmefluidinputbus"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "galaxyspace:futureglass_none@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "chisel:blockbronze@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "chisel:blockcobalt@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "chisel:blockcobalt@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockupgradebus"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "galaxyspace:futureglass_none@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "galaxyspace:futureglass_none@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "ic2:glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "ic2:glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "extraplanets:mercury@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "ic2:glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "ic2:glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "botania:storage@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "botania:storage@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "chisel:blockbronze@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "botania:storage@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "galaxyspace:futureglass_none@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "galaxyspace:futureglass_none@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "chisel:blockbronze@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "galaxyspace:futureglass_none@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "galaxyspace:futureglass_none@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "chisel:blockbronze@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "galaxyspace:futureglass_none@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "ic2:glass@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "chisel:blockbronze@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "ic2:glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "botania:storage@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "galaxyspace:futureglass_none@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "galaxyspace:futureglass_none@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "chisel:blockbronze@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "chisel:blockcobalt@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "botania:storage@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "galaxyspace:futureglass_none@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "galaxyspace:futureglass_none@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "botania:storage@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "chisel:blockcobalt@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "chisel:blockcobalt@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "galaxyspace:futureglass_none@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "extraplanets:mercury@11"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "chisel:blockcobalt@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "galaxyspace:futureglass_none@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "extraplanets:mercury@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "galaxyspace:futureglass_none@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "galaxyspace:futureglass_none@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "chisel:blockcobalt@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "galaxyspace:futureglass_none@0"
+            ]
+        }
+    ]}

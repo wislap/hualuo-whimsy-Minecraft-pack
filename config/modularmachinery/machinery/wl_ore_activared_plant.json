@@ -1,0 +1,2009 @@
+{
+    "registryname": "wloreactivaredplant",
+    "localizedname": "矿物活化工厂",
+    "parts": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcontroller@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "iceandfire:dragonscale_red@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "iceandfire:dragonscale_red@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@0",
+                "modularmachinery:blockoutputbus",
+                "modularmachinery:blockmeiteminputbus"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "iceandfire:dragonscale_red@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "extendedcrafting:trimmed@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "extendedcrafting:trimmed@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@0",
+                "modularmachinery:blockinputbus",
+                "modularmachinery:blockmepatternprovider"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcasing@0",
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "botania:quartztypeblaze@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "thaumcraft:metal_thaumium@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "botania:quartztypeblaze@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@0",
+                "modularmachinery:blockparallelcontroller"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@0",
+                "modularmachinery:blockupgradebus"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "botania:quartztypeblaze@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "thaumcraft:metal_thaumium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "mekanism:basicblock@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "thaumcraft:metal_thaumium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "iceandfire:dragonscale_red@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "extendedcrafting:trimmed@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "botania:quartztypeblaze@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "botania:quartztypeblaze@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "extendedcrafting:trimmed@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "botania:quartztypeblaze@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "botania:quartztypeblaze@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "mekanism:basicblock@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "iceandfire:dragonscale_red@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "botania:quartztypeblaze@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "botania:quartztypeblaze@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:trimmed@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "iceandfire:dragonscale_red@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "extendedcrafting:trimmed@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:trimmed@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:trimmed@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "iceandfire:dragonscale_red@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "botania:quartztypeblaze@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "thaumcraft:metal_thaumium@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "thaumcraft:metal_thaumium@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "mekanism:basicblock@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:trimmed@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:trimmed@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 5,
+
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "botania:quartztypeblaze@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "botania:quartztypeblaze@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "extendedcrafting:trimmed@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "iceandfire:dragonscale_red@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "botania:quartztypeblaze@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:trimmed@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        }
+    ]}

@@ -1,0 +1,4392 @@
+{
+    "registryname": "fusion_reactor",
+    "localizedname": "聚变反应堆",
+    "parts": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcontroller@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:trimmed@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "chisel:technical@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:trimmed@2"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:technical@3"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:reactor@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:reactor@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:reactor@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": 10,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -3,
+            "z": -4,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": -10,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 11,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "thermalfoundation:storage_alloy@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "thermalfoundation:storage_alloy@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -3,
+            "z": -4,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:trimmed@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -10,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage_alloy@6"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:reactor@1"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 11,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage_alloy@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "thermalfoundation:storage_alloy@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:storage_alloy@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "chisel:technical@3"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 10,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": -7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": -9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -3,
+            "z": -5,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 10,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 11,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "thermalfoundation:storage_alloy@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": -6,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "chisel:technical@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -10,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:storage_alloy@6"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -10,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:storage_alloy@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": -6,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -10,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": -7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:technical@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -10,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": -9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 10,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:storage_alloy@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 10,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": -5,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:storage_alloy@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": -8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "chisel:technical@3"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -3,
+            "z": -5,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "chisel:technical@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": -8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -9,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": -9,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -8,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:storage_alloy@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "thermalfoundation:storage_alloy@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:storage_alloy@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": -9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": -7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -10,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -10,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -10,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 11,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -10,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -3,
+            "z": -4,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:storage_alloy@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": -9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": -5,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 10,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "chisel:technical@3"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": -9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 10,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 11,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:storage_alloy@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": -8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "chisel:technical@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": -7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": -9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": -6,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": -9,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "thermalfoundation:storage_alloy@6"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -3,
+            "z": -4,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:technical@3"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "thermalfoundation:storage_alloy@6"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "thermalfoundation:storage_alloy@6"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:storage_alloy@6"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -9,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockfluidinputhatch",
+                "modularmachinery:blockmefluidinputbus"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": -9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": -8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": -4,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "thermalfoundation:storage_alloy@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": -8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:storage_alloy@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 2,
+
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:storage_alloy@6"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "chisel:technical@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:trimmed@2"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockenergyoutputhatch"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": -8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:storage_alloy@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 2,
+
+            "elements": [
+                "mekanismgenerators:reactor@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": -7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:trimmed@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+
+            "elements": [
+                "mekanismgenerators:reactor@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "thermalfoundation:storage_alloy@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:technical@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+
+            "elements": [
+                "mekanismgenerators:reactor@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "chisel:technical@3"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": -8,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:trimmed@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:storage_alloy@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:technical@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 2,
+
+            "elements": [
+                "mekanismgenerators:reactor@1"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:trimmed@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+
+            "elements": [
+                "mekanismgenerators:reactor@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": -8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -3,
+            "z": -4,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+
+            "elements": [
+                "mekanismgenerators:reactor@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 11,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": -6,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -10,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -10,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:technical@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "chisel:technical@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 11,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 10,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "thermalfoundation:storage_alloy@6"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "moretcon:blocksolarsteel@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:storage_alloy@6"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockupgradebus"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:technical@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "chisel:technical@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 1,
+
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "thermalfoundation:storage_alloy@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": -7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:technical@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": -7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 10,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockenergyoutputhatch"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "moretcon:blocksolarsteel@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "tconevo:metal_block@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -3,
+            "z": -5,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": -8,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 1,
+
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:storage_alloy@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "thermalfoundation:storage_alloy@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:technical@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": -7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "thermalfoundation:storage_alloy@6"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -10,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:storage_alloy@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:storage_alloy@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -3,
+            "z": -6,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:storage_alloy@6"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -10,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": -8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:technical@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "thermalfoundation:storage_alloy@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": -7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "chisel:technical@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "thermalfoundation:storage_alloy@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": -7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": -8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:technical@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:trimmed@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:reactor@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:storage_alloy@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": -5,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": -6,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "thermalfoundation:storage_alloy@6"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockfluidinputhatch",
+                "modularmachinery:blockmefluidinputbus"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:reactor@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": -7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": -8,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:storage_alloy@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:technical@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:storage_alloy@5"
+            ]
+        }
+    ]}
