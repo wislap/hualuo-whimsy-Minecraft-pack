@@ -1,0 +1,2024 @@
+{
+    "registryname": "remoteexcavatebasestationmk7", 
+    "localizedname": "7级远程采矿基站",
+    "requires-blueprint": false, 
+    "factory-only": true, 
+    "parts": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcontroller@2"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -3,
+            "z": -5,
+
+            "elements": [
+                "modularmachinery:blockoutputbus",
+                "modularmachinery:blockmeitemoutputbus"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@8"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blocksmartinterface@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": -4,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "chisel:technical@11"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@8"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "chisel:technical@11"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -3,
+            "z": -4,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": -5,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:technical@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@8"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "minecraft:iron_bars@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -3,
+            "z": -5,
+
+            "elements": [
+                "modularmachinery:blockinputbus",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmeiteminputbus"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -3,
+            "z": -4,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "minecraft:iron_bars@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:futura@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockupgradebus"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": -5,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": -4,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 10,
+            "z": 1,
+            "elements": [
+                "minecraft:iron_bars@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "mekanism:plasticfence@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:futura@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -3,
+            "z": -5,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -2,
+
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "chisel:futura@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": -4,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_stairs@2"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": -5,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@8"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "chisel:futura@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": -4,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": -2,
+
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:futura@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@8"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -3,
+            "z": -4,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "chisel:futura@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": -5,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -3,
+            "z": -5,
+            "elements": [
+                "chisel:technical@5",
+                "modularmachinery:blockmeitemoutputbus"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -3,
+            "z": -4,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:technical@11"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "mekanism:plasticfence@8"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@8"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": -5,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -2,
+
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -3,
+            "z": -4,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:technical@11"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "mekanism:plasticfence@8"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -3,
+            "z": -5,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "appliedenergistics2:controller@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": -2,
+
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": -4,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_stairs@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "appliedenergistics2:controller@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": -5,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+
+            "elements": [
+                "appliedenergistics2:controller@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": -4,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "mekanism:plasticfence@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "appliedenergistics2:controller@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -3,
+            "z": -5,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -3,
+            "z": -4,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+
+            "elements": [
+                "appliedenergistics2:controller@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "mekanism:plasticfence@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": -5,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -3,
+            "z": -4,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "minecraft:iron_bars@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_stairs@2"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -3,
+            "z": -5,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0",
+                "modularmachinery:blockmefluidoutputbus",
+                "modularmachinery:blockfluidoutputhatch"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "minecraft:iron_bars@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -3,
+            "z": -4,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+
+            "elements": [
+                "appliedenergistics2:controller@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "minecraft:iron_bars@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_stairs@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -3,
+            "z": -5,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": -4,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:technical@11"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "chisel:technical@11"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "mekanism:plasticfence@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": -5,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -3,
+            "z": -3,
+
+            "elements": [
+                "modularmachinery:blockfluidinputhatch",
+                "modularmachinery:blockmefluidinputbus"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "mekanism:plasticfence@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "mekanism:plasticfence@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockparallelcontroller"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "mekanism:plasticfence@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": -4,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@8"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick@0"
+            ]
+        }
+    ]}

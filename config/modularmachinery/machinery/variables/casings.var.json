@@ -22,5 +22,19 @@
     "casings_item": [
         "modularmachinery:blockinputbus",
         "modularmachinery:blockoutputbus"
+    ],
+    "casings_partialA": [
+        "modularmachinery:blockcasing",
+        "modularmachinery:blockinputbus",
+        "modularmachinery:blockfluidinputhatch",
+        "modularmachinery:blockoutputbus",
+        "modularmachinery:blockfluidoutputhatch"
+    ],
+    "casings_partialB": [
+        "modularmachinery:blockcasing@0",
+        "modularmachinery:blockupgradebus",
+        "modularmachinery:blockparallelcontroller"
+
     ]
+
 }

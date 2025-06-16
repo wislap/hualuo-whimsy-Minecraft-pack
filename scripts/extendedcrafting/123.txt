@@ -1,0 +1,45 @@
+mods.extendedcrafting.TableCrafting.addShapeless(0, <>, [<ecoaeextension:ecalculator_cell_drive>, <ecoaeextension:ecalculator_transmitter_bus>, <ecoaeextension:efabricator_me_channel>, <ecoaeextension:estorage_me_channel>, 
+ <ecoaeextension:estorage_cell_drive>, <ecoaeextension:ecalculator_me_channel>, <ecoaeextension:efabricator_pattern_bus>, <ecoaeextension:efabricator_vent>, <ecoaeextension:estorage_casing>, <ecoaeextension:estorage_vent>,
+ <ecoaeextension:ecalculator_casing>, <ecoaeextension:efabricator_casing>, <ecoaeextension:estorage_cell_item_16m>, <ecoaeextension:estorage_cell_item_64m>, <ecoaeextension:estorage_cell_item_256m>,
+ <ecoaeextension:estorage_cell_fluid_16m>, <ecoaeextension:estorage_cell_fluid_64m>, <ecoaeextension:estorage_cell_fluid_256m>, <ecoaeextension:estorage_cell_gas_16m>, <ecoaeextension:estorage_cell_gas_64m>,
+ <ecoaeextension:estorage_cell_gas_256m>, <ecoaeextension:ecalculator_thread_core_hyper_l4>, <ecoaeextension:ecalculator_thread_core_hyper_l6>, <ecoaeextension:ecalculator_thread_core_hyper_l9>,
+ <ecoaeextension:ecalculator_tail_l4>, <ecoaeextension:ecalculator_tail_l6>, <ecoaeextension:ecalculator_tail_l9>, <ecoaeextension:ecalculator_thread_core_l4>, <ecoaeextension:ecalculator_thread_core_l6>,
+ <ecoaeextension:ecalculator_thread_core_l9>, <ecoaeextension:efabricator_parallel_proc_l4>, <ecoaeextension:efabricator_parallel_proc_l6>, <ecoaeextension:efabricator_parallel_proc_l9>,
+ <ecoaeextension:estorage_energy_cell_l4>, <ecoaeextension:estorage_energy_cell_l6>, <ecoaeextension:estorage_energy_cell_l9>, <ecoaeextension:extendable_calculator_subsystem_l4>,
+ <ecoaeextension:extendable_calculator_subsystem_l6>, <ecoaeextension:extendable_calculator_subsystem_l9>, <ecoaeextension:ecalculator_parallel_proc_l4>, <ecoaeextension:ecalculator_parallel_proc_l6>,
+ <ecoaeextension:ecalculator_parallel_proc_l9>, <ecoaeextension:extendable_fabricator_subsystem_l4>, <ecoaeextension:extendable_fabricator_subsystem_l6>, <ecoaeextension:extendable_fabricator_subsystem_l9>,
+ <ecoaeextension:extendable_digital_storage_subsystem_l4>, <ecoaeextension:extendable_digital_storage_subsystem_l6>, 
+ <ecoaeextension:extendable_digital_storage_subsystem_l9>, <ecoaeextension:ecalculator_cell_64m>, <ecoaeextension:ecalculator_cell_1024m>, <ecoaeextension:ecalculator_cell_16384m>]);
+
+
+
+ RecipeBuilder.newBuilder("createmanipulator_","createmanipulator",7200)
+	.addEnergyPerTickInput(1000000)
+	.addItemInputs([
+		
+	])
+	.addItemOutput(*1)
+	.build();
+
+    mods.extendedcrafting.TableCrafting.addShaped(0, <>, [
+	[<ore:netherStar>, <mekanism:cosmicalloy>, <storagedrawers:upgrade_storage:4>], 
+	[null, null, null], 
+	[null, null, null]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <>, [
+	[<iceandfire:dragon_meal>, <iceandfire:sickly_dragon_meal>, <draconicevolution:dragon_heart>], 
+	[<mekanism:cosmicalloy>, null, null], 
+	[null, null, null]
+]);
+mods.extendedcrafting.TableCrafting.addShaped(0, <>, [
+	[<extrabotany:blockorichalcos>, <mekanism:controlcircuit:4>, <ore:blockVoid>], 
+	[<draconicevolution:chaotic_core>, <botania:manatablet>, null], 
+	[null, null, null]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <>, [
+	[<mekanism:cosmicalloy>, <minecraft:skull:3>, <tconevo:material>], 
+	[null, null, null], 
+	[null, null, null]
+]);

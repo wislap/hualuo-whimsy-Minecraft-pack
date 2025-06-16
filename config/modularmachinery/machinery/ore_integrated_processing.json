@@ -1,5 +1,5 @@
 {   
-    "registryname": "oreintegrate_processing",
+    "registryname": "oreintegrateprocessing",
     "localizedname": "一体化矿物处理厂",
     "parts": [
         {
@@ -131,7 +131,9 @@
             "y": -3,
             "z": 0,
             "elements": [
-                "ic2:resource@11"
+                "ic2:resource@11",
+                "modularmachinery:blockfluidinputhatch",
+                "modularmachinery:blockmeiteminputbus"
             ]
         },
         {
@@ -1841,7 +1843,9 @@
             "y": -3,
             "z": 0,
             "elements": [
-                "ic2:resource@11"
+                "ic2:resource@11",
+                "modularmachinery:blockfluidinputhatch",
+                "modularmachinery:blockmeiteminputbus"
             ]
         },
         {
