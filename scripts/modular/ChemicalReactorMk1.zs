@@ -153,3 +153,84 @@ RecipeBuilder.newBuilder("sulfuricacid", "ChemicalReactorMk1",20)
         event.controller.customData = data;
 })
     .build();
+
+RecipeBuilder.newBuilder("extractanta", "ChemicalReactorMk1",40)
+    .addEnergyPerTickInput(800)
+    .addGasInput("sulfuricacid", 1000)
+    .addFluidInput(<liquid:ic2coolant> * 1000)
+    .addFluidOutput(<liquid:extractanta> * 4000)
+    .addCatalystInput(<enderio:item_alloy_endergy_ball:2>,["使流体产量翻倍，有80%概率消耗"],[RecipeModifierBuilder.create("modularmachinery:fluid","output",2,1,false).build()]).setChance(0.8)
+    .addRecipeTooltip("此反应每次产生吸收20K,反应温度在250~350K之间")
+    .addCheckHandler(function(event as RecipeCheckEvent) {
+        val data = event.controller.customData;
+        var dData = D(data);
+        val map = data.asMap();
+        var heat = dData.getLong("heat", 0);
+        if (heat < 250 || heat > 350) {
+            event.setFailed("温度不在目标范围内");
+            }
+        }
+    )
+    .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent){
+        val data = event.controller.customData;
+        var dData = D(data);
+        val map = data.asMap();
+        var heat = dData.getLong("heat",0);
+        map["heat"] = heat - 20;
+        event.controller.customData = data;
+})
+    .build();
+
+RecipeBuilder.newBuilder("extractantb", "ChemicalReactorMk1",40)
+    .addEnergyPerTickInput(3200)
+    .addFluidInput(<liquid:extractanta> * 2000)
+    .addFluidInput(<liquid:cryotheum> * 1000)
+    .addFluidOutput(<liquid:extractantb> * 4000)
+    .addCatalystInput(<enderio:item_alloy_endergy_ball:2>,["使流体产量翻倍，有80%概率消耗"],[RecipeModifierBuilder.create("modularmachinery:fluid","output",2,1,false).build()]).setChance(0.8)
+    .addRecipeTooltip("此反应每次产生吸收40K,反应温度在250~350K之间")
+    .addCheckHandler(function(event as RecipeCheckEvent) {
+        val data = event.controller.customData;
+        var dData = D(data);
+        val map = data.asMap();
+        var heat = dData.getLong("heat", 0);
+        if (heat < 250 || heat > 350) {
+            event.setFailed("温度不在目标范围内");
+            }
+        }
+    )
+    .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent){
+        val data = event.controller.customData;
+        var dData = D(data);
+        val map = data.asMap();
+        var heat = dData.getLong("heat",0);
+        map["heat"] = heat - 40;
+        event.controller.customData = data;
+})
+    .build();
+
+RecipeBuilder.newBuilder("extractantc", "ChemicalReactorMk1",40)
+    .addEnergyPerTickInput(3200)
+    .addFluidInput(<liquid:extractantb> * 2000)
+    .addFluidInput(<liquid:redstone_nak> * 250)
+    .addFluidOutput(<liquid:extractantc> * 4000)
+    .addCatalystInput(<enderio:item_alloy_endergy_ball:2>,["使流体产量翻倍，有80%概率消耗"],[RecipeModifierBuilder.create("modularmachinery:fluid","output",2,1,false).build()]).setChance(0.8)
+    .addRecipeTooltip("此反应每次产生吸收60K,反应温度在250~350K之间")
+    .addCheckHandler(function(event as RecipeCheckEvent) {
+        val data = event.controller.customData;
+        var dData = D(data);
+        val map = data.asMap();
+        var heat = dData.getLong("heat", 0);
+        if (heat < 250 || heat > 350) {
+            event.setFailed("温度不在目标范围内");
+            }
+        }
+    )
+    .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent){
+        val data = event.controller.customData;
+        var dData = D(data);
+        val map = data.asMap();
+        var heat = dData.getLong("heat",0);
+        map["heat"] = heat - 60; 
+        event.controller.customData = data;
+})
+    .build();
