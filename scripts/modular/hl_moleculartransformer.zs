@@ -3,7 +3,7 @@ import mods.modularmachinery.RecipeBuilder;
 import mods.modularmachinery.IngredientArrayBuilder;
 
 RecipeBuilder.newBuilder("moleculartransformer_po","moleculartransformer",1)
-	.addEnergyPerTickInput(400000000)
+	.addEnergyPerTickInput(40000000)
 	.addItemInputs([
 		<moretcon:ingotgallium>*1
 	])
@@ -11,7 +11,7 @@ RecipeBuilder.newBuilder("moleculartransformer_po","moleculartransformer",1)
 	.build();
 
 RecipeBuilder.newBuilder("moleculartransformer_ga","moleculartransformer",1)
-	.addEnergyPerTickInput(400000000)
+	.addEnergyPerTickInput(40000000)
 	.addItemInputs([
 		<ore:ingotLead>*1
 	])
@@ -19,7 +19,7 @@ RecipeBuilder.newBuilder("moleculartransformer_ga","moleculartransformer",1)
 	.build();
 
 RecipeBuilder.newBuilder("moleculartransformer_ir","moleculartransformer",1)
-	.addEnergyPerTickInput(800000000)
+	.addEnergyPerTickInput(80000000)
 	.addItemInputs([
 		<minecraft:iron_ingot>*1
 	])
@@ -27,7 +27,7 @@ RecipeBuilder.newBuilder("moleculartransformer_ir","moleculartransformer",1)
 	.build();
 
 RecipeBuilder.newBuilder("moleculartransformer_pu","moleculartransformer",1)
-	.addEnergyPerTickInput(400000000)
+	.addEnergyPerTickInput(40000000)
 	.addItemInputs([
 		<ore:ingotTitanium>*1
 	])
@@ -59,7 +59,7 @@ RecipeBuilder.newBuilder("moleculartransformer_ysd","moleculartransformer",1)
 	.build();
 
 RecipeBuilder.newBuilder("moleculartransformer_yssd","moleculartransformer",1)
-	.addEnergyPerTickInput(100000000)
+	.addEnergyPerTickInput(10000000)
 	.addItemInputs([
 		<ore:gaiaIngot>*1
 	])
@@ -67,7 +67,7 @@ RecipeBuilder.newBuilder("moleculartransformer_yssd","moleculartransformer",1)
 	.build();
 
 RecipeBuilder.newBuilder("moleculartransformer_ns","moleculartransformer",1)
-	.addEnergyPerTickInput(400000000)
+	.addEnergyPerTickInput(40000000)
 	.addItemInputs([
 		<minecraft:skull:1>*1
 	])
@@ -75,7 +75,7 @@ RecipeBuilder.newBuilder("moleculartransformer_ns","moleculartransformer",1)
 	.build();
 
 RecipeBuilder.newBuilder("moleculartransformer_syg","moleculartransformer",1)
-	.addEnergyPerTickInput(100000000)
+	.addEnergyPerTickInput(10000000)
 	.addItemInputs([
 		<ore:ingotOrichalcos>*1
 	])
@@ -84,7 +84,7 @@ RecipeBuilder.newBuilder("moleculartransformer_syg","moleculartransformer",1)
 	.build();
 
 RecipeBuilder.newBuilder("moleculartransformer_gad","moleculartransformer",1)
-	.addEnergyPerTickInput(100000000)
+	.addEnergyPerTickInput(10000000)
 	.addItemInputs([
 		<ore:ingotThaumium>*1,
 		<ore:ingotDraconiumAwakened>*1
@@ -94,7 +94,7 @@ RecipeBuilder.newBuilder("moleculartransformer_gad","moleculartransformer",1)
 	.build();
 
 RecipeBuilder.newBuilder("moleculartransformer_yzwz","moleculartransformer",1)
-	.addEnergyPerTickInput(1000000000)
+	.addEnergyPerTickInput(100000000)
 	.addItemInputs([
 		<ore:ingotUltimate>*1,
 		<ore:ingotUUMatter>*1,
@@ -111,4 +111,22 @@ RecipeBuilder.newBuilder("moleculartransformer_fwz","moleculartransformer",1)
 		<mekanism:cosmicmatter>*1
 	])
 	.addItemOutput(<mekanism:antimatterpellet>*1)
+	.build();
+
+RecipeBuilder.newBuilder("moleculartransformer_alhg","moleculartransformer",1)
+	.addEnergyPerTickInput(10000000)
+	.addItemInputs([
+		<ore:ingotEthaxium>*1,
+		<ore:gemShadow>*1
+	])
+	.addItemOutput(<extrabotany:material:1>*1)
+	.build();
+
+RecipeBuilder.newBuilder("moleculartransformer_gad","moleculartransformer",1)
+	.addEnergyPerTickInput(10000000)
+	.addItemInputs([
+		<extrabotany:material:1>*1
+	])
+	.addItemOutput(<extrabotany:material:8>*2)
+	.addItemOutput(<extrabotany:material:5>*2)
 	.build();
