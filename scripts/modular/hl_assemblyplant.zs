@@ -255,7 +255,8 @@ RecipeBuilder.newBuilder("assemblyplant_czdl","assemblyplant",3600)
 	.addItemInputs([
 		<draconicevolution:chaotic_core>*1,
 		<mekanism:controlcircuit:3>*2,
-		<mekanism:cosmicalloy>*4
+		<mekanism:cosmicalloy>*4,
+		<ore:Antimatter>*16
 	])
 	.addItemOutput(<mekanism:controlcircuit:4>*1)
 	.build();
@@ -327,7 +328,7 @@ RecipeBuilder.newBuilder("assemblyplant_czy","assemblyplant",1200)
 	.addEnergyPerTickInput(400000)
 	.addItemInputs([
 		<ore:circuitUltimate>*4,
-		<mekanism:machineblock3:13>*4,
+		<extraplanets:tier6_items:3>*4,
 		<mets:te:22>*1,
 		<draconicevolution:fusion_crafting_core>*1,
 		<appliedenergistics2:condenser>*4
@@ -346,14 +347,201 @@ RecipeBuilder.newBuilder("assemblyplant_iter","assemblyplant",1200)
 	.addItemOutput(<modularmachinery:fusion_reactor_factory_controller>*1)
 	.build();
 
-RecipeBuilder.newBuilder("baseplant_lx","baseplant",60)
-	.addEnergyPerTickInput(40000)
-	.addInput(<liquid:ic2uu_matter>*10)
+RecipeBuilder.newBuilder("assemblyplant_oremk4","assemblyplant",600)
+	.addEnergyPerTickInput(16000)
 	.addItemInputs([
-		<ore:ingotRunesteel>*4,
-		<ore:ingotEthaxium>*4,
-		<ore:ingotTitanium>*4,
-		<ore:ingotDraconium>*4
+		<extraplanets:tier4_items:3>*16,
+		<ore:circuitElite>*16,
+		<thermalexpansion:augment:128>*4,
+		<mekanism:machineblock:4>*1,
+		<modularmachinery:remoteexcavatebasestationmk3_factory_controller>*1
 	])
-	.addItemOutput(<draconicevolution:draconic_core>*1)
+	.addItemOutput(<modularmachinery:remoteexcavatebasestationmk4_factory_controller>*1)
+	.build();
+
+RecipeBuilder.newBuilder("assemblyplant_oremk5","assemblyplant",600)
+	.addEnergyPerTickInput(32000)
+	.addItemInputs([
+		<extraplanets:tier5_items:3>*16,
+		<draconicevolution:draconic_core>*8,
+		<mekanism:speedupgrade>*8,
+		<modularmachinery:remoteexcavatebasestationmk4_factory_controller>*1
+	])
+	.addItemOutput(<modularmachinery:remoteexcavatebasestationmk5_factory_controller>*1)
+	.build();
+
+RecipeBuilder.newBuilder("assemblyplant_oremk6","assemblyplant",600)
+	.addEnergyPerTickInput(64000)
+	.addItemInputs([
+		<extraplanets:tier6_items:3>*16,
+		<draconicevolution:wyvern_core>*8,
+		<thermalfoundation:upgrade:3>*2,
+		<modularmachinery:remoteexcavatebasestationmk5_factory_controller>*1
+	])
+	.addItemOutput(<modularmachinery:remoteexcavatebasestationmk6_factory_controller>*1)
+	.build();
+
+RecipeBuilder.newBuilder("assemblyplant_oremk7","assemblyplant",600)
+	.addEnergyPerTickInput(128000)
+	.addItemInputs([
+		<extraplanets:tier7_items:3>*16,
+		<ore:circuitUltimate>*16,
+		<galacticraftplanets:astro_miner>*1,
+		<modularmachinery:remoteexcavatebasestationmk6_factory_controller>*1
+	])
+	.addItemOutput(<modularmachinery:remoteexcavatebasestationmk7_factory_controller>*1)
+	.build();
+
+RecipeBuilder.newBuilder("assemblyplant_oremk8","assemblyplant",600)
+	.addEnergyPerTickInput(256000)
+	.addItemInputs([
+		<extraplanets:tier8_items:3>*16,
+		<draconicevolution:awakened_core>*8,
+		<draconicevolution:tool_upgrade:1>*1,
+		<modularmachinery:remoteexcavatebasestationmk7_factory_controller>*1
+	])
+	.addItemOutput(<modularmachinery:remoteexcavatebasestationmk8_factory_controller>*1)
+	.build();
+
+RecipeBuilder.newBuilder("assemblyplant_oremk9","assemblyplant",600)
+	.addEnergyPerTickInput(512000)
+	.addItemInputs([
+		<extraplanets:tier9_items:3>*16,
+		<draconicevolution:chaotic_core>*4,
+		<draconicevolution:tool_upgrade:2>*1,
+		<modularmachinery:remoteexcavatebasestationmk8_factory_controller>*1
+	])
+	.addItemOutput(<modularmachinery:remoteexcavatebasestationmk9_factory_controller>*1)
+	.build();
+
+RecipeBuilder.newBuilder("assemblyplant_oremax","assemblyplant",600)
+	.addEnergyPerTickInput(1024000)
+	.addItemInputs([
+		<extraplanets:tier10_items:3>*16,
+		<mekanism:controlcircuit:4>*8,
+		<modularmachinery:remoteexcavatebasestationmk9_factory_controller>*1
+	])
+	.addItemOutput(<modularmachinery:remoteexcavatebasestationmax_factory_controller>*1)
+	.build();
+
+RecipeBuilder.newBuilder("assemblyplant_mekdl3","assemblyplant",600)
+	.addEnergyPerTickInput(16000)
+	.addItemInputs([
+		<extraplanets:tier4_items:5>*8,
+		<mekanism:controlcircuit:1>*4,
+		<extraplanets:ingot_mercury>*8,
+		<mekanism:reinforcedalloy>*8
+	])
+	.addItemOutput(<mekanism:controlcircuit:2>*4)
+	.build();
+
+RecipeBuilder.newBuilder("assemblyplant_mekdl4","assemblyplant",600)
+	.addEnergyPerTickInput(32000)
+	.addItemInputs([
+		<extraplanets:tier7_items:5>*8,
+		<mekanism:controlcircuit:2>*4,
+		<mekanism:atomicalloy>*8
+	])
+	.addItemOutput(<mekanism:controlcircuit:3>*4)
+	.build();
+
+RecipeBuilder.newBuilder("assemblyplant_cr","assemblyplant",600)
+	.addEnergyPerTickInput(32000)
+	.addItemInputs([
+		<extraplanets:tier7_items:5>*8,
+		<mekanism:controlcircuit:3>*4,
+		<modularmachinery:tmsr_factory_controller>*1,
+		<extraplanets:tier7_items:3>*16,
+		<draconicevolution:chaotic_core>*2
+	])
+	.addItemOutput(<modularmachinery:chaosreactor_factory_controller>*1)
+	.build();
+
+RecipeBuilder.newBuilder("assemblyplant_mekax","assemblyplant",1200)
+	.addEnergyPerTickInput(10000000)
+	.addImpetusInput(50)
+	.addItemInputs([
+		<draconicevolution:chaotic_core>*1,
+		<mekanism:controlcircuit:3>*2,
+		<mekanism:cosmicalloy>*4,
+		<ore:PoloniumPellet>*4,
+		<draconicevolution:draconic_boots>*1
+	])
+	.addItemOutput(<mekanism:mekasuitboots>*1)
+	.build();
+
+RecipeBuilder.newBuilder("assemblyplant_mekak","assemblyplant",1200)
+	.addEnergyPerTickInput(10000000)
+	.addImpetusInput(50)
+	.addItemInputs([
+		<draconicevolution:chaotic_core>*1,
+		<mekanism:controlcircuit:3>*2,
+		<mekanism:cosmicalloy>*4,
+		<ore:PoloniumPellet>*4,
+		<draconicevolution:draconic_legs>*1
+	])
+	.addItemOutput(<mekanism:mekasuitleggings>*1)
+	.build();
+
+RecipeBuilder.newBuilder("assemblyplant_mekax","assemblyplant",1200)
+	.addEnergyPerTickInput(10000000)
+	.addImpetusInput(50)
+	.addItemInputs([
+		<draconicevolution:chaotic_core>*1,
+		<mekanism:controlcircuit:3>*2,
+		<mekanism:cosmicalloy>*4,
+		<ore:PoloniumPellet>*4,
+		<draconicevolution:draconic_chest>*1
+	])
+	.addItemOutput(<mekanism:mekasuitchestplate>*1)
+	.build();
+
+RecipeBuilder.newBuilder("assemblyplant_mekat","assemblyplant",1200)
+	.addEnergyPerTickInput(10000000)
+	.addImpetusInput(50)
+	.addItemInputs([
+		<draconicevolution:chaotic_core>*1,
+		<mekanism:controlcircuit:3>*2,
+		<mekanism:cosmicalloy>*4,
+		<ore:PoloniumPellet>*4,
+		<draconicevolution:draconic_helm>*1
+	])
+	.addItemOutput(<mekanism:mekasuithelmet>*1)
+	.build();
+
+RecipeBuilder.newBuilder("assemblyplant_mekag","assemblyplant",1200)
+	.addEnergyPerTickInput(10000000)
+	.addImpetusInput(50)
+	.addItemInputs([
+		<draconicevolution:chaotic_core>*1,
+		<mekanism:controlcircuit:3>*2,
+		<mekanism:cosmicalloy>*4,
+		<ore:PoloniumPellet>*4,
+		<draconicevolution:draconic_bow>*1
+	])
+	.addItemOutput(<mekaweapons:bow_riser>*1)
+	.build();
+
+RecipeBuilder.newBuilder("assemblyplant_mekaj","assemblyplant",1200)
+	.addEnergyPerTickInput(10000000)
+	.addImpetusInput(50)
+	.addItemInputs([
+		<draconicevolution:chaotic_core>*1,
+		<mekanism:controlcircuit:3>*2,
+		<mekanism:cosmicalloy>*4,
+		<ore:PoloniumPellet>*4,
+		<draconicevolution:draconic_sword>*1
+	])
+	.addItemOutput(<mekaweapons:katana_blade>*1)
+	.build();
+
+RecipeBuilder.newBuilder("assemblyplant_czkzq","assemblyplant",1200)
+	.addEnergyPerTickInput(1789569)
+	.addItemInputs([
+		<draconicevolution:chaotic_core>*4,
+		<extraplanets:tier10_items:3>*4,
+		<mekanism:controlcircuit:4>*4,
+		<draconicevolution:fusion_crafting_core>*1
+	])
+	.addItemOutput(<modularmachinery:createmanipulator_factory_controller>*1)
 	.build();

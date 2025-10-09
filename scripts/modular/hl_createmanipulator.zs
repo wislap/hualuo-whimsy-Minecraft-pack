@@ -110,74 +110,50 @@ RecipeBuilder.newBuilder("createmanipulator_bxzx","createmanipulator",600)
 	.addItemOutput(<modularmachinery:blockparallelcontroller:4>*1)
 	.build();
 
-RecipeBuilder.newBuilder("assemblyplant_mekax","assemblyplant",1200)
-	.addEnergyPerTickInput(10000000)
-	.addItemInputs([
-		<draconicevolution:chaotic_core>*1,
-		<mekanism:controlcircuit:3>*2,
-		<mekanism:cosmicalloy>*4,
-		<ore:PoloniumPellet>*4,
-		<draconicevolution:draconic_boots>*1
+RecipeBuilder.newBuilder("createmanipulator_czyz","createmanipulator",1200)
+	.addEnergyPerTickInput(4000000)
+	.addImpetusInput(524288)
+	.addItemInputs([	
+		<mekanism:controlcircuit:4>*8,
+		<thaumcraft:smelter_void>*8,
+		<thaumicenergistics:essentia_component_64k>*4,
+		<thaumcraft:metal_alchemical_advanced>*8,
+		<thaumcraft:primordial_pearl>*4
 	])
-	.addItemOutput(<mekanism:mekasuitboots>*1)
+	.addItemOutput(<thaumicenergistics:essentia_cell_creative>*1)
 	.build();
 
-RecipeBuilder.newBuilder("assemblyplant_mekak","assemblyplant",1200)
-	.addEnergyPerTickInput(10000000)
+RecipeBuilder.newBuilder("createmanipulator_wjchj","createmanipulator",200)
+	.addEnergyPerTickInput(1600000)
 	.addItemInputs([
-		<draconicevolution:chaotic_core>*1,
-		<mekanism:controlcircuit:3>*2,
-		<mekanism:cosmicalloy>*4,
-		<ore:PoloniumPellet>*4,
-		<draconicevolution:draconic_legs>*1
+		<avaritia:singularity>*1,
+		<avaritia:singularity:1>*1,
+		<avaritia:singularity:2>*1,
+		<avaritia:singularity:3>*1,
+		<avaritia:singularity:4>*1,
+		<avaritia:singularity:5>*1,
+		<avaritia:singularity:6>*1,
+		<avaritia:singularity:7>*1,
+		<avaritia:singularity:8>*1,
+		<avaritia:singularity:9>*1,
+		<avaritia:singularity:10>*1,
+		<avaritia:singularity:11>*1,
+		<avaritia:endest_pearl>*1,
+		<avaritia:cosmic_meatballs>*1,
+		<avaritia:ultimate_stew>*1,
+		<avaritia:resource:2>*1,
+		<avaritia:resource:3>*1,
+		<avaritia:resource:4>*1,
+		<avaritia:resource:1>*1,
+		<avaritia:resource>*1,
+		<avaritia:resource:7>*1,
+		<extendedcrafting:material:32>*1,
+		<mekanism:cosmicmatter>*1,
+		<mekanism:cosmicalloy>*1,
+		<draconicevolution:chaos_shard>*1,
+		<twilightforest:block_storage:4>*1,
+		<moretcon:spacetimedisruptionpowder>*1,
+		<appliedenergistics2:material:38>*1
 	])
-	.addItemOutput(<mekanism:mekasuitleggings>*1)
-	.build();
-
-RecipeBuilder.newBuilder("assemblyplant_mekax","assemblyplant",1200)
-	.addEnergyPerTickInput(10000000)
-	.addItemInputs([
-		<draconicevolution:chaotic_core>*1,
-		<mekanism:controlcircuit:3>*2,
-		<mekanism:cosmicalloy>*4,
-		<ore:PoloniumPellet>*4,
-		<draconicevolution:draconic_chest>*1
-	])
-	.addItemOutput(<mekanism:mekasuitchestplate>*1)
-	.build();
-
-RecipeBuilder.newBuilder("assemblyplant_mekat","assemblyplant",1200)
-	.addEnergyPerTickInput(10000000)
-	.addItemInputs([
-		<draconicevolution:chaotic_core>*1,
-		<mekanism:controlcircuit:3>*2,
-		<mekanism:cosmicalloy>*4,
-		<ore:PoloniumPellet>*4,
-		<draconicevolution:draconic_helm>*1
-	])
-	.addItemOutput(<mekanism:mekasuithelmet>*1)
-	.build();
-
-RecipeBuilder.newBuilder("assemblyplant_mekag","assemblyplant",1200)
-	.addEnergyPerTickInput(10000000)
-	.addItemInputs([
-		<draconicevolution:chaotic_core>*1,
-		<mekanism:controlcircuit:3>*2,
-		<mekanism:cosmicalloy>*4,
-		<ore:PoloniumPellet>*4,
-		<draconicevolution:draconic_bow>*1
-	])
-	.addItemOutput(<mekaweapons:bow_riser>*1)
-	.build();
-
-RecipeBuilder.newBuilder("assemblyplant_mekaj","assemblyplant",1200)
-	.addEnergyPerTickInput(10000000)
-	.addItemInputs([
-		<draconicevolution:chaotic_core>*1,
-		<mekanism:controlcircuit:3>*2,
-		<mekanism:cosmicalloy>*4,
-		<ore:PoloniumPellet>*4,
-		<draconicevolution:draconic_sword>*1
-	])
-	.addItemOutput(<mekaweapons:katana_blade>*1)
+	.addItemOutput(<avaritia:resource:5>*4)
 	.build();

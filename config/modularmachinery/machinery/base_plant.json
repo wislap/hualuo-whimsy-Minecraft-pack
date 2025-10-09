@@ -888,7 +888,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "chisel:factory@7"
+                "chisel:factory@7" 
             ]
         },
         {
@@ -937,7 +937,8 @@
             "y": 3,
             "z": 4,
             "elements": [
-                "extendedcrafting:storage@0"
+                "extendedcrafting:storage@0",
+                "modularmachinery:blockaspectproviderinput"
             ]
         },
         {
@@ -945,7 +946,8 @@
             "y": 3,
             "z": 3,
             "elements": [
-                "extendedcrafting:storage@0"
+                "extendedcrafting:storage@0",
+                "modularmachinery:blockaspectproviderinput"
             ]
         },
         {
@@ -1021,7 +1023,9 @@
             "y": 3,
             "z": 0,
             "elements": [
-                "extendedcrafting:storage@0"
+                "extendedcrafting:storage@0",
+                "modularmachinery:blockfluidinputhatch",
+                "modularmachinery:blockmefluidinputbus"
             ]
         },
         {
@@ -1191,7 +1195,8 @@
             "y": 3,
             "z": 3,
             "elements": [
-                "extendedcrafting:storage@0"
+                "extendedcrafting:storage@0",
+                "modularmachinery:blockaspectproviderinput"
             ]
         },
         {
@@ -1207,7 +1212,8 @@
             "y": 3,
             "z": 4,
             "elements": [
-                "extendedcrafting:storage@0"
+                "extendedcrafting:storage@0",
+                "modularmachinery:blockaspectproviderinput"
             ]
         },
         {

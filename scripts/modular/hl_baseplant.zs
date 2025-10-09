@@ -203,3 +203,80 @@ RecipeBuilder.newBuilder("baseplant_fdc","baseplant",300)
 	])
 	.addItemOutput(<modularmachinery:thermalpower_factory_controller>*1)
 	.build();
+
+RecipeBuilder.newBuilder("baseplant_oremk1","baseplant",600)
+	.addEnergyPerTickInput(2000)
+	.addItemInputs([
+		<galacticraftcore:heavy_plating>*16,
+		<botania:terrapick>*1,
+		<thermalfoundation:material:656>*4,
+		<ic2:te:57>*4
+	])
+	.addItemOutput(<modularmachinery:remoteexcavatebasestationmk1_factory_controller>*1)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_oremk2","baseplant",600)
+	.addEnergyPerTickInput(4000)
+	.addItemInputs([
+		<galacticraftplanets:item_basic_mars:3>*16,
+		<ore:circuitBasic>*16,
+		<ic2:upgrade>*4,
+		<modularmachinery:remoteexcavatebasestationmk1_factory_controller>*1
+	])
+	.addItemOutput(<modularmachinery:remoteexcavatebasestationmk2_factory_controller>*1)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_oremk3","baseplant",600)
+	.addEnergyPerTickInput(8000)
+	.addItemInputs([
+		<galacticraftplanets:item_basic_asteroids:5>*16,
+		<ore:circuitAdvanced>*16,
+		<ic2:upgrade>*16,
+		<modularmachinery:remoteexcavatebasestationmk2_factory_controller>*1
+	])
+	.addItemOutput(<modularmachinery:remoteexcavatebasestationmk3_factory_controller>*1)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_jbysj","baseplant",600)
+	.addEnergyPerTickInput(8000)
+	.addItemInputs([
+		<thermalexpansion:machine:5>*4,
+		<galacticraftcore:machine2>*4,
+		<ic2:te:43>*4
+	])
+	.addItemOutput(<modularmachinery:getherringexplosionscomperessor_factory_controller>*1)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_lx","baseplant",60)
+	.addEnergyPerTickInput(40000)
+	.addInput(<liquid:ic2uu_matter>*10)
+	.addImpetusInput(40)
+	.addItemInputs([
+		<ore:ingotRunesteel>*4,
+		<ore:ingotEthaxium>*4,
+		<ore:ingotTitanium>*4,
+		<ore:ingotDraconium>*4
+	])
+	.addItemOutput(<draconicevolution:draconic_core>*1)
+	.build();
+
+
+RecipeBuilder.newBuilder("baseplant_yybs","baseplant",20)
+	.addEnergyPerTickInput(120000)
+	.addImpetusInput(100)
+	.addItemInputs([
+		<appliedenergistics2:paint_ball:15>*8
+	])
+	.addItemOutput(<abyssalcraft:shadowgem>*8)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_sjjk","baseplant",20)
+	.addEnergyPerTickInput(120000)
+	.addItemInputs([
+		<thermalfoundation:material:640>*8,
+		<modularmachinery:blockcasing>*2,
+		<mekanism:controlcircuit>*4
+	])
+	.addItemOutput(<modularmachinery:blocksmartinterface>*2)
+	.build();
+

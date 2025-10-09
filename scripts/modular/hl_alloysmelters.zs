@@ -87,3 +87,74 @@ RecipeBuilder.newBuilder("alloysmelters_mtc_cy","alloysmelters",960)
 	.addItemOutput(<moretcon:blockbloodstone>*1)
 	.addItemOutput(<moretcon:blockvoidspar>*1)
 	.build();
+
+RecipeBuilder.newBuilder("alloysmelters_te_wy","alloysmelters",400)
+	.addEnergyPerTickInput(6400)
+	.addItemInputs([
+		<ore:blockRedstone>*2,
+		<draconicevolution:wyvern_core>*9,
+		<ore:blockDiamond>*2,
+		<tconevo:material>*9
+	])
+	.addItemOutput(<tconevo:metal>*9)
+	.build();
+
+RecipeBuilder.newBuilder("alloysmelters_te_dr","alloysmelters",400)
+	.addEnergyPerTickInput(102400)
+	.addItemInputs([
+		<ore:blockNetherStar>*2,
+		<draconicevolution:awakened_core>*9,
+		<draconicevolution:wyvern_energy_core>*9,
+		<tconevo:material>*9
+	])
+	.addItemOutput(<tconevo:metal:5>*9)
+	.build();
+
+RecipeBuilder.newBuilder("alloysmelters_te_ch","alloysmelters",400)
+	.addEnergyPerTickInput(25600000)
+	.addItemInputs([
+		<draconicevolution:draconic_energy_core>*9,
+		<draconicevolution:chaotic_core>*9,
+		<ore:dragonEgg>*18,
+		<tconevo:material>*9
+	])
+	.addItemOutput(<tconevo:metal:10>*9)
+	.build();
+
+RecipeBuilder.newBuilder("alloysmelters_te_fwg","alloysmelters",200)
+	.addEnergyPerTickInput(2000)
+	.addItemInputs([
+		<ore:obsidian>*1,
+		<ore:blockSteel>*1,
+		<ore:blockArdite>*1,
+		<ore:ingotGold>*2
+	])
+	.addItemOutput(<moretcon:ingotrunesteel>*1)
+	.build();
+
+RecipeBuilder.newBuilder("alloysmelters_NbTi","alloysmelters",200)
+	.addEnergyPerTickInput(4000)
+	.addItemInputs([
+		<ore:dustNiobium>*1,
+		<ore:dustTitanium>*3
+	])
+	.addItemOutput(<mets:niobium_titanium_ingot>*4)
+	.build();
+
+RecipeBuilder.newBuilder("alloysmelters_steel","alloysmelters",200)
+	.addEnergyPerTickInput(4000)
+	.addItemInputs([
+		<ore:blockCoal>*4,
+		<ore:blockIron>*1
+	])
+	.addItemOutput(<thermalfoundation:storage_alloy>*1)
+	.build();
+
+RecipeBuilder.newBuilder("alloysmelters_myl","alloysmelters",200)
+	.addEnergyPerTickInput(4000)
+	.addItemInputs([
+		<tconstruct:ingots:0>*4,
+		<tconstruct:ingots:1>*4
+	])
+	.addItemOutput(<tconstruct:ingots:2>*4)
+	.build();
