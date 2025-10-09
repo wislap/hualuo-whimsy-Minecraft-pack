@@ -1,0 +1,22 @@
+import crafttweaker.entity.IEntity;
+import crafttweaker.item.IItemStack;
+import crafttweaker.world.IBlockPos;
+
+zenClass ITransformContext {
+    var output as IItemStack;
+    var mana as int;
+    val spreaderPos as IBlockPos;
+    val manaBurstEntity as IEntity;
+    
+    function setOutput(arg0 as IItemStack) as void;
+    
+    function getMana() as int;
+    
+    function setMana(arg0 as int) as void;
+    
+    function getOutput() as IItemStack;
+    
+    function getSpreaderPos() as IBlockPos;
+    
+    function getManaBurstEntity() as IEntity;
+}

@@ -1,0 +1,5 @@
+import mods.modularmachinery.MachineEvent;
+
+zenClass MachineStructureUpdateEvent extends MachineEvent {
+    
+}

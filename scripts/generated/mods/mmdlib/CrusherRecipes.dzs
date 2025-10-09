@@ -1,0 +1,13 @@
+import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDictEntry;
+
+zenClass CrusherRecipes {
+    
+    static function remove(arg0 as IItemStack, arg1 as IItemStack = null) as void;
+    
+    static function remove(arg0 as IOreDictEntry, arg1 as IItemStack = null) as void;
+    
+    static function add(arg0 as IItemStack, arg1 as IItemStack) as void;
+    
+    static function add(arg0 as IItemStack, arg1 as IOreDictEntry) as void;
+}

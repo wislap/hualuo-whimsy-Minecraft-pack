@@ -1,0 +1,26 @@
+
+zenClass IProgressStyle {
+    
+    function prefix(arg0 as string) as any;
+    
+    function suffix(arg0 as string) as any;
+    
+    
+    function width(arg0 as int) as any;
+    
+    function height(arg0 as int) as any;
+    
+    function backgroundColor(arg0 as int) as any;
+    
+    function alternateFilledColor(arg0 as int) as any;
+    
+    function armorBar(arg0 as bool) as any;
+    
+    function lifeBar(arg0 as bool) as any;
+    
+    function showText(arg0 as bool) as any;
+    
+    function filledColor(arg0 as int) as any;
+    
+    function borderColor(arg0 as int) as any;
+}

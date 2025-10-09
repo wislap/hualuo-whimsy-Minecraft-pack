@@ -1,0 +1,12 @@
+import crafttweaker.entity.IEntity;
+import crafttweaker.world.IBlockPos;
+import crafttweaker.world.IFacing;
+
+zenClass IRayTraceResult {
+    val entity as IEntity;
+    val isBlock as bool;
+    val blockPos as IBlockPos;
+    val sideHit as IFacing;
+    val isMiss as bool;
+    val isEntity as bool;
+}

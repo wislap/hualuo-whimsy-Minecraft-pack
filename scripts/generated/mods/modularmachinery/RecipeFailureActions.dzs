@@ -1,0 +1,8 @@
+
+zenClass RecipeFailureActions {
+    val name as string;
+    
+    static function getFailureAction(key as string) as RecipeFailureActions;
+    
+    static function getDefaultAction() as RecipeFailureActions;
+}

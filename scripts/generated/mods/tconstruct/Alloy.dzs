@@ -1,0 +1,8 @@
+import crafttweaker.liquid.ILiquidStack;
+
+zenClass Alloy {
+    
+    static function addRecipe(output as ILiquidStack, inputs as ILiquidStack[]) as void;
+    
+    static function removeRecipe(output as ILiquidStack, input as ILiquidStack[] = null) as void;
+}

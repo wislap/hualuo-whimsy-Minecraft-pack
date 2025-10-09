@@ -1,0 +1,7 @@
+
+zenClass ResourceLocation {
+    val domain as string;
+    val path as string;
+    
+    static function create(resourceLocation as string) as ResourceLocation;
+}

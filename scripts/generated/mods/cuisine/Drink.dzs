@@ -1,0 +1,12 @@
+import crafttweaker.item.IIngredient;
+
+zenClass Drink {
+    
+    static function getAllDrinkTypes() as any[];
+    
+    static function addSpecialItem(arg0 as string, arg1 as IIngredient) as void;
+    
+    static function removeAllSpecialItems() as void;
+    
+    static function removeAllSpecialItems(arg0 as string) as void;
+}

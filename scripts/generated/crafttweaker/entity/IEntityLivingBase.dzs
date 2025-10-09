@@ -1,0 +1,112 @@
+import crafttweaker.damage.IDamageSource;
+import crafttweaker.entity.AttributeInstance;
+import crafttweaker.entity.IEntity;
+import crafttweaker.entity.IEntityEquipmentSlot;
+import crafttweaker.item.IItemStack;
+import crafttweaker.potions.IPotion;
+import crafttweaker.potions.IPotionEffect;
+
+zenClass IEntityLivingBase extends IEntity {
+    val isChild as bool;
+    val isUndead as bool;
+    var health as float;
+    val isOnLadder as bool;
+    var lastAttackedEntity as IEntityLivingBase;
+    val lastAttackedEntityTime as int;
+    val canBreatheUnderwater as bool;
+    val lastDamageSource as IDamageSource;
+    val mainHandHeldItem as IItemStack;
+    var arrowsInEntity as int;
+    val maxHealth as float;
+    val offHandHeldItem as IItemStack;
+    val attackingEntity as IEntityLivingBase;
+    var AIMovementSpeed as float;
+    var revengeTarget as IEntityLivingBase;
+    val totalArmorValue as int;
+    var swingProgress as int;
+    var moveForward as float;
+    var moveVertical as float;
+    val isElytraFlying as bool;
+    var moveStrafing as float;
+    var activeHand as IEntityEquipmentSlot;
+    val activeItemStack as IItemStack;
+    val isSwingInProgress as bool;
+    val isHandActive as bool;
+    val isActiveItemStackBlocking as bool;
+    var absorptionAmount as double;
+    val creatureAttribute as string;
+    
+    function getAttribute(name as string) as AttributeInstance;
+    
+    function isPotionEffectApplicable(potionEffect as IPotionEffect) as bool;
+    
+    function getActivePotionEffect(potion as IPotion) as IPotionEffect;
+    
+    function hasItemInSlot(slot as IEntityEquipmentSlot) as bool;
+    
+    function getItemInSlot(slot as IEntityEquipmentSlot) as IItemStack;
+    
+    function addPotionEffect(potionEffect as IPotionEffect) as void;
+    
+    function setItemToSlot(slot as IEntityEquipmentSlot, itemStack as IItemStack) as void;
+    
+    function heal(amount as float) as void;
+    
+    function knockBack(entity as IEntity, one as float, two as double, three as double) as void;
+    
+    function getHeldItemOffHand() as IItemStack;
+    
+    function clearActivePotions() as void;
+    
+    function isPotionActive(potion as IPotion) as bool;
+    
+    function onDeath(source as IDamageSource) as void;
+    
+    function canEntityBeSeen(other as IEntity) as bool;
+    
+    function onLivingUpdate() as void;
+    
+    function getSwingProgress() as int;
+    
+    function getMoveForward() as float;
+    
+    function stopActiveHand() as void;
+    
+    function setMoveVertical(moveVertical as float) as void;
+    
+    function isElytraFlying() as bool;
+    
+    function attemptTeleport(x as double, y as double, z as double) as bool;
+    
+    function resetActiveHand() as void;
+    
+    function removePotionEffect(potion as IPotion) as void;
+    
+    function setMoveStrafing(moveStrafing as float) as void;
+    
+    function getActiveHand() as IEntityEquipmentSlot;
+    
+    function getMoveVertical() as float;
+    
+    function setSwingProgress(swingProgress as int) as void;
+    
+    function getActiveItemStack() as IItemStack;
+    
+    function isSwingInProgress() as bool;
+    
+    function setMoveForward(moveForward as float) as void;
+    
+    function setActiveHand(hand as IEntityEquipmentSlot) as void;
+    
+    function getMoveStrafing() as float;
+    
+    function isHandActive() as bool;
+    
+    function isActiveItemStackBlocking() as bool;
+    
+    function getAbsorptionAmount() as double;
+    
+    function setAbsorptionAmount(amount as float) as void;
+    
+    function getCreatureAttribute() as string;
+}

@@ -1,0 +1,8 @@
+import crafttweaker.item.IItemStack;
+
+zenClass ChickenFeed {
+    
+    static function resetSpawnEgg(arg0 as string) as void;
+    
+    static function setSpawnEgg(arg0 as string, arg1 as IItemStack) as void;
+}

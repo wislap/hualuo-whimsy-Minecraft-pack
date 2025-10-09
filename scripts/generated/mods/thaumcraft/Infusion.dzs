@@ -1,0 +1,12 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import thaumcraft.aspect.CTAspectStack;
+
+zenClass Infusion {
+    
+    static function removeRecipe(recipeName as string) as void;
+    
+    static function removeRecipe(output as IItemStack) as void;
+    
+    static function registerRecipe(name as string, research as string, output as IItemStack, instability as int, aspects as CTAspectStack[], centralItem as IIngredient, recipe as IIngredient[]) as void;
+}

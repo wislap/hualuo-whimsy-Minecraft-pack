@@ -1,0 +1,8 @@
+import crafttweaker.data.IData;
+
+zenClass TileEntityInGame {
+    val id as int;
+    var data as IData;
+    
+    function updateCustomData(data as IData) as void;
+}

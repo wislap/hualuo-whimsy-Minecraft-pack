@@ -1,0 +1,5 @@
+
+zenClass MachineRegistry {
+    
+    static function getAllRegisteredMachinery() as string[];
+}

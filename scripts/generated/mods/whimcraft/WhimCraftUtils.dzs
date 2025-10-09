@@ -1,0 +1,7 @@
+import crafttweaker.entity.IEntity;
+import crafttweaker.item.IItemStack;
+
+zenClass WhimCraftUtils {
+    
+    static function getDrops(arg0 as IEntity, arg1 as bool, arg2 as int) as IItemStack[];
+}

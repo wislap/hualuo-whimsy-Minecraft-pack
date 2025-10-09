@@ -1,0 +1,17 @@
+import crafttweaker.item.IItemStack;
+import crafttweaker.player.IPlayer;
+import mods.zenutils.EnergyStorage;
+import mods.zenutils.LiquidHandler;
+
+zenClass IMutableItemStack extends IItemStack {
+    val energyStorage as EnergyStorage;
+    val fluidHandler as LiquidHandler;
+    
+    function copy() as IItemStack;
+    
+    function grow(quality as int) as void;
+    
+    function shrink(quality as int) as void;
+    
+    function attemptDamageItem(amount as int, player as IPlayer = null) as bool;
+}

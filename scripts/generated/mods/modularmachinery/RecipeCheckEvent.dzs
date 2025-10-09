@@ -1,0 +1,9 @@
+import mods.modularmachinery.RecipeEvent;
+
+zenClass RecipeCheckEvent extends RecipeEvent {
+    var parallelism as int;
+    
+    function setParallelism(parallelism as int) as void;
+    
+    function setFailed(reason as string) as void;
+}

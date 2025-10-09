@@ -1,0 +1,6 @@
+import mods.modularmachinery.ActiveMachineRecipe;
+import mods.modularmachinery.MachineEvent;
+
+zenClass RecipeEvent extends MachineEvent {
+    val activeRecipe as ActiveMachineRecipe;
+}

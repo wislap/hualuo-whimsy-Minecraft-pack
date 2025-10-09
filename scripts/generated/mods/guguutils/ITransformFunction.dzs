@@ -1,0 +1,7 @@
+import crafttweaker.entity.IEntityItem;
+import mods.guguutils.ITransformContext;
+
+zenClass ITransformFunction {
+    
+    function (arg0 as IEntityItem, arg1 as ITransformContext) as bool;
+}

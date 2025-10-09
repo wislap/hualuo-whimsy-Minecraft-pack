@@ -1,0 +1,9 @@
+import crafttweaker.block.IBlockState;
+import crafttweaker.data.IData;
+import crafttweaker.world.IBlockPos;
+import crafttweaker.world.IWorld;
+
+zenClass AdvancedBlockChecker {
+    
+    function (world as IWorld, pos as IBlockPos, blockState as IBlockState, nbt as IData) as bool;
+}

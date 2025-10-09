@@ -1,0 +1,15 @@
+
+zenClass IBiome {
+    val name as string;
+    val id as string;
+    val temperature as float;
+    val highHumidity as bool;
+    val heightVariation as float;
+    val spawningChance as float;
+    val isSnowyBiome as bool;
+    val baseHeight as float;
+    val rainfall as float;
+    val waterColorMultiplier as int;
+    val canRain as bool;
+    val ignorePlayerSpawnSuitability as bool;
+}

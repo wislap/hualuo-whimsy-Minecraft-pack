@@ -1,0 +1,9 @@
+
+zenClass ProbeMode {
+    
+    static function getNORMAL() as any;
+    
+    static function getDEBUG() as any;
+    
+    static function getEXTENDED() as any;
+}

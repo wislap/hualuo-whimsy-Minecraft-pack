@@ -1,0 +1,49 @@
+import crafttweaker.world.IBiome;
+import crafttweaker.world.IWorld;
+import mods.contenttweaker.BlockPos;
+import mods.contenttweaker.BlockState;
+import mods.contenttweaker.Random;
+
+zenClass World extends IWorld {
+    val dimension as int;
+    val dayTime as bool;
+    val dimensionType as string;
+    val moonPhase as int;
+    val surfaceWorld as bool;
+    val type as string;
+    val raining as bool;
+    val remote as bool;
+    val random as Random;
+    val time as long;
+    val thundering as bool;
+    
+    function getDimension() as int;
+    
+    function isDayTime() as bool;
+    
+    function getDimensionType() as string;
+    
+    function getMoonPhase() as int;
+    
+    function isSurfaceWorld() as bool;
+    
+    function getWorldType() as string;
+    
+    function getBiome(blockPos as BlockPos) as IBiome;
+    
+    function isRaining() as bool;
+    
+    function getBlockState(blockPos as BlockPos) as BlockState;
+    
+    function getTileEntity(blockPos as BlockPos) as any;
+    
+    function setBlockState(blockState as BlockState, blockPos as BlockPos) as bool;
+    
+    function isRemote() as bool;
+    
+    function getRandom() as Random;
+    
+    function getWorldTime() as long;
+    
+    function isThundering() as bool;
+}

@@ -1,0 +1,10 @@
+import crafttweaker.entity.IEntity;
+
+zenClass IEntityPredicate {
+    
+    function (entity as IEntity) as bool;
+    
+    function test(entity as IEntity) as bool;
+    
+    function test(arg0 as any) as bool;
+}

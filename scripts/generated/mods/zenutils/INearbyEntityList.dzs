@@ -1,0 +1,33 @@
+import crafttweaker.entity.IEntity;
+import crafttweaker.entity.IEntityDefinition;
+import crafttweaker.entity.IEntityItem;
+import crafttweaker.entity.IEntityLivingBase;
+import crafttweaker.player.IPlayer;
+import mods.zenutils.IEntityPredicate;
+
+zenClass INearbyEntityList {
+    val closestEntity as IEntity;
+    val closestPlayer as IPlayer;
+    val closestItem as IEntityItem;
+    val closestLiving as IEntityLivingBase;
+    
+    function items() as any;
+    
+    function entities() as any;
+    
+    function filter(predicate as IEntityPredicate) as INearbyEntityList;
+    
+    function filterType(definition as IEntityDefinition) as INearbyEntityList;
+    
+    function livings() as any;
+    
+    function closestEntity() as IEntity;
+    
+    function players() as any;
+    
+    function closestPlayer() as IPlayer;
+    
+    function closestItem() as IEntityItem;
+    
+    function closestLiving() as IEntityLivingBase;
+}

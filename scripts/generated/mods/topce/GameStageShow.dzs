@@ -1,0 +1,11 @@
+
+zenClass GameStageShow {
+    
+    static function showAll(arg0 as string) as void;
+    
+    static function showLiquids(arg0 as string) as void;
+    
+    static function showBreakProgress(arg0 as string) as void;
+    
+    static function showExtended(arg0 as string) as void;
+}

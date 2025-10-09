@@ -1,0 +1,7 @@
+import crafttweaker.entity.IEntity;
+import crafttweaker.item.IItemStack;
+
+zenClass ITransformEvent {
+    
+    function (arg0 as IItemStack, arg1 as IEntity, arg2 as int) as bool;
+}

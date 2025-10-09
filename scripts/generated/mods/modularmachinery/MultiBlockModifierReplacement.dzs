@@ -1,0 +1,8 @@
+import mods.modularmachinery.BlockArray;
+import mods.modularmachinery.IMachineController;
+
+zenClass MultiBlockModifierReplacement {
+    val blockArray as BlockArray;
+    
+    function matches(ctrl as IMachineController) as bool;
+}

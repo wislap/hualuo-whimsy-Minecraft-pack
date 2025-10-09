@@ -1,0 +1,10 @@
+import crafttweaker.world.IBlockPos;
+import crafttweaker.world.IWorld;
+import mods.modularmachinery.IMachineController;
+
+zenClass MachineController {
+    
+    static function getControllerAt(worldCT as IWorld, posCT as IBlockPos) as IMachineController;
+    
+    static function getControllerAt(worldCT as IWorld, x as int, y as int, z as int) as IMachineController;
+}

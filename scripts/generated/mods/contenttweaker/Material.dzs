@@ -1,0 +1,21 @@
+import mods.contenttweaker.MaterialPart;
+import mods.contenttweaker.Part;
+
+zenClass Material {
+    
+    function getName() as string;
+    
+    function getUnlocalizedName() as string;
+    
+    function getColor() as int;
+    
+    function isHasEffect() as bool;
+    
+    function registerPart(partName as string) as MaterialPart;
+    
+    function registerPart(part as Part) as MaterialPart;
+    
+    function registerParts(parts as Part[]) as any;
+    
+    function registerParts(partNames as string[]) as any;
+}

@@ -1,0 +1,6 @@
+import crafttweaker.entity.IEntity;
+
+zenClass IEntityTick {
+    
+    function (entity as IEntity) as void;
+}

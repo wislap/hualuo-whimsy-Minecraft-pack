@@ -1,0 +1,5 @@
+
+zenClass CTAspect {
+    val name as string;
+    var chatColour as string;
+}

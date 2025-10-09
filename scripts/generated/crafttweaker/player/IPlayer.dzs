@@ -1,0 +1,129 @@
+import crafttweaker.chat.IChatMessage;
+import crafttweaker.container.IContainer;
+import crafttweaker.data.IData;
+import crafttweaker.entity.IEntity;
+import crafttweaker.entity.IEntityEquipmentSlot;
+import crafttweaker.entity.IEntityFishHook;
+import crafttweaker.entity.IEntityItem;
+import crafttweaker.entity.IEntityLivingBase;
+import crafttweaker.formatting.IFormattedText;
+import crafttweaker.item.IItemStack;
+import crafttweaker.player.IFoodStats;
+import crafttweaker.player.IUser;
+import crafttweaker.text.ITextComponent;
+import crafttweaker.util.Position3f;
+import crafttweaker.world.IBlockPos;
+import crafttweaker.world.IFacing;
+import mods.zenutils.IActionResult;
+import mods.zenutils.ItemHandler;
+import mods.zenutils.PlayerStat;
+
+zenClass IPlayer extends IEntityLivingBase, IUser {
+    val inventoryContainer as IContainer;
+    val spectator as bool;
+    val sleepTimer as int;
+    val fishHook as IEntityFishHook;
+    val isFullyAsleep as bool;
+    val isSleeping as bool;
+    val bedLocation as IBlockPos;
+    val name as string;
+    val data as IData;
+    var canFly as bool;
+    var xp as int;
+    var score as int;
+    val uuid as string;
+    val currentItem as IItemStack;
+    val foodStats as IFoodStats;
+    val inventorySize as int;
+    var damageDisabled as bool;
+    val hotbarSize as int;
+    val creative as bool;
+    var canEdit as bool;
+    val adventure as bool;
+    val fake as bool;
+    var xpPoints as int;
+    
+    function sendTitle(arg1 as string, arg2 as string, arg3 as int, arg4 as int, arg5 as int) as void;
+    
+    function getInventoryContainer() as IContainer;
+    
+    function sendRichTextStatusMessage(textComponent as ITextComponent, hotbar as bool = true) as void;
+    
+    function isSpectator() as bool;
+    
+    function getSleepTimer() as int;
+    
+    function getFishHook() as IEntityFishHook;
+    
+    function isFullyAsleep() as bool;
+    
+    function isSleeping() as bool;
+    
+    function getBedLocation() as IBlockPos;
+    
+    function getPlayerBaubleItemHandler() as ItemHandler;
+    
+    function sendChat(message as string) as void;
+    
+    function sendChat(message as IChatMessage) as void;
+    
+    function update(data as IData) as void;
+    
+    function give(stack as IItemStack) as void;
+    
+    function removeXP(xp as int) as void;
+    
+    function getScore() as int;
+    
+    function addScore(amount as int) as void;
+    
+    function setScore(amount as int) as void;
+    
+    function dropItem(item as IItemStack) as IEntityItem;
+    
+    function dropItem(dropAll as bool) as IEntityItem;
+    
+    function getCooldown(item as IItemStack) as float;
+    
+    function setCooldown(item as IItemStack, time as int) as void;
+    
+    function executeCommand(rawCommand as string) as void;
+    
+    function getInventoryStack(i as int) as IItemStack;
+    
+    function getHotbarStack(i as int) as IItemStack;
+    
+    function sendStatusMessage(message as string, hotBar as bool = true) as void;
+    
+    function sendStatusMessage(message as IFormattedText, hotBar as bool = true) as void;
+    
+    function changeDimension(dimensionId as int) as void;
+    
+    function teleport(pos as Position3f) as void;
+    
+    function isFake() as bool;
+    
+    function replaceItemInInventory(inventorySlot as int, itemStack as IItemStack) as bool;
+    
+    function readStat(stat as PlayerStat) as int;
+    
+    function takeStat(stat as PlayerStat) as void;
+    
+    function addStat(stat as PlayerStat, amount as int = 1) as void;
+    
+    function getXpPoints() as int;
+    
+    function setXpPoints(xpPoints as int) as void;
+    
+    function getPlayerInventoryItemHandler() as ItemHandler;
+    
+    function simulateRightClickEntity(entity as IEntity, stack as IItemStack = null, hand as IEntityEquipmentSlot = null) as IActionResult;
+    
+    function simulateLeftClickBlock(stack as IItemStack = null, pos as IBlockPos = null, side as IFacing = null) as IActionResult;
+    
+    function simulateRightClickBlock(stack as IItemStack, hand as IEntityEquipmentSlot = null, pos as IBlockPos = null, facing as IFacing = null, hitX as float = -1.0, hitY as float = -1.0, hitZ as float = -1.0) as IActionResult;
+    
+    function simulateUseItemFinish(itemStack as IItemStack, hand as IEntityEquipmentSlot = null) as IItemStack;
+    
+    function simulateRightClickItem(stack as IItemStack, hand as IEntityEquipmentSlot = null) as IActionResult;
+}

@@ -1,0 +1,5 @@
+
+zenClass Action {
+    
+    function () as void;
+}

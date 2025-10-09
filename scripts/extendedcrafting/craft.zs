@@ -239,8 +239,8 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <extendedcrafting:material:32>*
 	[<ore:ingotShadowium>, <ore:ingotOrichalcos>, <ore:ingotTitanium>, <ore:ingotSilver>, <ore:ingotFireDragonsteel>, <ore:ingotIceDragonsteel>, <ore:ingotFluixSteel>, <mets:niobium_titanium_ingot>, <ore:ingotFusionite>], 
 	[<ore:ingotIrradium>, <ore:ingotSolarsteel>, <ore:ingotGallium>, <ore:ingotGravitonium>, <ore:ingotRunesteel>, <ore:ingotTrichromadentium>, <ore:ingotAtronium>, <ore:ingotEbonite>, <ore:ingotThaumium>], 
 	[<ore:ingotVoid>, <ore:ingotBrass>, <ore:ingotIronwood>, <ore:ingotFiery>, <ore:ingotKnightmetal>, <ore:ingotCobalt>, <ore:ingotArdite>, <ore:ingotManyullyn>, <ore:ingotKnightslime>], 
-	[<ore:ingotWyvernMetal>, <ore:ingotDraconicMetal>, <ore:ingotChaoticMetal>, <ore:ingotEnergium>, <ore:ingotUUMatter>, <ore:ingotValasium>, <ore:ingotRefinedGlowstone>, <ore:ingotRefinedObsidian>, <ore:ingotOsmium>], 
-	[<ore:ingotAlubrass>, null, null, null, null, null, null, null, null], 
+	[<ore:ingotWyvernMetal>, <ore:ingotDraconicMetal>, <ore:ingotAlubrass>, <ore:ingotEnergium>, <ore:ingotUUMatter>, <ore:ingotValasium>, <ore:ingotRefinedGlowstone>, <ore:ingotRefinedObsidian>, <ore:ingotOsmium>], 
+	[<ore:ingotCopper>, null, null, null, null, null, null, null, null], 
 	[null, null, null, null, null, null, null, null, null]
 ]);
 

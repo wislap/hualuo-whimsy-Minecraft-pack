@@ -1,0 +1,11 @@
+import crafttweaker.liquid.ILiquidDefinition;
+import mod.mekanism.gas.IGasStack;
+
+zenClass IGasDefinition {
+    var liquid as ILiquidDefinition;
+    val NAME as string;
+    val displayName as string;
+    var tint as int;
+    
+    operator *(arg0 as int) as IGasStack;
+}

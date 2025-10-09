@@ -1,0 +1,14 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import thaumcraft.aspect.CTAspectStack;
+
+zenClass ArcaneWorkbench {
+    
+    static function removeRecipe(name as string) as void;
+    
+    static function removeRecipe(output as IItemStack) as void;
+    
+    static function registerShapedRecipe(name as string, research as string, vis as int, aspectList as CTAspectStack[], output as IItemStack, input as IIngredient[][]) as void;
+    
+    static function registerShapelessRecipe(name as string, research as string, vis as int, aspectList as CTAspectStack[], output as IItemStack, input as IIngredient[]) as void;
+}

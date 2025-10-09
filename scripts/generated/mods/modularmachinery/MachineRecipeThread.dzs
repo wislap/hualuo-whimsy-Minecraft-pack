@@ -1,0 +1,5 @@
+import mods.modularmachinery.RecipeThread;
+
+zenClass MachineRecipeThread extends RecipeThread {
+    
+}

@@ -1,0 +1,18 @@
+import mods.contenttweaker.SoundEvent;
+
+zenClass SoundType {
+    
+    function getVolume() as float;
+    
+    function getPitch() as float;
+    
+    function getFallSound() as SoundEvent;
+    
+    function getHitSound() as SoundEvent;
+    
+    function getPlaceSound() as SoundEvent;
+    
+    function getBreakSound() as SoundEvent;
+    
+    function getStepSound() as SoundEvent;
+}

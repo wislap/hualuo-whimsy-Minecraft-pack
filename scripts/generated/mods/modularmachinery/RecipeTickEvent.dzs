@@ -1,0 +1,8 @@
+import mods.modularmachinery.RecipeEvent;
+
+zenClass RecipeTickEvent extends RecipeEvent {
+    
+    function preventProgressing(reason as string) as void;
+    
+    function setFailed(destructRecipe as bool, reason as string) as void;
+}

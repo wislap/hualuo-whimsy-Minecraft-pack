@@ -1,0 +1,8 @@
+import mods.modularmachinery.FactoryRecipeEvent;
+
+zenClass FactoryRecipeTickEvent extends FactoryRecipeEvent {
+    
+    function preventProgressing(reason as string) as void;
+    
+    function setFailed(destructRecipe as bool, reason as string) as void;
+}

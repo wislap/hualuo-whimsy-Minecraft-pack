@@ -1,0 +1,22 @@
+
+zenClass AttributeModifier {
+    var saved as bool;
+    val name as string;
+    val uuid as string;
+    val operation as int;
+    val amount as double;
+    
+    static function createModifier(name as string, amount as double, operation as int, uuid as string = null) as AttributeModifier;
+    
+    function isSaved() as bool;
+    
+    function setSaved(saved as bool) as void;
+    
+    function getName() as string;
+    
+    function getUUID() as string;
+    
+    function getOperation() as int;
+    
+    function getAmount() as double;
+}

@@ -1,0 +1,22 @@
+import crafttweaker.item.IIngredient;
+import mods.modularmachinery.AdvancedItemCheckerCT;
+import mods.modularmachinery.AdvancedItemModifier;
+
+zenClass IngredientArrayPrimer {
+    
+    function build() as IngredientArrayPrimer;
+    
+    function addItemModifier(modifier as AdvancedItemModifier) as IngredientArrayPrimer;
+    
+    function addIngredients(...inputs as IIngredient) as IngredientArrayPrimer;
+    
+    function setMinMaxAmount(min as int, max as int) as IngredientArrayPrimer;
+    
+    function addIngredient(input as IIngredient) as IngredientArrayPrimer;
+    
+    function addChancedIngredient(input as IIngredient, chance as float) as IngredientArrayPrimer;
+    
+    function setChecker(checker as AdvancedItemCheckerCT) as IngredientArrayPrimer;
+    
+    function setChance(chance as float) as IngredientArrayPrimer;
+}

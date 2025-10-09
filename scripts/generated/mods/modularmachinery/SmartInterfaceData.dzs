@@ -1,0 +1,8 @@
+import crafttweaker.world.IBlockPos;
+
+zenClass SmartInterfaceData {
+    var value as float;
+    val interfaceType as string;
+    val parentMachineName as string;
+    val pos as IBlockPos;
+}

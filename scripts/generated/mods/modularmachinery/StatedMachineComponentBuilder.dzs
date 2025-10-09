@@ -1,0 +1,9 @@
+
+zenClass StatedMachineComponentBuilder {
+    
+    static function newBuilder(registryName as string) as StatedMachineComponentBuilder;
+    
+    function build() as void;
+    
+    function setColoured(coloured as bool) as StatedMachineComponentBuilder;
+}

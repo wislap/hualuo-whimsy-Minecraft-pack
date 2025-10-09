@@ -1,0 +1,12 @@
+import crafttweaker.event.IEventPositionable;
+import crafttweaker.item.IItemStack;
+import crafttweaker.world.IWorld;
+
+zenClass EnchantmentLevelSetEvent extends IEventPositionable {
+    var level as int;
+    val item as IItemStack;
+    val power as int;
+    val enchantRow as int;
+    val originalLevel as int;
+    val world as IWorld;
+}

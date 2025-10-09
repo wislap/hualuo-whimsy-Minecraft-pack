@@ -1,0 +1,15 @@
+
+zenClass IStyle {
+    var parent as IStyle;
+    var color as string;
+    var strikethrough as bool;
+    var obfuscated as bool;
+    var underline as bool;
+    var insertion as string;
+    var bold as bool;
+    var italic as bool;
+    
+    function createShallowCopy() as IStyle;
+    
+    function createDeepCopy() as IStyle;
+}

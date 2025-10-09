@@ -1,0 +1,5 @@
+import mods.modularmachinery.MachineEvent;
+
+zenClass ControllerGUIRenderEvent extends MachineEvent {
+    var extraInfo as string[];
+}

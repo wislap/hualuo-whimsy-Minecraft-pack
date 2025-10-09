@@ -1,0 +1,10 @@
+import mods.modularmachinery.RecipePrimer;
+
+zenClass RecipeBuilder {
+    
+    static function newBuilder(recipeRegistryName as string, associatedMachineRegistryName as string, processingTickTime as int, sortingPriority as int, cancelIfPerTickFails as bool) as RecipePrimer;
+    
+    static function newBuilder(recipeRegistryName as string, associatedMachineRegistryName as string, processingTickTime as int) as RecipePrimer;
+    
+    static function newBuilder(recipeRegistryName as string, associatedMachineRegistryName as string, processingTickTime as int, sortingPriority as int) as RecipePrimer;
+}

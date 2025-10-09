@@ -1,0 +1,10 @@
+import crafttweaker.player.IPlayer;
+import crafttweaker.recipes.ICraftingInventory;
+import crafttweaker.world.IWorld;
+
+zenClass ICraftingInfo {
+    val dimensionID as int;
+    val inventory as ICraftingInventory;
+    val player as IPlayer;
+    val world as IWorld;
+}

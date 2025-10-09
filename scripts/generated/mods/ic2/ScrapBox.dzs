@@ -1,0 +1,9 @@
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.WeightedItemStack;
+
+zenClass ScrapBox {
+    
+    static function addDrop(arg0 as WeightedItemStack) as void;
+    
+    static function addDrop(arg0 as IItemStack, arg1 as float) as void;
+}

@@ -1,0 +1,10 @@
+import thaumcraft.aspect.CTAspect;
+
+zenClass CTAspectStack {
+    val internal as CTAspect;
+    val amount as int;
+    
+    function setAmount(amount as int) as CTAspectStack;
+    
+    operator *(amount as int) as CTAspectStack;
+}

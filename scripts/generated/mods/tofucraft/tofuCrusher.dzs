@@ -1,0 +1,11 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+
+zenClass tofuCrusher {
+    
+    static function ClearAllRecipe() as void;
+    
+    static function RemoveRecipe(arg0 as IIngredient) as void;
+    
+    static function AddRecipe(arg0 as IIngredient, arg1 as IItemStack) as void;
+}

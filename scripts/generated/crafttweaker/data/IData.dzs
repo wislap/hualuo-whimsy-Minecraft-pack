@@ -1,0 +1,83 @@
+
+zenClass IData {
+    val length as int;
+    val immutable as IData;
+    
+    static function createDataList(dataArray as IData[]) as IData;
+    
+    static function createDataList(dataList as [IData]) as IData;
+    
+    function setAtCopied(index as int, element as IData) as IData;
+    
+    static function createEmptyMutableDataMap() as IData;
+    
+    static function createEmptyMutableDataList() as IData;
+    
+    function deepUpdate(toUpdate as IData, updateOperation as IData = null) as IData;
+    
+    function asBool() as bool;
+    
+    function asByte() as byte;
+    
+    function memberGet(name as string) as IData;
+    
+    function memberSet(name as string, data as IData) as void;
+    
+    function asFloat() as float;
+    
+    function asShort() as short;
+    
+    function asIntArray() as int[];
+    
+    function update(data as IData) as IData;
+    
+    function asList() as any;
+    
+    function asMap() as any;
+    
+    function asString() as string;
+    
+    function asInt() as int;
+    
+    function asLong() as long;
+    
+    function asByteArray() as byte[];
+    
+    function asDouble() as double;
+    
+    operator as() as bool & byte & float & short & int[] & any & any & string & int & long & byte[] & double;
+    
+    operator []=(i as int, value as IData) as void;
+    
+    operator .(name as string) as IData;
+    
+    operator .=(name as string, data as IData) as void;
+    
+    operator ==(data as IData) as bool;
+    
+    operator compare(data as IData) as int;
+    
+    operator +(other as IData) as IData;
+    
+    operator has(data as IData) as bool;
+    
+    operator %(other as IData) as IData;
+    
+    operator |(other as IData) as IData;
+    
+    operator -(other as IData) as IData;
+    
+    operator &(other as IData) as IData;
+    
+    operator ^(other as IData) as IData;
+    
+    operator !() as IData;
+    
+    operator /(other as IData) as IData;
+    
+    operator -() as IData;
+    
+    operator *(other as IData) as IData;
+    
+    operator [](i as int) as IData;
+}

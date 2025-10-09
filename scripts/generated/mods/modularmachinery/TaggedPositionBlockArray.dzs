@@ -1,0 +1,5 @@
+import mods.modularmachinery.BlockArray;
+
+zenClass TaggedPositionBlockArray extends BlockArray {
+    
+}

@@ -456,7 +456,7 @@
             "y": 1,
             "z": 4,
             "elements": [
-                "chisel:blockuranium@0"
+                "chisel:blocknickel"
             ]
         },
         {
@@ -514,7 +514,7 @@
             "y": 2,
             "z": 4,
             "elements": [
-                "chisel:blockuranium@0"
+                "chisel:blocknickel"
             ]
         },
         {
@@ -554,7 +554,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "chisel:blockuranium@0"
+                "chisel:blocknickel"
             ]
         },
         {
@@ -610,7 +610,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "chisel:blockuranium@0"
+                "chisel:blocknickel"
             ]
         },
         {
@@ -714,7 +714,7 @@
             "y": 1,
             "z": 4,
             "elements": [
-                "chisel:blockuranium@0"
+                "chisel:blocknickel"
             ]
         },
         {
@@ -738,7 +738,7 @@
             "y": 2,
             "z": 4,
             "elements": [
-                "chisel:blockuranium@0"
+                "chisel:blocknickel"
             ]
         },
         {
@@ -822,7 +822,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "chisel:blockuranium@0"
+                "chisel:blocknickel"
             ]
         },
         {
@@ -1014,7 +1014,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "chisel:blockuranium@0"
+                "chisel:blocknickel"
             ]
         },
         {

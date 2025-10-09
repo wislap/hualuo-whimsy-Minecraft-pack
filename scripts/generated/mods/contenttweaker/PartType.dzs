@@ -1,0 +1,8 @@
+import mods.contenttweaker.PartDataPiece;
+
+zenClass PartType {
+    
+    function setData(data as PartDataPiece[]) as void;
+    
+    function getName() as string;
+}

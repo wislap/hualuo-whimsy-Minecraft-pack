@@ -1,0 +1,16 @@
+import crafttweaker.item.IIngredient;
+import mods.contenttweaker.Item;
+import mods.zenutils.cotx.IEntityItemUpdate;
+import mods.zenutils.cotx.IGetEntityLifeSpan;
+
+zenClass Item extends Item {
+    var onEntityItemUpdate as IEntityItemUpdate;
+    var noRepair as bool;
+    var getEntityLifeSpan as IGetEntityLifeSpan;
+    var maxItemUseDuration as int;
+    var repairItem as IIngredient;
+    var attackSpeed as float;
+    var attackDamage as float;
+    var destroySpeed as float;
+    var enchantability as int;
+}

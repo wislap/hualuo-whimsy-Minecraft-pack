@@ -1,0 +1,9 @@
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.WeightedItemStack;
+
+zenClass LootBag {
+    
+    static function removeLoot(stack as IItemStack, bagTypes as int[]) as void;
+    
+    static function addLoot(stack as WeightedItemStack, bagTypes as int[]) as void;
+}

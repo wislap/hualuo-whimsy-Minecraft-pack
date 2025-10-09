@@ -1,0 +1,10 @@
+
+zenClass CatenationTimer {
+    val duration as long;
+    var current as long;
+    val finish as bool;
+    
+    function reset() as void;
+    
+    function update() as void;
+}

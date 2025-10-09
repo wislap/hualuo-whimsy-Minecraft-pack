@@ -1,0 +1,5 @@
+import mods.modularmachinery.FactoryRecipeEvent;
+
+zenClass FactoryRecipeFinishEvent extends FactoryRecipeEvent {
+    
+}

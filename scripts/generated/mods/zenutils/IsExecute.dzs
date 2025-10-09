@@ -1,0 +1,9 @@
+
+zenClass IsExecute {
+    
+    static function of(exec as bool) as IsExecute;
+    
+    function isExec() as bool;
+    
+    function setExec(exec as bool) as void;
+}

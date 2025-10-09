@@ -1,0 +1,12 @@
+import crafttweaker.liquid.ILiquidStack;
+
+zenClass universalFluidList {
+    
+    static function RemoveFluid(arg0 as string, arg1 as ILiquidStack) as void;
+    
+    static function ClearFluidMap(arg0 as string) as void;
+    
+    static function AddFluids(arg0 as string, arg1 as ILiquidStack[]) as void;
+    
+    static function AddFluid(arg0 as string, arg1 as ILiquidStack) as void;
+}

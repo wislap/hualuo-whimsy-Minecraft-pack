@@ -1,0 +1,19 @@
+import crafttweaker.data.IData;
+import crafttweaker.item.IItemStack;
+import crafttweaker.text.ITextComponent;
+
+zenClass QuestObjectBase {
+    val codeString as string;
+    val parentID as int;
+    val type as string;
+    val id as int;
+    val data as IData;
+    val title as string;
+    val icon as IItemStack;
+    val tags as string[];
+    val titleText as ITextComponent;
+    
+    function hasTag(tag as string) as bool;
+    
+    operator ==(others as QuestObjectBase) as bool;
+}

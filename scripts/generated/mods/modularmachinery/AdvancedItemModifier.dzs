@@ -1,0 +1,7 @@
+import crafttweaker.item.IItemStack;
+import mods.modularmachinery.IMachineController;
+
+zenClass AdvancedItemModifier {
+    
+    function (controller as IMachineController, stack as IItemStack) as IItemStack;
+}

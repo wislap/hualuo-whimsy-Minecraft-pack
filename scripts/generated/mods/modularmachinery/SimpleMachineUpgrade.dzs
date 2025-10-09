@@ -1,0 +1,6 @@
+import crafttweaker.data.IData;
+import mods.modularmachinery.MachineUpgrade;
+
+zenClass SimpleMachineUpgrade extends MachineUpgrade {
+    var customData as IData;
+}

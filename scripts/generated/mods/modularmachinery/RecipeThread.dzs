@@ -1,0 +1,20 @@
+import mods.modularmachinery.ActiveMachineRecipe;
+import mods.modularmachinery.RecipeModifier;
+
+zenClass RecipeThread {
+    val activeRecipe as ActiveMachineRecipe;
+    
+    function hasModifier(name as string) as bool;
+    
+    function removeModifier(name as string) as void;
+    
+    function addModifier(name as string, modifier as RecipeModifier) as void;
+    
+    function setStatusInfo(info as string) as void;
+    
+    function addPermanentModifier(name as string, modifier as RecipeModifier) as void;
+    
+    function removePermanentModifier(name as string) as void;
+    
+    function hasPermanentModifier(name as string) as bool;
+}

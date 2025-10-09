@@ -1,0 +1,15 @@
+
+zenClass ArmorTraitDataRepresentation {
+    var identifier as string;
+    var color as int;
+    var level as int;
+    var max as int;
+    var extraInfo as string;
+    var current as int;
+    val info as string;
+    val colorString as string;
+    
+    function calcInfo() as string;
+    
+    function getColorString() as string;
+}

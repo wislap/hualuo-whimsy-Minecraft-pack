@@ -1,0 +1,13 @@
+
+zenClass EventPriority {
+    
+    static function high() as EventPriority;
+    
+    static function low() as EventPriority;
+    
+    static function normal() as EventPriority;
+    
+    static function highest() as EventPriority;
+    
+    static function lowest() as EventPriority;
+}

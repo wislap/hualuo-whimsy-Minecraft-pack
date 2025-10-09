@@ -1,0 +1,19 @@
+import crafttweaker.item.IItemStack;
+import mods.modularmachinery.MachineUpgrade;
+import mods.modularmachinery.SimpleDynamicMachineUpgrade;
+import mods.modularmachinery.SimpleMachineUpgrade;
+
+zenClass MachineUpgradeHelper {
+    
+    static function getUpgrade(upgradeName as string) as MachineUpgrade;
+    
+    static function castToSimpleDynamicMachineUpgrade(upgrade as MachineUpgrade) as SimpleDynamicMachineUpgrade;
+    
+    static function addFixedUpgrade(itemStack as IItemStack, upgradeName as string) as void;
+    
+    static function registerSupportedItem(itemStack as IItemStack) as void;
+    
+    static function castToSimpleMachineUpgrade(upgrade as MachineUpgrade) as SimpleMachineUpgrade;
+    
+    static function addUpgradeToIItemStack(stackCT as IItemStack, upgradeName as string) as IItemStack;
+}

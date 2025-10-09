@@ -1,0 +1,36 @@
+import mods.contenttweaker.PushReaction;
+
+zenClass BlockMaterial {
+    val name as string;
+    val opaque as bool;
+    val replaceable as bool;
+    val liquid as bool;
+    val solid as bool;
+    val blocksLight as bool;
+    val toolNotRequired as bool;
+    val blocksMovement as bool;
+    val mobilityFlag as PushReaction;
+    val canBurn as bool;
+    
+    function getName() as string;
+    
+    function isOpaque() as bool;
+    
+    function isReplaceable() as bool;
+    
+    function isLiquid() as bool;
+    
+    function isSolid() as bool;
+    
+    function blocksLight() as bool;
+    
+    function isToolNotRequired() as bool;
+    
+    function blocksMovement() as bool;
+    
+    function getMobilityFlag() as PushReaction;
+    
+    function getCanBurn() as bool;
+    
+    operator compare(other as BlockMaterial) as int;
+}

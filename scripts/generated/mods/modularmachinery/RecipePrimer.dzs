@@ -1,0 +1,252 @@
+import crafttweaker.data.IData;
+import crafttweaker.item.IIngredient;
+import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.world.IBiome;
+import mod.mekanism.gas.IGasStack;
+import mods.modularmachinery.AdvancedItemCheckerCT;
+import mods.modularmachinery.AdvancedItemModifier;
+import mods.modularmachinery.FactoryRecipeFailureEvent;
+import mods.modularmachinery.FactoryRecipeFinishEvent;
+import mods.modularmachinery.FactoryRecipeStartEvent;
+import mods.modularmachinery.FactoryRecipeTickEvent;
+import mods.modularmachinery.IngredientArrayPrimer;
+import mods.modularmachinery.RecipeCheckEvent;
+import mods.modularmachinery.RecipeFailureEvent;
+import mods.modularmachinery.RecipeFinishEvent;
+import mods.modularmachinery.RecipeModifier;
+import mods.modularmachinery.RecipeStartEvent;
+import mods.modularmachinery.RecipeTickEvent;
+
+zenClass RecipePrimer {
+    
+    function addManaInput(amount as int, perTick as bool) as RecipePrimer;
+    
+    function addRainbowInput() as RecipePrimer;
+    
+    function addAspectInput(aspectString as string, amount as int) as RecipePrimer;
+    
+    function addWillInput(willTypeString as string, amount as int) as RecipePrimer;
+    
+    function addWillInput(willTypeString as string, amount as int, min as int, max as int) as RecipePrimer;
+    
+    function addAuraOutput(auraType as string, amount as int, max as int, min as int) as RecipePrimer;
+    
+    function addAuraOutput(auraType as string, amount as int) as RecipePrimer;
+    
+    function addGridPowerOutput(amount as int) as RecipePrimer;
+    
+    function addImpetusOutput(amount as int) as RecipePrimer;
+    
+    function addWillOutput(willTypeString as string, amount as int, min as int, max as int) as RecipePrimer;
+    
+    function addWillOutput(willTypeString as string, amount as int) as RecipePrimer;
+    
+    function addStarlightInput(amount as float) as RecipePrimer;
+    
+    function addImpetusInput(amount as int) as RecipePrimer;
+    
+    function addAspectOutput(aspectString as string, amount as int) as RecipePrimer;
+    
+    function addStarlightOutput(amount as float) as RecipePrimer;
+    
+    function addManaOutput(amount as int, perTick as bool) as RecipePrimer;
+    
+    function addAuraInput(auraType as string, amount as int) as RecipePrimer;
+    
+    function addAuraInput(auraType as string, amount as int, max as int, min as int) as RecipePrimer;
+    
+    function addGridPowerInput(amount as int) as RecipePrimer;
+    
+    function addLifeEssenceOutput(amount as int, perTick as bool) as RecipePrimer;
+    
+    function addLifeEssenceInput(amount as int, perTick as bool) as RecipePrimer;
+    
+    function addConstellationInput(constellationString as string) as RecipePrimer;
+    
+    function addOutput(output as IIngredient) as RecipePrimer;
+    
+    function build() as void;
+    
+    function setThreadName(name as string) as RecipePrimer;
+    
+    function setTag(selectorTag as string) as RecipePrimer;
+    
+    function addInput(input as IIngredient) as RecipePrimer;
+    
+    function addOutputs(...outputs as IIngredient) as RecipePrimer;
+    
+    function addItemModifier(modifier as AdvancedItemModifier) as RecipePrimer;
+    
+    function setMinMaxAmount(min as int, max as int) as RecipePrimer;
+    
+    function setTriggerTime(tickTime as int) as RecipePrimer;
+    
+    function addItemInput(oreDict as IOreDictEntry, amount as int) as RecipePrimer;
+    
+    function addItemInput(input as IIngredient) as RecipePrimer;
+    
+    function addGasInput(gasName as string, amount as int) as RecipePrimer;
+    
+    function addGasInput(gasStack as IGasStack) as RecipePrimer;
+    
+    function addFluidInputs(...fluids as ILiquidStack) as RecipePrimer;
+    
+    function addFluidOutputs(...fluids as ILiquidStack) as RecipePrimer;
+    
+    function addGasInputs(...gasStacks as IGasStack) as RecipePrimer;
+    
+    function addGasOutputs(...gasStacks as IGasStack) as RecipePrimer;
+    
+    function addFuelItemInput(requiredTotalBurnTime as int) as RecipePrimer;
+    
+    function addItemOutputs(...inputs as IIngredient) as RecipePrimer;
+    
+    function addCheckHandler(handler as function(RecipeCheckEvent)void) as RecipePrimer;
+    
+    function addGasOutput(gasName as string, amount as int) as RecipePrimer;
+    
+    function addGasOutput(gasStack as IGasStack) as RecipePrimer;
+    
+    function addCatalystInput(input as IngredientArrayPrimer, tooltips as string[], modifiers as RecipeModifier[]) as RecipePrimer;
+    
+    function addCatalystInput(input as IIngredient, tooltips as string[], modifiers as RecipeModifier[]) as RecipePrimer;
+    
+    function addStartHandler(handler as function(RecipeStartEvent)void) as RecipePrimer;
+    
+    function addItemInputs(...inputs as IIngredient) as RecipePrimer;
+    
+    function addPreCheckHandler(handler as function(RecipeCheckEvent)void) as RecipePrimer;
+    
+    function addPreTickHandler(handler as function(RecipeTickEvent)void) as RecipePrimer;
+    
+    function addGasPerTickInput(gasStack as IGasStack) as RecipePrimer;
+    
+    function addFluidInput(fluid as ILiquidStack) as RecipePrimer;
+    
+    function addRecipeTooltip(...tooltips as string) as RecipePrimer;
+    
+    function addPostTickHandler(handler as function(RecipeTickEvent)void) as RecipePrimer;
+    
+    function setParallelized(isParallelized as bool) as RecipePrimer;
+    
+    function addItemOutput(oreDict as IOreDictEntry, amount as int) as RecipePrimer;
+    
+    function addItemOutput(output as IIngredient) as RecipePrimer;
+    
+    function addFinishHandler(handler as function(RecipeFinishEvent)void) as RecipePrimer;
+    
+    function setPreViewNBT(nbt as IData) as RecipePrimer;
+    
+    function setNBTChecker(checker as AdvancedItemCheckerCT) as RecipePrimer;
+    
+    function setMaxThreads(maxThreads as int) as RecipePrimer;
+    
+    function addFluidOutput(fluid as ILiquidStack) as RecipePrimer;
+    
+    function addFailureHandler(handler as function(RecipeFailureEvent)void) as RecipePrimer;
+    
+    function setParallelizeUnaffected(unaffected as bool) as RecipePrimer;
+    
+    function addSmartInterfaceDataInput(typeStr as string, minValue as float, maxValue as float) as RecipePrimer;
+    
+    function addSmartInterfaceDataInput(typeStr as string, value as float) as RecipePrimer;
+    
+    function addFluidPerTickOutput(fluid as ILiquidStack) as RecipePrimer;
+    
+    function addFluidPerTickInputs(...fluids as ILiquidStack) as RecipePrimer;
+    
+    function addRandomItemOutput(ingredientArrayPrimer as IngredientArrayPrimer) as RecipePrimer;
+    
+    function addPostCheckHandler(handler as function(RecipeCheckEvent)void) as RecipePrimer;
+    
+    function addFactoryFinishHandler(handler as function(FactoryRecipeFinishEvent)void) as RecipePrimer;
+    
+    function addFactoryStartHandler(handler as function(FactoryRecipeStartEvent)void) as RecipePrimer;
+    
+    function addFactoryPostTickHandler(handler as function(FactoryRecipeTickEvent)void) as RecipePrimer;
+    
+    function addFactoryFailureHandler(handler as function(FactoryRecipeFailureEvent)void) as RecipePrimer;
+    
+    function addEnergyPerTickInput(perTick as long) as RecipePrimer;
+    
+    function addEnergyPerTickOutput(perTick as long) as RecipePrimer;
+    
+    function addFluidPerTickInput(fluid as ILiquidStack) as RecipePrimer;
+    
+    function addFluidPerTickOutputs(...fluids as ILiquidStack) as RecipePrimer;
+    
+    function addGasPerTickOutput(gasStack as IGasStack) as RecipePrimer;
+    
+    function addGasPerTickInputs(...gasStacks as IGasStack) as RecipePrimer;
+    
+    function addGasPerTickOutputs(...gasStacks as IGasStack) as RecipePrimer;
+    
+    function addFactoryPreTickHandler(handler as function(FactoryRecipeTickEvent)void) as RecipePrimer;
+    
+    function addIngredientArrayInput(ingredientArrayPrimer as IngredientArrayPrimer) as RecipePrimer;
+    
+    function setTriggerRepeatable(repeatable as bool) as RecipePrimer;
+    
+    function setIgnoreOutputCheck(ignoreOutputCheck as bool) as RecipePrimer;
+    
+    function setChance(chance as float) as RecipePrimer;
+    
+    function addInputs(...inputs as IIngredient) as RecipePrimer;
+    
+    function setTime(arg1 as int, arg2 as int) as RecipePrimer;
+    
+    function setDimension(arg1 as int[]) as RecipePrimer;
+    
+    function addCompressedAirPerTickInput(arg1 as float, arg2 as int) as RecipePrimer;
+    
+    function addCompressedAirPerTickOutput(arg1 as float, arg2 as int) as RecipePrimer;
+    
+    function addManaPerTickOutput(arg1 as int) as RecipePrimer;
+    
+    function addThaumcraftAspcetInput(arg1 as int, arg2 as string) as RecipePrimer;
+    
+    function addCompressedAirInput(arg1 as float, arg2 as int) as RecipePrimer;
+    
+    function addThaumcraftAspcetOutput(arg1 as int, arg2 as string) as RecipePrimer;
+    
+    function addCompressedAirOutput(arg1 as float, arg2 as int) as RecipePrimer;
+    
+    function addManaPerTickInput(arg1 as int) as RecipePrimer;
+    
+    function setBiome(arg1 as IBiome[]) as RecipePrimer;
+    
+    function addManaInput(arg1 as int) as RecipePrimer;
+    
+    function addAuraOutput(arg1 as int) as RecipePrimer;
+    
+    function addAuraOutput(arg1 as int, arg2 as bool) as RecipePrimer;
+    
+    function addStarlightInput(arg1 as int) as RecipePrimer;
+    
+    function addStarlightInput(arg1 as int, arg2 as string) as RecipePrimer;
+    
+    function addManaOutput(arg1 as int) as RecipePrimer;
+    
+    function addAuraInput(arg1 as int, arg2 as bool) as RecipePrimer;
+    
+    function addAuraInput(arg1 as int) as RecipePrimer;
+    
+    function setMoonPhase(arg1 as int[]) as RecipePrimer;
+    
+    function setAltitude(arg1 as int, arg2 as int) as RecipePrimer;
+    
+    function addEmberInput(arg1 as int) as RecipePrimer;
+    
+    function addHotAirOutput(arg1 as int) as RecipePrimer;
+    
+    function addHotAirInput(arg1 as int, arg2 as int, arg3 as int) as RecipePrimer;
+    
+    function addAspcetOutput(arg1 as int, arg2 as string) as RecipePrimer;
+    
+    function addEmberOutput(arg1 as int) as RecipePrimer;
+    
+    function addAspcetInput(arg1 as int, arg2 as string) as RecipePrimer;
+    
+    function setWeather(arg1 as string) as RecipePrimer;
+}

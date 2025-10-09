@@ -1,0 +1,6 @@
+import crafttweaker.liquid.ILiquidStack;
+
+zenClass Fermenter {
+    
+    static function addRecipe(arg0 as ILiquidStack, arg1 as ILiquidStack, arg2 as int) as void;
+}

@@ -1,0 +1,8 @@
+import crafttweaker.world.IBlockPos;
+import mods.modularmachinery.MachineEvent;
+import mods.modularmachinery.SmartInterfaceData;
+
+zenClass SmartInterfaceUpdateEvent extends MachineEvent {
+    val interfacePos as IBlockPos;
+    val newData as SmartInterfaceData;
+}

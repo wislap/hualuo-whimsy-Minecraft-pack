@@ -1,0 +1,11 @@
+
+zenClass EnergyStorage {
+    val canReceive as bool;
+    val maxEnergyStored as int;
+    val energyStored as int;
+    val canExtract as bool;
+    
+    function receiveEnergy(maxReceive as int, simulate as bool) as int;
+    
+    function extractEnergy(maxExtract as int, simulate as bool) as int;
+}

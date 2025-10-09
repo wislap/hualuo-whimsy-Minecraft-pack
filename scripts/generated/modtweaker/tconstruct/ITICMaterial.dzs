@@ -1,0 +1,23 @@
+import modtweaker.tconstruct.ITICMaterialDefinition;
+
+zenClass ITICMaterial {
+    val getName as string;
+    val definition as ITICMaterialDefinition;
+    var durabilityHead as int;
+    var miningSpeedHead as float;
+    var attackHead as float;
+    var bowDrawSpeed as float;
+    var bonusDamage as float;
+    var durabilityExtra as int;
+    var bowRange as float;
+    var modifierHandle as float;
+    var arrowBonusAmmo as int;
+    var arrowModifier as float;
+    var durabilityHandle as int;
+    var fletchingAccuracy as float;
+    var harvestLevelHead as int;
+    var fletchingModifier as float;
+    var bowStringModifier as float;
+    
+    function matches(var1 as ITICMaterial) as bool;
+}

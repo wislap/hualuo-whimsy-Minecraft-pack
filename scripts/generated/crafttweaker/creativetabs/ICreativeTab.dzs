@@ -1,0 +1,11 @@
+
+zenClass ICreativeTab {
+    val tabLabel as string;
+    val searchBarWidth as int;
+    
+    function setNoScrollBar() as void;
+    
+    function setBackgroundImageName(backgroundImage as string) as void;
+    
+    function setNoTitle() as void;
+}

@@ -1,0 +1,6 @@
+import crafttweaker.liquid.ILiquidStack;
+
+zenClass SemiFluidGenerator {
+    
+    static function addFluid(arg0 as ILiquidStack, arg1 as double) as void;
+}

@@ -1,0 +1,16 @@
+import stanhebben.zenscript.value.IntRange;
+
+zenClass IntRange {
+    
+    static function get(range as IntRange) as IntRange;
+    
+    static function get(from as int, to as int) as IntRange;
+    
+    function getFrom() as int;
+    
+    function getTo() as int;
+    
+    function castToIntRange() as IntRange;
+    
+    operator as() as IntRange;
+}

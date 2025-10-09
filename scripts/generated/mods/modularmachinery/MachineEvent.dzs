@@ -1,0 +1,6 @@
+import mods.modularmachinery.IMachineController;
+
+zenClass MachineEvent {
+    var canceled as bool;
+    val controller as IMachineController;
+}
