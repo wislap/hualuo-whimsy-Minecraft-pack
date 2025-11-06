@@ -1,0 +1,17 @@
+{
+  "ctm": {
+    "ctm_version": 1,
+    "type": "CTM",
+    "layer": "SOLID",
+    "textures": [
+      "contenttweaker:blocks/stainless_steel_housing-ctm"
+    ],
+    "extra": {
+      "connect_to": [
+        {"block": "contenttweaker:stainless_steel_structural_radiators"},
+        {"block": "contenttweaker:stainless_steel_housing"}
+      ]
+    }
+  }
+}
+  

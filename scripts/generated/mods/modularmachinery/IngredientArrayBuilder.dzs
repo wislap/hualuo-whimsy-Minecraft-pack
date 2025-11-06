@@ -1,0 +1,6 @@
+import mods.modularmachinery.IngredientArrayPrimer;
+
+zenClass IngredientArrayBuilder {
+    
+    static function newBuilder() as IngredientArrayPrimer;
+}

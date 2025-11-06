@@ -1,0 +1,6 @@
+import crafttweaker.item.IItemStack;
+
+zenClass IActionResult {
+    val item as IItemStack;
+    val result as string;
+}

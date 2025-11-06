@@ -1,0 +1,15 @@
+{
+  "forge_marker": 1,
+  "defaults": {"model": "contenttweaker:liquefied_gas_storage_tank/refrigerant_series_tank/liquefied_refrigerant_storage_tank" },
+  "variants": {
+      "facing=north": { "model": "contenttweaker:liquefied_gas_storage_tank/refrigerant_series_tank/liquefied_refrigerant_storage_tank", "y": -180  },
+      "facing=south": { "model": "contenttweaker:liquefied_gas_storage_tank/refrigerant_series_tank/liquefied_refrigerant_storage_tank"},
+      "facing=west":  { "model": "contenttweaker:liquefied_gas_storage_tank/refrigerant_series_tank/liquefied_refrigerant_storage_tank", "y": 90 },
+      "facing=east":  { "model": "contenttweaker:liquefied_gas_storage_tank/refrigerant_series_tank/liquefied_refrigerant_storage_tank", "y": 270 },
+      "inventory": [
+        {
+          "transform": "forge:default-block"
+        }
+      ]
+    }
+  }

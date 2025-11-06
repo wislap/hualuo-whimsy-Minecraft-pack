@@ -81,11 +81,11 @@ RecipeBuilder.newBuilder("createmanipulator_xjhd","createmanipulator",1200)
 		<mekanism:cosmicmatter>*256,
 		<draconicevolution:reactor_component>*4,
 		<mekanism:controlcircuit:4>*4,
-		<mekanism:moduleupgrade:24>*4,
-		<mekanism:moduleupgrade:23>*4,
-		<mekanism:moduleupgrade:22>*4
+		<moremekasuitmodules:module_hp_boots_unit>*4,
+		<mekanism:module_health_regeneration_unit>*4,
+		<moremekasuitmodules:module_emergency_rescue_unit>*4
 	])
-	.addItemOutput(<mekanism:moduleupgrade:25>*1)
+	.addItemOutput(<moremekasuitmodules:module_advanced_interception_system_unit>*1)
 	.build();
 
 RecipeBuilder.newBuilder("createmanipulator_sjzx","createmanipulator",600)
@@ -112,13 +112,13 @@ RecipeBuilder.newBuilder("createmanipulator_bxzx","createmanipulator",600)
 
 RecipeBuilder.newBuilder("createmanipulator_czyz","createmanipulator",1200)
 	.addEnergyPerTickInput(4000000)
-	.addImpetusInput(524288)
 	.addItemInputs([	
 		<mekanism:controlcircuit:4>*8,
 		<thaumcraft:smelter_void>*8,
 		<thaumicenergistics:essentia_component_64k>*4,
 		<thaumcraft:metal_alchemical_advanced>*8,
-		<thaumcraft:primordial_pearl>*4
+		<thaumcraft:primordial_pearl>*4,
+		<thermalfoundation:geode>*2048
 	])
 	.addItemOutput(<thaumicenergistics:essentia_cell_creative>*1)
 	.build();
@@ -156,4 +156,44 @@ RecipeBuilder.newBuilder("createmanipulator_wjchj","createmanipulator",200)
 		<appliedenergistics2:material:38>*1
 	])
 	.addItemOutput(<avaritia:resource:5>*4)
+	.build();
+
+RecipeBuilder.newBuilder("createmanipulator_wxnldy","createmanipulator",1200)
+	.addEnergyPerTickInput(8000000)
+	.addItemInputs([
+		<mekanism:modulebase>*1,	
+		<mekanism:controlcircuit:4>*8,
+		<mekanism:module_energy_unit>*64,
+		<mekanism:tierinstaller:4>*1,
+		<draconicevolution:energy_storage_core>*8,
+		<contenttweaker:plate_chaos_metal>*16,
+		<enderio:item_capacitor_stellar>*4
+		
+	])
+	.addItemOutput(<moremekasuitmodules:module_infinite_energy_supply_unit>*1)
+	.build();
+
+RecipeBuilder.newBuilder("createmanipulator_czghdy","createmanipulator",1200)
+	.addEnergyPerTickInput(8000000)
+	.addItemInputs([	
+		<mekanism:modulebase>*1,
+		<mekanism:controlcircuit:4>*8,
+		<botania:pool:1>*1,
+		<extrabotany:blockorichalcos>*64,
+		<contenttweaker:plate_degenerate_neutron_matrix>*16
+		
+	])
+	.addItemOutput(<moremekasuitmodules:module_creative_band_of_aura_unit>*1)
+	.build();
+
+RecipeBuilder.newBuilder("createmanipulator_czqtdy","createmanipulator",1200)
+	.addEnergyPerTickInput(8000000)
+	.addItemInputs([	
+		<mekanism:modulebase>*1,
+		<mekanism:controlcircuit:4>*8,
+		<mekanism:tierinstaller:4>*1,
+		<ecoaeextension:estorage_cell_gas_256m>*1
+		
+	])
+	.addItemOutput(<moremekasuitmodules:module_infinite_gas_supply_unit>*1)
 	.build();

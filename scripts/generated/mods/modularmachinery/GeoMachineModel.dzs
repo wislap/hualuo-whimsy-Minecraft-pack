@@ -1,0 +1,5 @@
+
+zenClass GeoMachineModel {
+    
+    static function registerGeoMachineModel(modelName as string, modelLocation as string, textureLocation as string, animationFileLocation as string) as void;
+}

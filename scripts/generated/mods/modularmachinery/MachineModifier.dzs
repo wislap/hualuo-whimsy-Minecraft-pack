@@ -1,0 +1,19 @@
+import mods.modularmachinery.FactoryRecipeThread;
+import mods.modularmachinery.SmartInterfaceType;
+
+zenClass MachineModifier {
+    
+    static function setMaxParallelism(machineName as string, maxParallelism as int) as void;
+    
+    static function setMaxThreads(machineName as string, maxThreads as int) as void;
+    
+    static function addCoreThread(machineName as string, thread as FactoryRecipeThread) as void;
+    
+    static function setMachineGeoModel(machineName as string, modelName as string) as void;
+    
+    static function setMachinePrefix(machineName as string, prefixName as string) as void;
+    
+    static function addSmartInterfaceType(machineName as string, type as SmartInterfaceType) as void;
+    
+    static function setInternalParallelism(machineName as string, parallelism as int) as void;
+}

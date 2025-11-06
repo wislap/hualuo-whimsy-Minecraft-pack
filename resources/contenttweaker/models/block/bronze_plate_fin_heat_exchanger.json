@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "contenttweaker:blocks/plate_fin_heat_exchanger/bronze_plate_fin_heat_exchanger",
+        "down": "contenttweaker:blocks/steam_turbine_housing_titanium_alloy",
+        "up": "contenttweaker:blocks/steam_turbine_housing_titanium_alloy",
+        "north": "contenttweaker:blocks/plate_fin_heat_exchanger/bronze_plate_fin_heat_exchanger",
+        "east": "contenttweaker:blocks/plate_fin_heat_exchanger/bronze_plate_fin_heat_exchanger",
+        "south": "contenttweaker:blocks/plate_fin_heat_exchanger/bronze_plate_fin_heat_exchanger",
+        "west": "contenttweaker:blocks/plate_fin_heat_exchanger/bronze_plate_fin_heat_exchanger"
+    }
+}

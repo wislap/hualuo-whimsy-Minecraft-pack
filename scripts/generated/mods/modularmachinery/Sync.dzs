@@ -1,0 +1,6 @@
+import mods.modularmachinery.Action;
+
+zenClass Sync {
+    
+    static function addSyncTask(action as Action) as void;
+}

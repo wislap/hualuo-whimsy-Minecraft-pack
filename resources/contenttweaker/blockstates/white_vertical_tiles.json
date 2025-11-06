@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {"model": "contenttweaker:white_vertical_tiles" },
+  "variants": {
+    "facing=down":  { "model": "contenttweaker:white_vertical_tiles"},
+    "facing=up":    { "model": "contenttweaker:white_vertical_tiles", "x": 180  },
+    "facing=north": { "model": "contenttweaker:white_vertical_tiles", "x": -90 },
+    "facing=south": { "model": "contenttweaker:white_vertical_tiles", "x": 90 },
+    "facing=west":  { "model": "contenttweaker:white_vertical_tiles", "x": -90,"y":-90 },
+    "facing=east":  { "model": "contenttweaker:white_vertical_tiles", "x": 90,"y":270 },
+    "inventory": [
+      {
+        "transform": "forge:default-block"
+      }
+    ]
+  }
+}

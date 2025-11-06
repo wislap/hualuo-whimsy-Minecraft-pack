@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/zirconia_mold_coarse_zbar_stock_neutron"
+  }
+}

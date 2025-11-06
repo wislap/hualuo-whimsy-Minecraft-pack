@@ -1,0 +1,12 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
+
+zenClass campfirePot {
+    
+    static function ClearAllRecipe() as void;
+    
+    static function RemoveRecipe(arg0 as IItemStack) as void;
+    
+    static function AddRecipe(arg0 as IIngredient[], arg1 as IItemStack, arg2 as ILiquidStack) as void;
+}

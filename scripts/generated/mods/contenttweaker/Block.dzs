@@ -1,0 +1,178 @@
+import mods.contenttweaker.AxisAlignedBB;
+import mods.contenttweaker.BlockMaterial;
+import mods.contenttweaker.CreativeTab;
+import mods.contenttweaker.DropHandler;
+import mods.contenttweaker.IBlockAction;
+import mods.contenttweaker.IBlockColorSupplier;
+import mods.contenttweaker.IBlockFaceSupplier;
+import mods.contenttweaker.IItemColorSupplier;
+import mods.contenttweaker.PushReaction;
+import mods.contenttweaker.ResourceLocation;
+import mods.contenttweaker.SoundType;
+
+zenClass Block {
+    var unlocalizedName as string;
+    var creativeTab as CreativeTab;
+    var fullBlock as bool;
+    var gravity as bool;
+    var lightOpacity as int;
+    var translucent as bool;
+    var lightValue as float;
+    var blockHardness as float;
+    var blockResistance as float;
+    var toolClass as string;
+    var toolLevel as int;
+    var blockSoundType as SoundType;
+    var blockMaterial as BlockMaterial;
+    var enchantPowerBonus as float;
+    var enumBlockRenderType as string;
+    var slipperiness as float;
+    var onBlockPlace as IBlockAction;
+    var onBlockBreak as IBlockAction;
+    var blockLayer as string;
+    var axisAlignedBB as AxisAlignedBB;
+    var onUpdateTick as IBlockAction;
+    var onRandomTick as IBlockAction;
+    var mobilityFlag as PushReaction;
+    var passable as bool;
+    var replaceable as bool;
+    var entitySpawnable as bool;
+    var witherProof as bool;
+    var dropHandler as DropHandler;
+    var beaconBase as bool;
+    var blockColorSupplier as IBlockColorSupplier;
+    var itemColorSupplier as IItemColorSupplier;
+    var blockFaceSupplier as IBlockFaceSupplier;
+    var textureLocation as ResourceLocation;
+    var canSilkHarvest as bool;
+    
+    function register() as void;
+    
+    function isPassable() as bool;
+    
+    function getBlockHardness() as float;
+    
+    function setBlockHardness(blockHardness as float) as void;
+    
+    function isFullBlock() as bool;
+    
+    function getUnlocalizedName() as string;
+    
+    function setUnlocalizedName(unlocalizedName as string) as void;
+    
+    function getLightOpacity() as int;
+    
+    function setLightOpacity(lightOpacity as int) as void;
+    
+    function isReplaceable() as bool;
+    
+    function getEnchantPowerBonus() as float;
+    
+    function getLightValue() as float;
+    
+    function setTextureLocation(resourceLocation as ResourceLocation) as void;
+    
+    function getTextureLocation() as ResourceLocation;
+    
+    function canEntitySpawn() as bool;
+    
+    function setBlockLayer(blockLayer as string) as void;
+    
+    function getBlockLayer() as string;
+    
+    function getSlipperiness() as float;
+    
+    function setCreativeTab(creativeTab as CreativeTab) as void;
+    
+    function getCreativeTab() as CreativeTab;
+    
+    function setReplaceable(replaceable as bool) as void;
+    
+    function setBlockMaterial(material as BlockMaterial) as void;
+    
+    function setOnRandomTick(onRandomTick as IBlockAction) as void;
+    
+    function setLightValue(lightValue as float) as void;
+    
+    function setAxisAlignedBB(axisAlignedBB as AxisAlignedBB) as void;
+    
+    function setPassable(passable as bool) as void;
+    
+    function getAxisAlignedBB() as AxisAlignedBB;
+    
+    function getBlockResistance() as float;
+    
+    function setWitherProof(witherProof as bool) as void;
+    
+    function setEntitySpawnable(entitySpawnable as bool) as void;
+    
+    function setToolClass(toolClass as string) as void;
+    
+    function getDropHandler() as DropHandler;
+    
+    function isTranslucent() as bool;
+    
+    function getToolLevel() as int;
+    
+    function getBlockSoundType() as SoundType;
+    
+    function setMobilityFlag(mobilityFlag as PushReaction) as void;
+    
+    function setBlockResistance(blockResistance as float) as void;
+    
+    function getOnUpdateTick() as IBlockAction;
+    
+    function setOnBlockPlace(iBlockAction as IBlockAction) as void;
+    
+    function setTranslucent(translucent as bool) as void;
+    
+    function getToolClass() as string;
+    
+    function setOnBlockBreak(iBlockAction as IBlockAction) as void;
+    
+    function getOnBlockBreak() as IBlockAction;
+    
+    function isWitherProof() as bool;
+    
+    function getBlockMaterial() as BlockMaterial;
+    
+    function setHasGravity(gravity as bool) as void;
+    
+    function setToolLevel(toolLevel as int) as void;
+    
+    function getOnBlockPlace() as IBlockAction;
+    
+    function setFullBlock(fullBlock as bool) as void;
+    
+    function setBlockSoundType(blockSoundType as SoundType) as void;
+    
+    function setOnUpdateTick(onUpdateTick as IBlockAction) as void;
+    
+    function setDropHandler(dropHandler as DropHandler) as void;
+    
+    function setSlipperiness(slipperiness as float) as void;
+    
+    function getOnRandomTick() as IBlockAction;
+    
+    function getMobilityFlag() as PushReaction;
+    
+    function getEnumBlockRenderType() as string;
+    
+    function getItemColorSupplier() as IItemColorSupplier;
+    
+    function getBlockFaceSupplier() as IBlockFaceSupplier;
+    
+    function setEnchantPowerBonus(enchantPowerBonus as float) as void;
+    
+    function getBlockColorSupplier() as IBlockColorSupplier;
+    
+    function setBlockFaceSupplier(blockFaceSupplier as IBlockFaceSupplier) as void;
+    
+    function setItemColorSupplier(itemColorSupplier as IItemColorSupplier) as void;
+    
+    function setEnumBlockRenderType(blockRenderType as string) as void;
+    
+    function setBlockColorSupplier(blockColorSupplier as IBlockColorSupplier) as void;
+    
+    function hasGravity() as bool;
+}

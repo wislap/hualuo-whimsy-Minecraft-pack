@@ -1,0 +1,7 @@
+import crafttweaker.world.IBlockPos;
+import crafttweaker.world.IWorld;
+
+zenClass JourneyMap {
+    
+    static function createWaypoint(name as string, pos as IBlockPos, world as IWorld, color as int) as void;
+}

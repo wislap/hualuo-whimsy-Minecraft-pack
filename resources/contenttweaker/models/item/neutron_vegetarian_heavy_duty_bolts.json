@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/bolt/heavy_duty_bolts/neutron_vegetarian_heavy_duty_bolts"
+  }
+}

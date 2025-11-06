@@ -249,7 +249,7 @@
             "y": -3,
             "z": 0,
             "elements": [
-                "thaumcraft:pedestal_eldritch@0"
+                "modularmachinery:blockinputbus"
             ]
         },
         {

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/chemical_reactors_transpose_canning_modecard"
+  }
+}

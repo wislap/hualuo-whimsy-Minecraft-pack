@@ -1,0 +1,3199 @@
+{
+    "registryname": "STI",
+    "localizedname": "超导工业涡轮",
+    "parts": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcontroller@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 5,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 9,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 9,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockinputbus"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 7,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 9,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 9,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 9,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 7,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 9,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 9,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 10,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 9,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 4,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "galacticraftplanets:asteroids_block@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 8,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 8,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "galacticraftplanets:asteroids_block@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 9,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 5,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 9,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 8,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 9,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 7,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "galacticraftplanets:asteroids_block@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 7,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 8,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 6,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 7,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "galacticraftplanets:asteroids_block@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 4,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 7,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 7,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 10,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 9,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 9,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 2,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 1,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 10,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 3,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 10,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "galacticraftplanets:asteroids_block@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 7,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 8,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 10,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 10,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 7,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 10,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 9,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 10,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 8,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 8,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 7,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 10,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 10,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 10,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 7,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 6,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "galacticraftplanets:asteroids_block@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 6,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 1,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 7,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 8,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 9,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 10,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 1,
+
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 8,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 10,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 8,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 10,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 8,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 2,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 10,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 5,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 8,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 8,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 8,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 10,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 10,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 10,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 8,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 7,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "galacticraftplanets:asteroids_block@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "galacticraftplanets:asteroids_block@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 9,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 7,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 9,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 9,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 7,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 1,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 2,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+
+            "elements": [
+                "mekanismgenerators:generator@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 9,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 7,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 9,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 10,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 9,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 3,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 7,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 10,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 8,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 3,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 7,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 8,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 7,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 9,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 1,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 10,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 7,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "galacticraftplanets:asteroids_block@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 4,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 10,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 3,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 8,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 8,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 5,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 9,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 8,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 6,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 7,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 4,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 10,
+
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 9,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 7,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 8,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "galacticraftplanets:asteroids_block@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blocksmartinterface@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 8,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 10,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 8,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 7,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockenergyoutputhatch"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 0,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 2,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 7,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 8,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 11,
+
+            "elements": [
+                "mekanismgenerators:generator@10"
+            ]
+        }
+    ]}

@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "contenttweaker:blocks/steam_turbine_housing_iridium_alloy",
+        "down": "contenttweaker:blocks/structural_radiators/iridium_alloy/iridium_alloy_structural_radiators_bottom",
+        "up": "contenttweaker:blocks/structural_radiators/iridium_alloy/iridium_alloy_structural_radiators_top",
+        "north": "contenttweaker:blocks/steam_turbine_housing_iridium_alloy",
+        "east": "contenttweaker:blocks/steam_turbine_housing_iridium_alloy",
+        "south": "contenttweaker:blocks/steam_turbine_housing_iridium_alloy",
+        "west": "contenttweaker:blocks/steam_turbine_housing_iridium_alloy"
+    }
+}

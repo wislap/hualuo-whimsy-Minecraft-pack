@@ -1,0 +1,10 @@
+import crafttweaker.data.IData;
+
+zenClass ActiveMachineRecipe {
+    var data as IData;
+    var parallelism as int;
+    var tick as int;
+    val registryName as string;
+    var totalTick as int;
+    var maxParallelism as int;
+}

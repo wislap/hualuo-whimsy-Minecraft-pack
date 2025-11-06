@@ -1,0 +1,7 @@
+import mods.modularmachinery.MachineEvent;
+import mods.modularmachinery.MachineUpgrade;
+
+zenClass UpgradeEventHandler {
+    
+    function (event as MachineEvent, upgrade as MachineUpgrade) as void;
+}

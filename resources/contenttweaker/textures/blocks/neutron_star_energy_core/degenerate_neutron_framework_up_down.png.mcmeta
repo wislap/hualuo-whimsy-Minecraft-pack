@@ -1,0 +1,18 @@
+{
+  "ctm": {
+    "ctm_version": 1,
+    "type": "CTM",
+    "layer": "SOLID",
+    "textures": [
+      "contenttweaker:blocks/neutron_star_energy_core/degenerate_neutron_framework_up_down-ctm"
+    ],
+    "extra": {
+      "connect_to": [
+        {"block": "contenttweaker:parallel_neutron_reflection_frame"},
+        {"block": "contenttweaker:degenerate_neutron_reflection_blocks"},
+        {"block": "contenttweaker:degenerate_neutron_force_field_framework"},
+        {"block": "contenttweaker:degenerate_neutron_force_field_module"}
+      ]
+    }
+  }
+}

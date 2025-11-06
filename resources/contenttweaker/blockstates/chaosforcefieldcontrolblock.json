@@ -1,0 +1,15 @@
+{
+  "forge_marker": 1,
+  "defaults": {"model": "contenttweaker:chaosforcefieldcontrolblock" },
+  "variants": {
+      "facing=north": { "model": "contenttweaker:chaosforcefieldcontrolblock", "y": -180  },
+      "facing=south": { "model": "contenttweaker:chaosforcefieldcontrolblock"},
+      "facing=west":  { "model": "contenttweaker:chaosforcefieldcontrolblock", "y": 90 },
+      "facing=east":  { "model": "contenttweaker:chaosforcefieldcontrolblock", "y": 270 },
+      "inventory": [
+        {
+          "transform": "forge:default-block"
+        }
+      ]
+    }
+  }

@@ -158,3 +158,24 @@ RecipeBuilder.newBuilder("alloysmelters_myl","alloysmelters",200)
 	])
 	.addItemOutput(<tconstruct:ingots:2>*4)
 	.build();
+
+RecipeBuilder.newBuilder("alloysmelters_jbzzjz","alloysmelters",200)
+	.addEnergyPerTickInput(400000)
+	.addItemInputs([
+		<avaritia:resource:1>*4,
+		<contenttweaker:degenerate_neutron_ingots>*4
+	])
+	.addItemOutput(<contenttweaker:degenerate_neutron_matrix_ingots>*4)
+	.build();
+
+RecipeBuilder.newBuilder("alloysmelters_nlhddy","alloysmelters",200)
+	.addEnergyPerTickInput(400000)
+	.addItemInputs([
+		<mekanism:modulebase>*1,
+		<contenttweaker:chaos_stance_generator>*2,
+		<ore:Antimatter>*4,
+		<ore:PoloniumPellet>*4,
+		<mekanism:controlcircuit:3>*2
+	])
+	.addItemOutput(<moremekasuitmodules:module_energy_shield_unit>*1)
+	.build();

@@ -236,7 +236,7 @@ RecipeBuilder.newBuilder("assemblyplant_lt9e","assemblyplant",1800)
 RecipeBuilder.newBuilder("assemblyplant_f4c","assemblyplant",600)
 	.addEnergyPerTickInput(100000)
 	.addItemInputs([
-		<appliedenergistics2:crafting_storage_64k>*4,
+		<appliedenergistics2:material:38>*4,
         <appliedenergistics2:material:47>*1,
         <ic2:crafting:4>*4,
         <ore:pearlFluix>*4
@@ -397,7 +397,7 @@ RecipeBuilder.newBuilder("assemblyplant_C9","assemblyplant",2400)
 RecipeBuilder.newBuilder("assemblyplant_F4","assemblyplant",2400)
 	.addEnergyPerTickInput(10000)
 	.addItemInputs([
-		<appliedenergistics2:crafting_storage_64k>*4,
+		<appliedenergistics2:material:38>*4,
         <appliedenergistics2:material:47>*4,
         <draconicevolution:awakened_core>*2
 	])

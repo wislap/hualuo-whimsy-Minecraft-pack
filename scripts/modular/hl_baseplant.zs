@@ -153,7 +153,7 @@ RecipeBuilder.newBuilder("baseplant_gjzp","baseplant",300)
 		<ic2:resource:13>*4,
 		<mekanism:machineblock:8>*1,
 		<appliedenergistics2:molecular_assembler>*4,
-		<galaxyspace:rocket_assembler>*2
+		<ore:ingotAtronium>*2
 	])
 	.addItemOutput(<modularmachinery:assemblyplant_factory_controller>*1)
 	.build();
@@ -250,8 +250,8 @@ RecipeBuilder.newBuilder("baseplant_jbysj","baseplant",600)
 RecipeBuilder.newBuilder("baseplant_lx","baseplant",60)
 	.addEnergyPerTickInput(40000)
 	.addInput(<liquid:ic2uu_matter>*10)
-	.addImpetusInput(40)
 	.addItemInputs([
+		<thermalfoundation:geode>*4,
 		<ore:ingotRunesteel>*4,
 		<ore:ingotEthaxium>*4,
 		<ore:ingotTitanium>*4,
@@ -260,11 +260,43 @@ RecipeBuilder.newBuilder("baseplant_lx","baseplant",60)
 	.addItemOutput(<draconicevolution:draconic_core>*1)
 	.build();
 
+RecipeBuilder.newBuilder("baseplant_lqcz","baseplant",600)
+	.addEnergyPerTickInput(120000)
+	.addItemInputs([
+		<thaumicaugmentation:material:5>*1,
+		<thaumicaugmentation:material:3>*1,
+		<ore:ingotVoid>*4,
+		<thaumcraft:primordial_pearl>*1,
+		<thaumcraft:mechanism_complex>*2,
+		<ore:circuitAdvanced>*4,
+		<ore:ingotTrichromadentium>*1,
+		<ore:scalewhitedragon>*4,
+		<draconicevolution:draconic_core>*1
+	])
+	.addItemOutput(<modularmachinery:auramanipulator_factory_controller>*1)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_ydlx","baseplant",600)
+	.addEnergyPerTickInput(120000)
+	.addItemInputs([
+		<thaumcraft:centrifuge>*1,
+		<thaumicaugmentation:material:5>*1,
+		<thaumicaugmentation:material:3>*1,
+		<ore:ingotVoid>*4,
+		<thaumcraft:primordial_pearl>*1,
+		<thaumcraft:mechanism_complex>*2,
+		<ore:circuitAdvanced>*4,
+		<ore:ingotTrichromadentium>*1,
+		<ore:scalewhitedragon>*4,
+		<draconicevolution:draconic_core>*1
+	])
+	.addItemOutput(<modularmachinery:impetuscore_factory_controller>*1)
+	.build();
 
 RecipeBuilder.newBuilder("baseplant_yybs","baseplant",20)
 	.addEnergyPerTickInput(120000)
-	.addImpetusInput(100)
 	.addItemInputs([
+		<thermalfoundation:geode>*10,
 		<appliedenergistics2:paint_ball:15>*8
 	])
 	.addItemOutput(<abyssalcraft:shadowgem>*8)
@@ -280,3 +312,95 @@ RecipeBuilder.newBuilder("baseplant_sjjk","baseplant",20)
 	.addItemOutput(<modularmachinery:blocksmartinterface>*2)
 	.build();
 
+RecipeBuilder.newBuilder("baseplant_lslc","baseplant",200)
+	.addEnergyPerTickInput(12000)
+	.addItemInputs([
+		<draconicevolution:draconic_core>*1,
+		<ore:blockRedstone>*4,
+		<contenttweaker:dragon_wire>*4,
+		<contenttweaker:plate_dragon_vegetarian>*2,
+		<mekanism:controlcircuit>*4
+	])
+	.addItemOutput(<contenttweaker:dragon_stand_generator>*2)
+	.build();
+RecipeBuilder.newBuilder("baseplant_fllc","baseplant",200)
+	.addEnergyPerTickInput(48000)
+	.addItemInputs([
+		<draconicevolution:wyvern_core>*1,
+		<draconicevolution:wyvern_energy_core>*2,
+		<contenttweaker:dragon_wire>*16,
+		<contenttweaker:plate_dragon_vegetarian>*8,
+		<mekanism:controlcircuit:1>*4
+	])
+	.addItemOutput(<contenttweaker:wyvern_stand_generator>*2)
+	.build();
+RecipeBuilder.newBuilder("baseplant_sjlc","baseplant",200)
+	.addEnergyPerTickInput(48000)
+	.addItemInputs([
+		<contenttweaker:wyvern_stand_generator>*2,
+		<contenttweaker:crystal_matrix_wire>*4,
+		<contenttweaker:plate_crystal_matrix>*2,
+		<mekanism:controlcircuit:2>*4
+	])
+	.addItemOutput(<contenttweaker:crystal_matrix_stance_generator>*2)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_flt","baseplant",200)
+	.addEnergyPerTickInput(48000)
+	.addItemInputs([
+		<minecraft:diamond_helmet>*1,
+		<contenttweaker:wyvern_stand_generator>*2,
+		<contenttweaker:dragon_wire>*4,
+		<contenttweaker:precision_bolts_dragon_vegetarian>*2,
+		<contenttweaker:plate_dragon_vegetarian>*4
+	])
+	.addItemOutput(<draconicevolution:wyvern_helm>*1)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_flj","baseplant",200)
+	.addEnergyPerTickInput(48000)
+	.addItemInputs([
+		<minecraft:diamond_chestplate>*1,
+		<contenttweaker:wyvern_stand_generator>*2,
+		<contenttweaker:dragon_wire>*4,
+		<contenttweaker:precision_bolts_dragon_vegetarian>*2,
+		<contenttweaker:plate_dragon_vegetarian>*4
+	])
+	.addItemOutput(<draconicevolution:wyvern_chest>*1)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_flk","baseplant",200)
+	.addEnergyPerTickInput(48000)
+	.addItemInputs([
+		<minecraft:diamond_leggings>*1,
+		<contenttweaker:wyvern_stand_generator>*2,
+		<contenttweaker:dragon_wire>*4,
+		<contenttweaker:precision_bolts_dragon_vegetarian>*2,
+		<contenttweaker:plate_dragon_vegetarian>*4
+	])
+	.addItemOutput(<draconicevolution:wyvern_legs>*1)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_flx","baseplant",200)
+	.addEnergyPerTickInput(48000)
+	.addItemInputs([
+		<minecraft:diamond_boots>*1,
+		<contenttweaker:wyvern_stand_generator>*2,
+		<contenttweaker:dragon_wire>*4,
+		<contenttweaker:precision_bolts_dragon_vegetarian>*2,
+		<contenttweaker:plate_dragon_vegetarian>*4
+	])
+	.addItemOutput(<draconicevolution:wyvern_boots>*1)
+	.build();
+
+RecipeBuilder.newBuilder("baseplant_wyvmater","baseplant",400)
+	.addEnergyPerTickInput(192000)
+	.addItemInputs([
+		<tconevo:material>*19,
+		<contenttweaker:wyvern_stand_generator>*16,
+		<contenttweaker:dragon_wire>*32,
+		<contenttweaker:precision_bolts_dragon_vegetarian>*32,
+		<contenttweaker:plate_dragon_vegetarian>*16
+	])
+	.addItemOutput(<tconevo:metal>*19)
+	.build();

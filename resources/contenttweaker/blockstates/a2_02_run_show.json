@@ -1,0 +1,10 @@
+{
+  "variants": {
+      "facing=down":  { "model": "contenttweaker:a2_02_type_universal_run", "x": 180 },
+      "facing=up":    { "model": "contenttweaker:a2_02_type_universal_run", "x": 90 },
+      "facing=north": { "model": "contenttweaker:a2_02_type_universal_run" },
+      "facing=south": { "model": "contenttweaker:a2_02_type_universal_run", "y": 180 },
+      "facing=west":  { "model": "contenttweaker:a2_02_type_universal_run", "y": 270 },
+      "facing=east":  { "model": "contenttweaker:a2_02_type_universal_run", "y": 90 }
+  }
+}

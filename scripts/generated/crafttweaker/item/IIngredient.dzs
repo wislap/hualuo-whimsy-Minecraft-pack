@@ -1,0 +1,91 @@
+import crafttweaker.data.IData;
+import crafttweaker.formatting.IFormattedText;
+import crafttweaker.item.IItemCondition;
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IItemTransformer;
+import crafttweaker.item.IItemTransformerNew;
+import crafttweaker.item.ITooltipFunction;
+import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.player.IPlayer;
+import mods.zenutils.ITooltipModifier;
+
+zenClass IIngredient {
+    val mark as string;
+    val itemArray as IItemStack[];
+    val hasNewTransformers as bool;
+    val commandString as string;
+    val hasTransformations as bool;
+    val amount as int;
+    
+    function modifyTooltip(modifier as ITooltipModifier) as void;
+    
+    function onlyStack(amount as int) as IIngredient;
+    
+    function onlyDamageBetween(minDamage as int, maxDamage as int) as IIngredient;
+    
+    function onlyDamaged() as IIngredient;
+    
+    function onlyDamageAtLeast(minDamage as int) as IIngredient;
+    
+    function onlyWithTag(data as IData) as IIngredient;
+    
+    function onlyDamageAtMost(maxDamage as int) as IIngredient;
+    
+    function matches(liquid as ILiquidStack) as bool;
+    
+    function matches(item as IItemStack) as bool;
+    
+    function transform(transformer as IItemTransformer) as IIngredient;
+    
+    function or(ingredient as IIngredient) as IIngredient;
+    
+    function amount(amount as int) as IIngredient;
+    
+    function applyTransform(item as IItemStack, byPlayer as IPlayer) as IItemStack;
+    
+    function matchesExact(item as IItemStack) as bool;
+    
+    function transformNew(transformer as IItemTransformerNew) as IIngredient;
+    
+    function applyNewTransform(item as IItemStack) as IItemStack;
+    
+    function only(condition as IItemCondition) as IIngredient;
+    
+    function marked(mark as string) as IIngredient;
+    
+    function noReturn() as IIngredient;
+    
+    function reuse() as IIngredient;
+    
+    function giveBack(givenItem as IItemStack = null) as IIngredient;
+    
+    function transformDamage(damage as int) as IIngredient;
+    
+    function transformDamage() as IIngredient;
+    
+    function transformReplace(withItem as IItemStack) as IIngredient;
+    
+    function transformConsume(amount as int) as IIngredient;
+    
+    function addTooltip(tooltip as IFormattedText) as void;
+    
+    function addAdvancedTooltip(_function as ITooltipFunction) as void;
+    
+    function removeTooltip(regex as string) as void;
+    
+    function clearTooltip(leaveName as bool) as void;
+    
+    function clearTooltip() as void;
+    
+    function addShiftTooltip(tooltip as IFormattedText, showMessage as IFormattedText = null) as void;
+    
+    function addShiftTooltip(_function as ITooltipFunction, showMessage as ITooltipFunction = null) as void;
+    
+    function removeTooltipLine(line as int) as void;
+    
+    operator has(ingredient as IIngredient) as bool;
+    
+    operator |(ingredient as IIngredient) as IIngredient;
+    
+    operator *(amount as int) as IIngredient;
+}

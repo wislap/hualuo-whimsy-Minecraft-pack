@@ -1,0 +1,29 @@
+import crafttweaker.data.IData;
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.WeightedLiquidStack;
+import crafttweaker.liquid.ILiquidDefinition;
+
+zenClass ILiquidStack extends IIngredient {
+    val name as string;
+    val definition as ILiquidDefinition;
+    val displayName as string;
+    val tag as IData;
+    val luminosity as int;
+    val viscosity as int;
+    val density as int;
+    val temperature as int;
+    val gaseous as bool;
+    val amount as int;
+    
+    function withAmount(amount as int) as ILiquidStack;
+    
+    function withTag(data as IData) as ILiquidStack;
+    
+    function weight(p as float) as WeightedLiquidStack;
+    
+    operator *(amount as int) as ILiquidStack;
+    
+    operator %(p as float) as WeightedLiquidStack;
+    
+    operator as() as WeightedLiquidStack;
+}

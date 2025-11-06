@@ -132,7 +132,7 @@
             "z": 0,
             "elements": [
                 "ic2:resource@11",
-                "modularmachinery:blockfluidoutputhatch",
+                "modularmachinery:blockfluidinputhatch",
                 "modularmachinery:blockmeiteminputbus"
             ]
         },

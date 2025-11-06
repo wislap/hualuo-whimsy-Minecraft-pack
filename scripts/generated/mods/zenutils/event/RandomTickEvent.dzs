@@ -1,0 +1,6 @@
+import crafttweaker.event.IBlockEvent;
+import crafttweaker.event.IEventCancelable;
+
+zenClass RandomTickEvent extends IBlockEvent, IEventCancelable {
+    
+}

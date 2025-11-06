@@ -1,0 +1,8 @@
+import crafttweaker.item.IIngredient;
+
+zenClass MoreJei {
+    
+    static function addDescription(arg0 as IIngredient, arg1 as string[]) as void;
+    
+    static function removeDescription(arg0 as IIngredient) as void;
+}

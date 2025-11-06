@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/vrc_air_liquefaction_extraction_modecard"
+  }
+}

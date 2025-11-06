@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "contenttweaker:blocks/ceramics/zirconia_ceramic_tiles_block/zirconia_ceramic_chiseled_tiles_block_side",
+        "down": "contenttweaker:blocks/ceramics/zirconia_ceramic_tiles_block/zirconia_ceramic_chiseled_tiles_block_bottom",
+        "up": "contenttweaker:blocks/ceramics/zirconia_ceramic_tiles_block/zirconia_ceramic_chiseled_tiles_block_top",
+        "north": "contenttweaker:blocks/ceramics/zirconia_ceramic_tiles_block/zirconia_ceramic_chiseled_tiles_block_side",
+        "east": "contenttweaker:blocks/ceramics/zirconia_ceramic_tiles_block/zirconia_ceramic_chiseled_tiles_block_side",
+        "south": "contenttweaker:blocks/ceramics/zirconia_ceramic_tiles_block/zirconia_ceramic_chiseled_tiles_block_side",
+        "west": "contenttweaker:blocks/ceramics/zirconia_ceramic_tiles_block/zirconia_ceramic_chiseled_tiles_block_side"
+    }
+}

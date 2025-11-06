@@ -1,0 +1,7 @@
+import crafttweaker.item.IItemStack;
+import mods.zenutils.StringList;
+
+zenClass ITooltipModifier {
+    
+    function (stack as IItemStack, tooltip as StringList, shiftPressed as bool, advanced as bool) as void;
+}

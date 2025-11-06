@@ -1,0 +1,10 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:parts/part_01",
+    "layer1": "contenttweaker:items/tachyon_annihilation_catalyst/tachyon_annihilation_catalyst_1",
+    "layer2": "contenttweaker:items/tachyon_annihilation_catalyst/tachyon_annihilation_catalyst_2",
+    "layer3": "contenttweaker:items/tachyon_annihilation_catalyst/tachyon_annihilation_catalyst_3",
+    "layer4": "contenttweaker:items/tachyon_annihilation_catalyst/tachyon_annihilation_catalyst_4"
+  }
+}

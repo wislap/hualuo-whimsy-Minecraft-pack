@@ -1,0 +1,57 @@
+import mods.modularmachinery.IFunction;
+import mods.modularmachinery.UpgradeEventHandler;
+
+zenClass DynamicMachineUpgradeBuilder {
+    
+    static function newBuilder(name as string, localizedName as string, level as float, maxStack as int) as DynamicMachineUpgradeBuilder;
+    
+    function addControllerGUIRenderHandler(handler as UpgradeEventHandler) as DynamicMachineUpgradeBuilder;
+    
+    function addFactoryRecipeStartHandler(handler as UpgradeEventHandler) as DynamicMachineUpgradeBuilder;
+    
+    function addFactoryRecipePostTickHandler(handler as UpgradeEventHandler) as DynamicMachineUpgradeBuilder;
+    
+    function addSmartInterfaceUpdateHandler(handler as UpgradeEventHandler) as DynamicMachineUpgradeBuilder;
+    
+    function addFactoryRecipeFailureHandler(handler as UpgradeEventHandler) as DynamicMachineUpgradeBuilder;
+    
+    function addFactoryRecipeFinishHandler(handler as UpgradeEventHandler) as DynamicMachineUpgradeBuilder;
+    
+    function addFactoryRecipePreTickHandler(handler as UpgradeEventHandler) as DynamicMachineUpgradeBuilder;
+    
+    function setBusGUIDescriptionHandler(handler as IFunction) as DynamicMachineUpgradeBuilder;
+    
+    function buildAndRegister() as void;
+    
+    function addRecipePreTickHandler(handler as UpgradeEventHandler) as DynamicMachineUpgradeBuilder;
+    
+    function addRecipeStartHandler(handler as UpgradeEventHandler) as DynamicMachineUpgradeBuilder;
+    
+    function addCompatibleMachines(...machineNames as string) as DynamicMachineUpgradeBuilder;
+    
+    function addRecipePostTickHandler(handler as UpgradeEventHandler) as DynamicMachineUpgradeBuilder;
+    
+    function addRecipeTickHandler(handler as UpgradeEventHandler) as DynamicMachineUpgradeBuilder;
+    
+    function addRecipeFailureHandler(handler as UpgradeEventHandler) as DynamicMachineUpgradeBuilder;
+    
+    function addRecipeFinishHandler(handler as UpgradeEventHandler) as DynamicMachineUpgradeBuilder;
+    
+    function addMachinePreTickHandler(handler as UpgradeEventHandler) as DynamicMachineUpgradeBuilder;
+    
+    function addIncompatibleMachines(...machineNames as string) as DynamicMachineUpgradeBuilder;
+    
+    function addRecipeCheckHandler(handler as UpgradeEventHandler) as DynamicMachineUpgradeBuilder;
+    
+    function addMachinePostTickHandler(handler as UpgradeEventHandler) as DynamicMachineUpgradeBuilder;
+    
+    function addStructureUpdateHandler(handler as UpgradeEventHandler) as DynamicMachineUpgradeBuilder;
+    
+    function addStructureFormedHandler(handler as UpgradeEventHandler) as DynamicMachineUpgradeBuilder;
+    
+    function addPostRecipeCheckHandler(handler as UpgradeEventHandler) as DynamicMachineUpgradeBuilder;
+    
+    function addPreRecipeCheckHandler(handler as UpgradeEventHandler) as DynamicMachineUpgradeBuilder;
+    
+    function setDescriptionHandler(handler as IFunction) as DynamicMachineUpgradeBuilder;
+}

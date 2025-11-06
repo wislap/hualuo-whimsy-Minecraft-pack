@@ -1,0 +1,19 @@
+import crafttweaker.item.IItemStack;
+import mods.modularmachinery.BlockArray;
+import mods.modularmachinery.MultiBlockModifierReplacement;
+import mods.modularmachinery.RecipeModifier;
+
+zenClass MultiblockModifierBuilder {
+    
+    static function newBuilder() as MultiblockModifierBuilder;
+    
+    static function newBuilder(modifierName as string) as MultiblockModifierBuilder;
+    
+    function build() as MultiBlockModifierReplacement;
+    
+    function addModifier(...modifiers as RecipeModifier) as MultiblockModifierBuilder;
+    
+    function setBlockArray(blockArray as BlockArray) as MultiblockModifierBuilder;
+    
+    function setDescriptiveStack(descriptiveStack as IItemStack) as MultiblockModifierBuilder;
+}

@@ -2,6 +2,11 @@ import mods.modularmachinery.RecipePrimer;
 import mods.modularmachinery.RecipeBuilder;
 import mods.modularmachinery.IngredientArrayBuilder;
 
+recipes.addShaped(<ecoaeextension:estorage_vent>*4,
+[[<ore:ingotAluminum>,<thermalfoundation:material:1025>,<ore:ingotAluminum>],
+[<thermalfoundation:material:1025>,<ecoaeextension:estorage_casing>,<thermalfoundation:material:1025>],
+[<ore:ingotAluminum>,<thermalfoundation:material:1025>,<ore:ingotAluminum>]]);
+
 recipes.addShaped(<ecoaeextension:efabricator_casing>*4, 
 [[null,<twilightforest:steeleaf_ingot>,null],
 [<threng:big_assembler>,<appliedenergistics2:fluix_block>,<threng:big_assembler>],

@@ -1,0 +1,31 @@
+import crafttweaker.enchantments.IEnchantment;
+import crafttweaker.item.IItemStack;
+
+zenClass IEnchantmentDefinition {
+    var name as string;
+    val id as int;
+    val minLevel as int;
+    val maxLevel as int;
+    val isAllowedOnBooks as bool;
+    val registryName as string;
+    val isTreasureEnchantment as bool;
+    val isCurse as bool;
+    
+    function isCompatibleWith(other as IEnchantmentDefinition) as bool;
+    
+    function getTranslatedName(enchantmentLevel as int) as string;
+    
+    function canApply(itemStack as IItemStack) as bool;
+    
+    function makeEnchantment(level as int) as IEnchantment;
+    
+    function canApplyAtEnchantmentTable(itemStack as IItemStack) as bool;
+    
+    function getMaxEnchantability(enchantmentLevel as int) as int;
+    
+    function getMinEnchantability(enchantmentLevel as int) as int;
+    
+    operator compare(other as IEnchantmentDefinition) as int;
+    
+    operator *(level as int) as IEnchantment;
+}

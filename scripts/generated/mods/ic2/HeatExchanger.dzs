@@ -1,0 +1,13 @@
+import crafttweaker.liquid.ILiquidDefinition;
+import crafttweaker.liquid.ILiquidStack;
+
+zenClass HeatExchanger {
+    
+    static function addFluidCoolDown(arg0 as ILiquidDefinition, arg1 as ILiquidDefinition, arg2 as int) as void;
+    
+    static function addFluidCoolDown(arg0 as ILiquidStack, arg1 as ILiquidStack, arg2 as int) as void;
+    
+    static function addFluidHeatUp(arg0 as ILiquidStack, arg1 as ILiquidStack, arg2 as int) as void;
+    
+    static function addFluidHeatUp(arg0 as ILiquidDefinition, arg1 as ILiquidDefinition, arg2 as int) as void;
+}

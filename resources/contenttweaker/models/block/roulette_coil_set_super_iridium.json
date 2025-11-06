@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "contenttweaker:blocks/steam_turbine/roulette_coil_set_iridium",
+        "down": "contenttweaker:blocks/steam_turbine/roulette_coil_set_up",
+        "up": "contenttweaker:blocks/steam_turbine/roulette_coil_set_up",
+        "north": "contenttweaker:blocks/steam_turbine/roulette_coil_set_iridium",
+        "east": "contenttweaker:blocks/steam_turbine/roulette_coil_set_iridium",
+        "south": "contenttweaker:blocks/steam_turbine/roulette_coil_set_iridium",
+        "west": "contenttweaker:blocks/steam_turbine/roulette_coil_set_iridium"
+    }
+}

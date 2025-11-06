@@ -1,0 +1,58 @@
+import mods.modularmachinery.ControllerGUIRenderEvent;
+import mods.modularmachinery.FactoryRecipeFailureEvent;
+import mods.modularmachinery.FactoryRecipeFinishEvent;
+import mods.modularmachinery.FactoryRecipeStartEvent;
+import mods.modularmachinery.FactoryRecipeTickEvent;
+import mods.modularmachinery.MachineEvent;
+import mods.modularmachinery.MachineStructureFormedEvent;
+import mods.modularmachinery.MachineStructureUpdateEvent;
+import mods.modularmachinery.MachineTickEvent;
+import mods.modularmachinery.RecipeCheckEvent;
+import mods.modularmachinery.RecipeFailureEvent;
+import mods.modularmachinery.RecipeFinishEvent;
+import mods.modularmachinery.RecipeStartEvent;
+import mods.modularmachinery.RecipeTickEvent;
+import mods.modularmachinery.SmartInterfaceUpdateEvent;
+
+zenClass MMEvents {
+    
+    static function onMachineTick(machineRegistryName as string, _function as function(MachineTickEvent)void) as void;
+    
+    static function onStructureFormed(machineRegistryName as string, _function as function(MachineStructureFormedEvent)void) as void;
+    
+    static function onStructureUpdate(machineRegistryName as string, _function as function(MachineStructureUpdateEvent)void) as void;
+    
+    static function onMachinePostTick(machineRegistryName as string, _function as function(MachineTickEvent)void) as void;
+    
+    static function onMachinePreTick(machineRegistryName as string, _function as function(MachineTickEvent)void) as void;
+    
+    static function castToFactoryRecipeTickEvent(event as MachineEvent) as FactoryRecipeTickEvent;
+    
+    static function castToSmartInterfaceUpdateEvent(event as MachineEvent) as SmartInterfaceUpdateEvent;
+    
+    static function castToFactoryRecipeStartEvent(event as MachineEvent) as FactoryRecipeStartEvent;
+    
+    static function castToFactoryRecipeFinishEvent(event as MachineEvent) as FactoryRecipeFinishEvent;
+    
+    static function castToMachineStructureUpdateEvent(event as MachineEvent) as MachineStructureUpdateEvent;
+    
+    static function castToFactoryRecipeFailureEvent(event as MachineEvent) as FactoryRecipeFailureEvent;
+    
+    static function castToMachineStructureFormedEvent(event as MachineEvent) as MachineStructureFormedEvent;
+    
+    static function onControllerGUIRender(machineRegistryName as string, _function as function(ControllerGUIRenderEvent)void) as void;
+    
+    static function castToRecipeFailureEvent(event as MachineEvent) as RecipeFailureEvent;
+    
+    static function castToMachineTickEvent(event as MachineEvent) as MachineTickEvent;
+    
+    static function onSmartInterfaceUpdate(machineRegistryName as string, _function as function(SmartInterfaceUpdateEvent)void) as void;
+    
+    static function castToRecipeCheckEvent(event as MachineEvent) as RecipeCheckEvent;
+    
+    static function castToRecipeStartEvent(event as MachineEvent) as RecipeStartEvent;
+    
+    static function castToRecipeTickEvent(event as MachineEvent) as RecipeTickEvent;
+    
+    static function castToRecipeFinishEvent(event as MachineEvent) as RecipeFinishEvent;
+}

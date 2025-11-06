@@ -10,6 +10,14 @@ RecipeBuilder.newBuilder("moleculartransformer_po","moleculartransformer",1)
 	.addItemOutput(<mekanism:poloniumpellet>*1)
 	.build();
 
+RecipeBuilder.newBuilder("moleculartransformer_jbzz","moleculartransformer",1)
+	.addEnergyPerTickInput(4000000)
+	.addItemInputs([
+		<contenttweaker:plate_nano_living_metal>*1
+	])
+	.addItemOutput(<contenttweaker:degenerate_neutron_ingots>*1)
+	.build();
+
 RecipeBuilder.newBuilder("moleculartransformer_ga","moleculartransformer",1)
 	.addEnergyPerTickInput(40000000)
 	.addItemInputs([

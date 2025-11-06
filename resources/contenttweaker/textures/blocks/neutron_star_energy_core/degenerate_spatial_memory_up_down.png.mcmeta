@@ -1,0 +1,15 @@
+{
+  "ctm": {
+    "ctm_version": 1,
+    "type": "CTM",
+    "layer": "SOLID",
+    "textures": [
+      "contenttweaker:blocks/neutron_star_energy_core/degenerate_spatial_memory_up_down-ctm"
+    ],
+    "extra": {
+      "connect_to": [
+        {"block": "contenttweaker:degenerate_spatial_memory"}
+      ]
+    }
+  }
+}

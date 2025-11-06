@@ -1,0 +1,17 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.oredict.IOreDictEntry;
+
+zenClass Mill {
+    
+    static function remove(arg0 as string) as void;
+    
+    static function remove(arg0 as IOreDictEntry, arg1 as ILiquidStack) as void;
+    
+    static function remove(arg0 as IItemStack, arg1 as ILiquidStack) as void;
+    
+    static function add(arg0 as IIngredient, arg1 as ILiquidStack, arg2 as IItemStack, arg3 as ILiquidStack) as void;
+    
+    static function removeAll() as void;
+}

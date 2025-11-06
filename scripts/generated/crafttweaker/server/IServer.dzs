@@ -1,0 +1,16 @@
+import crafttweaker.command.ICommandManager;
+import crafttweaker.command.ICommandSender;
+import crafttweaker.event.IEventHandler;
+import crafttweaker.event.PlayerLoggedInEvent;
+import crafttweaker.event.PlayerLoggedOutEvent;
+import crafttweaker.player.IPlayer;
+
+zenClass IServer extends ICommandSender {
+    val commandManager as ICommandManager;
+    
+    function isOp(player as IPlayer) as bool;
+    
+    function onPlayerLoggedIn(ev as function(PlayerLoggedInEvent)void) as IEventHandler;
+    
+    function onPlayerLoggedOut(ev as function(PlayerLoggedOutEvent)void) as IEventHandler;
+}

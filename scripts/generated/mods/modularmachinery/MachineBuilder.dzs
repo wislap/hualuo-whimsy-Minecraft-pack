@@ -1,0 +1,84 @@
+import crafttweaker.block.IBlockState;
+import crafttweaker.data.IData;
+import crafttweaker.item.IItemStack;
+import crafttweaker.util.IAxisAlignedBB;
+import mods.modularmachinery.AdvancedBlockChecker;
+import mods.modularmachinery.BlockArrayBuilder;
+import mods.modularmachinery.ControllerGUIRenderEvent;
+import mods.modularmachinery.FactoryRecipeThread;
+import mods.modularmachinery.MachineStructureFormedEvent;
+import mods.modularmachinery.MachineStructureUpdateEvent;
+import mods.modularmachinery.MachineTickEvent;
+import mods.modularmachinery.MultiBlockModifierReplacement;
+import mods.modularmachinery.RecipeFailureActions;
+import mods.modularmachinery.RecipeModifier;
+import mods.modularmachinery.SmartInterfaceType;
+import mods.modularmachinery.SmartInterfaceUpdateEvent;
+import mods.modularmachinery.TaggedPositionBlockArray;
+
+zenClass MachineBuilder {
+    
+    static function getBuilder(registryName as string) as MachineBuilder;
+    
+    function build() as void;
+    
+    function setColor(color as int) as MachineBuilder;
+    
+    function setNBT(data as IData) as MachineBuilder;
+    
+    function addSmartInterfaceUpdateHandler(_function as function(SmartInterfaceUpdateEvent)void) as MachineBuilder;
+    
+    function setMaxParallelism(maxParallelism as int) as MachineBuilder;
+    
+    function setMaxThreads(maxThreads as int) as MachineBuilder;
+    
+    function getBlockArray() as TaggedPositionBlockArray;
+    
+    function setPreviewNBT(data as IData) as MachineBuilder;
+    
+    function setBlockChecker(checker as AdvancedBlockChecker) as MachineBuilder;
+    
+    function setFactoryOnly(factoryOnly as bool) as MachineBuilder;
+    
+    function addCoreThread(thread as FactoryRecipeThread) as MachineBuilder;
+    
+    function setFailureAction(failureAction as RecipeFailureActions) as MachineBuilder;
+    
+    function setParallelizable(isParallelizable as bool) as MachineBuilder;
+    
+    function setHasFactory(hasFactory as bool) as MachineBuilder;
+    
+    function addTickHandler(_function as function(MachineTickEvent)void) as MachineBuilder;
+    
+    static function registerMachine(registryName as string, localizedName as string, requiresBlueprint as bool, failureAction as RecipeFailureActions, color as int, hasFactory as bool, factoryOnly as bool) as void;
+    
+    static function registerMachine(registryName as string, localizedName as string, requiresBlueprint as bool, failureAction as RecipeFailureActions, color as int) as void;
+    
+    static function registerMachine(registryName as string, localizedName as string, hasFactory as bool, factoryOnly as bool) as void;
+    
+    static function registerMachine(registryName as string, localizedName as string) as void;
+    
+    function addStructureUpdateHandler(_function as function(MachineStructureUpdateEvent)void) as MachineBuilder;
+    
+    function addStructureFormedHandler(_function as function(MachineStructureFormedEvent)void) as MachineBuilder;
+    
+    function setControllerBoundingBox(aabb as IAxisAlignedBB) as MachineBuilder;
+    
+    function setRequiresBlueprint(requiresBlueprint as bool) as MachineBuilder;
+    
+    function addSmartInterfaceType(type as SmartInterfaceType) as MachineBuilder;
+    
+    function setInternalParallelism(parallelism as int) as MachineBuilder;
+    
+    function addGUIRenderHandler(_function as function(ControllerGUIRenderEvent)void) as MachineBuilder;
+    
+    function addSingleBlockModifier(x as int, y as int, z as int, blockName as string, description as string, ...modifiers as RecipeModifier) as MachineBuilder;
+    
+    function addSingleBlockModifier(x as int, y as int, z as int, ctBlockState as IBlockState, description as string, ...modifiers as RecipeModifier) as MachineBuilder;
+    
+    function addSingleBlockModifier(x as int, y as int, z as int, ctItemStack as IItemStack, description as string, ...modifiers as RecipeModifier) as MachineBuilder;
+    
+    function getBlockArrayBuilder() as BlockArrayBuilder;
+    
+    function addMultiBlockModifier(multiBlockModifier as MultiBlockModifierReplacement) as MachineBuilder;
+}

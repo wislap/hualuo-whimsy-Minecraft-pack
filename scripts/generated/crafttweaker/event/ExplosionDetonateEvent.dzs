@@ -1,0 +1,8 @@
+import crafttweaker.event.IExplosionEvent;
+
+zenClass ExplosionDetonateEvent extends IExplosionEvent {
+    
+    function getAffectedEntities() as any;
+    
+    function getAffectedPositions() as any;
+}

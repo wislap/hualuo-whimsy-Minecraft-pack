@@ -1,0 +1,9 @@
+import mods.modularmachinery.RecipeModifier;
+import mods.modularmachinery.RecipePrimer;
+
+zenClass RecipeAdapterBuilder extends RecipePrimer {
+    
+    static function create(machineName as string, parentMachineName as string) as RecipeAdapterBuilder;
+    
+    function addModifier(modifier as RecipeModifier) as RecipeAdapterBuilder;
+}

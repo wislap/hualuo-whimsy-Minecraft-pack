@@ -1,0 +1,16 @@
+{
+  "forge_marker": 1,
+  "defaults": {"model": "contenttweaker:ec_modular_synthetic_memory/ec_synthetic_storage_control_host_glass" },
+  "variants": {
+      "facing=north": { "model": "contenttweaker:ec_modular_synthetic_memory/ec_synthetic_storage_control_host_glass", "y": -180  },
+      "facing=south": { "model": "contenttweaker:ec_modular_synthetic_memory/ec_synthetic_storage_control_host_glass"},
+      "facing=west":  { "model": "contenttweaker:ec_modular_synthetic_memory/ec_synthetic_storage_control_host_glass", "y": 90 },
+      "facing=east":  { "model": "contenttweaker:ec_modular_synthetic_memory/ec_synthetic_storage_control_host_glass", "y": 270 },
+      "inventory": [
+        {
+          "transform": "forge:default-block"
+        }
+      ]
+    }
+  }
+  

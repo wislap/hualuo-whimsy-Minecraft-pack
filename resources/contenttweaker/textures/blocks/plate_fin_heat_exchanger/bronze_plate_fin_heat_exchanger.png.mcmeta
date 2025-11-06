@@ -1,0 +1,15 @@
+{
+  "ctm": {
+    "ctm_version": 1,
+    "type": "CTM",
+    "layer": "SOLID",
+    "textures": [
+      "contenttweaker:blocks/plate_fin_heat_exchanger/bronze_plate_fin_heat_exchanger-ctm"
+    ],
+    "extra": {
+      "connect_to": [
+        {"block": "contenttweaker:bronze_plate_fin_heat_exchanger"}
+      ]
+    }
+  }
+}

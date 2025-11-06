@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer1": "contenttweaker:parts/tmz_32x",
+    "layer0": "contenttweaker:items/precision_bolts_tzm_alloys"
+  }
+}

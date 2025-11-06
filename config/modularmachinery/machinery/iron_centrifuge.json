@@ -1,63 +1,90 @@
 {
     "registryname": "iron_centrifuge",
-    "localizedname": "Iron Reinforced Centrifuge",
+    "localizedname": "强化离心机",
     "parts": [
         {
             "x": -1,
             "y": -1,
             "z": 0,
-            "elements": "casings_all"
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockparallelcontroller"
+        ]
         },
         {
             "x": 0,
             "y": -1,
             "z": 0,
-            "elements": "casings_all"
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockparallelcontroller"
+        ]
         },
         {
             "x": 1,
             "y": -1,
             "z": 0,
-            "elements": "casings_all"
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockparallelcontroller"
+        ]
         },
 
         {
             "x": -1,
             "y": -1,
             "z": 1,
-            "elements": "casings_all"
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockparallelcontroller"
+        ]
         },
 
         {
             "x": 0,
             "y": -1,
             "z": 1,
-            "elements": "casings_all"
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockparallelcontroller"
+        ]
         },
         {
             "x": 1,
             "y": -1,
             "z": 1,
-            "elements": "casings_all"
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockparallelcontroller"
+        ]
         },
 
         {
             "x": -1,
             "y": -1,
             "z": 2,
-            "elements": "casings_all"
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockparallelcontroller"
+        ]
         },
         {
             "x": 0,
             "y": -1,
             "z": 2,
-            "elements": "casings_all"
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockparallelcontroller"
+        ]
         },
         {
             "x": 1,
             "y": -1,
             "z": 2,
-            "elements": "casings_all"
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockparallelcontroller"
+        ]
         },
         {
             "x": 0,

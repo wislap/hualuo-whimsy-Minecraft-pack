@@ -1,0 +1,6 @@
+import mods.modularmachinery.FactoryRecipeThread;
+import mods.modularmachinery.RecipeEvent;
+
+zenClass FactoryRecipeEvent extends RecipeEvent {
+    val factoryRecipeThread as FactoryRecipeThread;
+}

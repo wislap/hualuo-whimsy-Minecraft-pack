@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {"model": "contenttweaker:neutron_space_force_field_control_bus" },
+  "variants": {
+    "facing=down":  { "model": "contenttweaker:neutron_space_force_field_control_bus"},
+    "facing=up":    { "model": "contenttweaker:neutron_space_force_field_control_bus", "x": 180  },
+    "facing=north": { "model": "contenttweaker:neutron_space_force_field_control_bus", "x": -90 },
+    "facing=south": { "model": "contenttweaker:neutron_space_force_field_control_bus", "x": 90 },
+    "facing=west":  { "model": "contenttweaker:neutron_space_force_field_control_bus", "x": -90,"y":-90 },
+    "facing=east":  { "model": "contenttweaker:neutron_space_force_field_control_bus", "x": 90,"y":270 },
+    "inventory": [
+      {
+        "transform": "forge:default-block"
+      }
+    ]
+  }
+}

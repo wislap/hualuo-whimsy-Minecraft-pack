@@ -1,0 +1,12 @@
+import mods.modularmachinery.RecipeThread;
+
+zenClass FactoryRecipeThread extends RecipeThread {
+    val threadName as string;
+    val isWorking as bool;
+    val isCoreThread as bool;
+    val isIdle as bool;
+    
+    function addRecipe(recipeName as string) as FactoryRecipeThread;
+    
+    static function createCoreThread(threadName as string) as FactoryRecipeThread;
+}

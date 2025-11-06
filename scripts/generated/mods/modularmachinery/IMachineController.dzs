@@ -1,0 +1,66 @@
+import crafttweaker.block.IBlockState;
+import crafttweaker.block.IBlockStateMatcher;
+import crafttweaker.data.IData;
+import crafttweaker.item.IItemStack;
+import crafttweaker.player.IPlayer;
+import crafttweaker.world.IBlockPos;
+import crafttweaker.world.IFacing;
+import crafttweaker.world.IWorld;
+import mods.modularmachinery.ActiveMachineRecipe;
+import mods.modularmachinery.IBlockStatePredicate;
+import mods.modularmachinery.IDynamicPatternInfo;
+import mods.modularmachinery.MachineUpgrade;
+import mods.modularmachinery.RecipeModifier;
+import mods.modularmachinery.RecipeThread;
+import mods.modularmachinery.SmartInterfaceData;
+
+zenClass IMachineController {
+    val world as IWorld;
+    val ticksExisted as int;
+    val facing as IFacing;
+    val isWorking as bool;
+    val ownerName as string;
+    val foundModifiers as string[];
+    var customData as IData;
+    val blockState as IBlockState;
+    var statusMessage as string;
+    val activeRecipe as ActiveMachineRecipe;
+    val ownerUUID as string;
+    val ownerPlayer as IPlayer;
+    var extraThreadCount as int;
+    val activeRecipeList as ActiveMachineRecipe[];
+    val recipeThreadList as RecipeThread[];
+    val smartInterfaceDataList as SmartInterfaceData[];
+    val formedMachineName as string;
+    val pos as IBlockPos;
+    
+    function hasModifier(key as string) as bool;
+    
+    function removeModifier(key as string) as void;
+    
+    function addModifier(key as string, modifier as RecipeModifier) as void;
+    
+    function hasMachineUpgrade(upgradeName as string) as bool;
+    
+    function getMachineUpgrade(upgradeName as string) as MachineUpgrade[];
+    
+    function getDynamicPattern(patternName as string) as IDynamicPatternInfo;
+    
+    function getBlocksInPattern(blockName as string) as int;
+    
+    function getBlocksInPattern(blockStack as IItemStack) as int;
+    
+    function getBlocksInPattern(predicate as IBlockStatePredicate) as int;
+    
+    function getBlocksInPattern(blockStateMatcher as IBlockStateMatcher) as int;
+    
+    function getSmartInterfaceData(type as string) as SmartInterfaceData;
+    
+    function addPermanentModifier(key as string, modifier as RecipeModifier) as void;
+    
+    function removePermanentModifier(key as string) as void;
+    
+    function hasModifierReplacement(modifierName as string) as bool;
+    
+    function rotateWithControllerFacing(pos as IBlockPos) as IBlockPos;
+}

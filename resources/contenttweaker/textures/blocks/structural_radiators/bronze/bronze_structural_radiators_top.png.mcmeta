@@ -1,0 +1,16 @@
+{
+  "ctm": {
+    "ctm_version": 1,
+    "type": "CTM",
+    "layer": "SOLID",
+    "textures": [
+      "contenttweaker:blocks/structural_radiators/bronze/bronze_structural_radiators_top-ctm"
+    ],
+    "extra": {
+      "connect_to": [
+        {"block": "contenttweaker:bronze_structural_radiators"},
+        {"block": "contenttweaker:steam_turbine_housing_bronze"}
+      ]
+    }
+  }
+}

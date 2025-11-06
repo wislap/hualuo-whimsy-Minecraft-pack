@@ -1,0 +1,8 @@
+import mods.zenutils.ICatenationTaskQueueBuilder;
+
+zenClass ICatenationTaskQueueBuilderConsumer {
+    
+    function (builder as ICatenationTaskQueueBuilder) as void;
+    
+    function apply(builder as ICatenationTaskQueueBuilder) as void;
+}

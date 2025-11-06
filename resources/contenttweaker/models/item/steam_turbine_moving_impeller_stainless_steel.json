@@ -1,0 +1,7 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "contenttweaker:items/steam_turbine_moving_impeller_stainless_steel"
+	}
+}

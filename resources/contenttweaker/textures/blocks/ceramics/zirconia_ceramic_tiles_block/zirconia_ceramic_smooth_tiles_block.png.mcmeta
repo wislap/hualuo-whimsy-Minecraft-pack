@@ -1,0 +1,17 @@
+{
+  "ctm": {
+    "ctm_version": 1,
+    "type": "CTM",
+    "layer": "SOLID",
+    "textures": [
+      "contenttweaker:blocks/ceramics/zirconia_ceramic_tiles_block/zirconia_ceramic_smooth_tiles_block-ctm"
+    ],
+    "extra": {
+      "connect_to": [
+        {
+          "block": "contenttweaker:zirconia_ceramic_smooth_tiles_block"
+        }
+      ]
+    }
+  }
+}

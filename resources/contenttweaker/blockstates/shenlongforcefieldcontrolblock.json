@@ -1,0 +1,16 @@
+{
+  "forge_marker": 1,
+  "defaults": {"model": "contenttweaker:shenlongforcefieldcontrolblock" },
+  "variants": {
+      "facing=north": { "model": "contenttweaker:shenlongforcefieldcontrolblock" },
+      "facing=south": { "model": "contenttweaker:shenlongforcefieldcontrolblock", "y": 180 },
+      "facing=west":  { "model": "contenttweaker:shenlongforcefieldcontrolblock", "y": 270 },
+      "facing=east":  { "model": "contenttweaker:shenlongforcefieldcontrolblock", "y": 90 },
+      "inventory": [
+        {
+          "transform": "forge:default-block"
+        }
+      ]
+    }
+  }
+  

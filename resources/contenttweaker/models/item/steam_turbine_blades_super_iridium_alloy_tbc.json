@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/steam_turbine_blades_super_iridium_alloy_tbc"
+  }
+}

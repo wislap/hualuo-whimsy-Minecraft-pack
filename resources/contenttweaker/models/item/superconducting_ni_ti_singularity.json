@@ -1,0 +1,8 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:parts/part_01",
+    "layer1": "contenttweaker:items/superconducting_ni_ti_singularity",
+    "layer2": "contenttweaker:items/superconducting_ni_ti_singularity_overlay"
+  }
+}

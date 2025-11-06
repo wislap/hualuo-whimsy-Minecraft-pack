@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/sinking_gold_motherboard_b_i_03"
+  }
+}

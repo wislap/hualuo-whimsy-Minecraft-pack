@@ -1,0 +1,11 @@
+import crafttweaker.data.IData;
+import crafttweaker.item.IItemStack;
+import mods.modularmachinery.MachineUpgrade;
+
+zenClass SimpleDynamicMachineUpgrade extends MachineUpgrade {
+    var customData as IData;
+    var itemData as IData;
+    val parentStack as IItemStack;
+    
+    function decrementItemDurability(durability as int) as void;
+}

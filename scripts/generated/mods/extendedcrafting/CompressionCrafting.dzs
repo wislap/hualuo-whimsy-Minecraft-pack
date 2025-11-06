@@ -1,0 +1,10 @@
+import crafttweaker.item.IItemStack;
+
+zenClass CompressionCrafting {
+    
+    static function addRecipe(arg0 as IItemStack, arg1 as IItemStack, arg2 as int, arg3 as IItemStack, arg4 as int, arg5 as int) as void;
+    
+    static function addRecipe(arg0 as IItemStack, arg1 as IItemStack, arg2 as int, arg3 as IItemStack, arg4 as int) as void;
+    
+    static function remove(arg0 as IItemStack) as void;
+}

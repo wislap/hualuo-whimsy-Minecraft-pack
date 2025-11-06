@@ -1,0 +1,4 @@
+
+zenClass MachineUpgrade {
+    val stackSize as int;
+}

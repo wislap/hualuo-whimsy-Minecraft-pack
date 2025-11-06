@@ -1,0 +1,11 @@
+
+zenClass IProbeHitData {
+    
+    function getHitVec() as any;
+    
+    function getPickBlock() as any;
+    
+    function getPos() as any;
+    
+    function getSideHit() as any;
+}

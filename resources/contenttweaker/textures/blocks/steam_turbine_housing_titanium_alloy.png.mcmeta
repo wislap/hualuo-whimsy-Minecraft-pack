@@ -1,0 +1,17 @@
+{
+  "ctm": {
+    "ctm_version": 1,
+    "type": "CTM",
+    "layer": "SOLID",
+    "textures": [
+      "contenttweaker:blocks/steam_turbine_housing_titanium_alloy-ctm"
+    ],
+    "extra": {
+      "connect_to": [
+        {"block": "contenttweaker:bronze_plate_fin_heat_exchanger"},
+        {"block": "contenttweaker:titanium_alloy_structural_radiators"},
+        {"block": "contenttweaker:steam_turbine_housing_titanium_alloy"}
+      ]
+    }
+  }
+}

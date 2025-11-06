@@ -1,0 +1,7 @@
+{
+	"parent": "item/generated",
+	"textures": {
+	  "layer0": "contenttweaker:items/steam_turbine_moving_impeller_super_iridium_alloy_tbc"
+	}
+  }
+  

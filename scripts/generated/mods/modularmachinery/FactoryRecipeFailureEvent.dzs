@@ -1,0 +1,6 @@
+import mods.modularmachinery.FactoryRecipeEvent;
+
+zenClass FactoryRecipeFailureEvent extends FactoryRecipeEvent {
+    val cause as string;
+    var destructRecipe as bool;
+}

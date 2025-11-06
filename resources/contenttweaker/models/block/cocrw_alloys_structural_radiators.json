@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "contenttweaker:blocks/cocrw_alloys_housing",
+        "down": "contenttweaker:blocks/structural_radiators/cocrw_alloys/cocrw_alloys_structural_radiators_bottom",
+        "up": "contenttweaker:blocks/structural_radiators/cocrw_alloys/cocrw_alloys_structural_radiators_top",
+        "north": "contenttweaker:blocks/cocrw_alloys_housing",
+        "east": "contenttweaker:blocks/cocrw_alloys_housing",
+        "south": "contenttweaker:blocks/cocrw_alloys_housing",
+        "west": "contenttweaker:blocks/cocrw_alloys_housing"
+    }
+}

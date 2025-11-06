@@ -1,0 +1,16 @@
+{
+  "forge_marker": 1,
+  "defaults": {"model": "contenttweaker:ec_modular_synthetic_memory/superconducting_cooled_transmission_bus_all_on" },
+  "variants": {
+      "facing=north": { "model": "contenttweaker:ec_modular_synthetic_memory/superconducting_cooled_transmission_bus_all_on", "y": -180  },
+      "facing=south": { "model": "contenttweaker:ec_modular_synthetic_memory/superconducting_cooled_transmission_bus_all_on"},
+      "facing=west":  { "model": "contenttweaker:ec_modular_synthetic_memory/superconducting_cooled_transmission_bus_all_on", "y": 90 },
+      "facing=east":  { "model": "contenttweaker:ec_modular_synthetic_memory/superconducting_cooled_transmission_bus_all_on", "y": 270 },
+      "inventory": [
+        {
+          "transform": "forge:default-block"
+        }
+      ]
+    }
+  }
+  

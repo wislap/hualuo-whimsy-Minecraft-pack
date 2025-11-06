@@ -1,0 +1,15 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+
+zenClass Altar {
+    
+    static function removeRecipe(arg0 as string) as void;
+    
+    static function addItemCraftRecipe(arg0 as string, arg1 as float, arg2 as IItemStack, ...arg3 as IIngredient) as void;
+    
+    static function addMaidReviveCraftRecipe(arg0 as string, arg1 as float, ...arg2 as IIngredient) as void;
+    
+    static function addEntitySpawnCraftRecipe(arg0 as string, arg1 as float, arg2 as string, ...arg3 as IIngredient) as void;
+    
+    static function addMaidSpawnCraftRecipe(arg0 as string, arg1 as float, ...arg2 as IIngredient) as void;
+}

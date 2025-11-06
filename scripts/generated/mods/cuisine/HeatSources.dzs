@@ -1,0 +1,11 @@
+import crafttweaker.block.IBlockDefinition;
+import crafttweaker.block.IBlockState;
+
+zenClass HeatSources {
+    
+    static function add(arg0 as int, ...arg1 as IBlockState) as void;
+    
+    static function add(arg0 as int, ...arg1 as IBlockDefinition) as void;
+    
+    static function removeAll() as void;
+}

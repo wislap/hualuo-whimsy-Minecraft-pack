@@ -1,0 +1,13 @@
+{
+	"credit": "Made with WI_8614_ice",
+    "parent": "block/cube",
+    "textures": {
+        "particle": "contenttweaker:blocks/neutron_star_energy_core/degenerate_spatial_memory_side",
+        "down": "contenttweaker:blocks/neutron_star_energy_core/degenerate_spatial_memory_up_down",
+        "up": "contenttweaker:blocks/neutron_star_energy_core/degenerate_spatial_memory_up_down",
+        "north": "contenttweaker:blocks/neutron_star_energy_core/degenerate_spatial_memory_side",
+        "east": "contenttweaker:blocks/neutron_star_energy_core/degenerate_spatial_memory_side",
+        "south": "contenttweaker:blocks/neutron_star_energy_core/degenerate_spatial_memory_side",
+        "west": "contenttweaker:blocks/neutron_star_energy_core/degenerate_spatial_memory_side"
+    }
+}

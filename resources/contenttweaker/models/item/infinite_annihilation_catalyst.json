@@ -1,0 +1,9 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:parts/part_01",
+    "layer1": "contenttweaker:items/infinite_annihilation_catalyst/infinite_annihilation_catalyst_1",
+    "layer2": "contenttweaker:items/infinite_annihilation_catalyst/infinite_annihilation_catalyst_2",
+    "layer3": "contenttweaker:items/infinite_annihilation_catalyst/infinite_annihilation_catalyst_3"
+  }
+}

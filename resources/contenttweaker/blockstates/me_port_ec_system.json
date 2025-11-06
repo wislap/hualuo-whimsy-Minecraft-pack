@@ -1,0 +1,17 @@
+  {
+    "forge_marker": 1,
+    "defaults": {
+      "textures": {
+        "texture": "contenttweaker:blocks/ec_modular_synthetic_memory/me_port_ec_system",
+        "particle": "contenttweaker:blocks/ec_modular_synthetic_memory/me_port_ec_system"
+      },
+      "model":"contenttweaker:ec_modular_synthetic_memory/me_port_ec_system",
+      "uvlock": true,
+      "transform": "forge:default-block"
+    },
+    "variants": {
+      "normal": [{}],
+      "inventory": [{}]
+    }
+  }
+  

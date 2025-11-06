@@ -1,0 +1,21 @@
+import mods.zenutils.ICatenationTaskQueueBuilderConsumer;
+import mods.zenutils.ITimerHandler;
+import mods.zenutils.IWorldCondition;
+import mods.zenutils.IWorldFunction;
+
+zenClass ICatenationTaskQueueBuilder {
+    
+    function run(_function as IWorldFunction) as ICatenationTaskQueueBuilder;
+    
+    function repeat(times as int, builderConsumer as ICatenationTaskQueueBuilderConsumer) as ICatenationTaskQueueBuilder;
+    
+    function sleep(ticks as long) as ICatenationTaskQueueBuilder;
+    
+    function then(_function as IWorldFunction) as ICatenationTaskQueueBuilder;
+    
+    function customTimer(duration as long, handler as ITimerHandler) as ICatenationTaskQueueBuilder;
+    
+    function alwaysUntil(condition as IWorldCondition) as ICatenationTaskQueueBuilder;
+    
+    function sleepUntil(condition as IWorldCondition) as ICatenationTaskQueueBuilder;
+}

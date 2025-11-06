@@ -1,0 +1,38 @@
+import crafttweaker.creativetabs.ICreativeTab;
+import crafttweaker.enchantments.IEnchantmentDefinition;
+import crafttweaker.entity.IEntityDefinition;
+import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.potions.IPotion;
+import crafttweaker.potions.IPotionType;
+import crafttweaker.world.IBiome;
+import crafttweaker.world.IBiomeType;
+
+zenClass IGame {
+    
+    function getBiome(name as string) as IBiome;
+    
+    function getPotion(name as string) as IPotion;
+    
+    function getCreativeTab(name as string) as ICreativeTab;
+    
+    function getEnchantment(name as string) as IEnchantmentDefinition;
+    
+    function getBiomeType(name as string) as IBiomeType;
+    
+    function getOreDictEntry(name as string) as IOreDictEntry;
+    
+    function getPotionType(name as string) as IPotionType;
+    
+    function getLiquid(name as string) as ILiquidStack;
+    
+    function getEntity(entityName as string) as IEntityDefinition;
+    
+    function setLocalization(lang as string, key as string, value as string) as void;
+    
+    function setLocalization(key as string, value as string) as void;
+    
+    function localize(key as string) as string;
+    
+    function localize(key as string, lang as string) as string;
+}

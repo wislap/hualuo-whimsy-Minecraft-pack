@@ -1,0 +1,26 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"down": "contenttweaker:blocks/ceramics/zirconia_ceramic_tiles_block/zirconia_ceramic_tiles_brick/zirconia_ceramic_tiles_brick_bottom",
+		"up": "contenttweaker:blocks/ceramics/zirconia_ceramic_tiles_block/zirconia_ceramic_tiles_brick/zirconia_ceramic_tiles_brick_top",
+		"particle": "contenttweaker:blocks/ceramics/zirconia_ceramic_tiles_block/zirconia_ceramic_tiles_brick/zirconia_ceramic_tiles_brick_north",
+		"north": "contenttweaker:blocks/ceramics/zirconia_ceramic_tiles_block/zirconia_ceramic_tiles_brick/zirconia_ceramic_tiles_brick_north",
+		"east": "contenttweaker:blocks/ceramics/zirconia_ceramic_tiles_block/zirconia_ceramic_tiles_brick/zirconia_ceramic_tiles_brick_east",
+		"south": "contenttweaker:blocks/ceramics/zirconia_ceramic_tiles_block/zirconia_ceramic_tiles_brick/zirconia_ceramic_tiles_brick_south",
+		"west": "contenttweaker:blocks/ceramics/zirconia_ceramic_tiles_block/zirconia_ceramic_tiles_brick/zirconia_ceramic_tiles_brick_west"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#down"}
+			}
+		}
+	]
+}

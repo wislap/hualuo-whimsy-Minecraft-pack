@@ -1,6 +1,62 @@
 {
     "registryname": "wloreactivaredplant",
     "localizedname": "矿物活化工厂",
+    "modifiers": [
+        {
+            "elements": "chisel:blockcobalt@3",
+            "x": 0,
+            "y": 6,
+            "z": 3,
+            "description": "将顶部方块改为该方块则机器产出提高为§9200%",
+            "modifier": {
+                "target": "modularmachinery:item",
+                "io": "output",
+                "operation": 1,
+                "multiplier": 2.0
+            }
+        },
+        {
+            "elements": "tconevo:metal_block@8",
+            "x": 0,
+            "y": 6,
+            "z": 3,
+            "description": "将顶部方块改为该方块则机器产出提高为§9400%",
+            "modifier": {
+                "target": "modularmachinery:item",
+                "io": "output",
+                "operation": 1,
+                "multiplier": 4.0
+            }
+        },
+        {
+            "elements": "tconevo:metal_block@0",
+            "x": 0,
+            "y": 6,
+            "z": 3,
+            "description": "将顶部方块改为该方块则机器产出提高为§9800%",
+            "modifier": {
+                "target": "modularmachinery:item",
+                "io": "output",
+                "operation": 1,
+                "multiplier": 8.0
+            }
+        },
+        {
+            "elements": "tconevo:metal_block@1",
+            "x": 0,
+            "y": 6,
+            "z": 3,
+            
+            "description": "将顶部方块改为该方块则机器产出提高为§91600%",
+            "modifier": {
+                "target": "modularmachinery:item",
+                "io": "output",
+                "operation": 1,
+                "multiplier": 16.0
+            }
+            
+        }
+    ],
     "parts": [
         {
             "x": 0,
@@ -144,7 +200,7 @@
             "elements": [
                 "modularmachinery:blockcasing@0",
                 "modularmachinery:blockoutputbus",
-                "modularmachinery:blockmeiteminputbus"
+                "modularmachinery:blockmeitemoutputbus"
             ]
         },
         {
@@ -252,7 +308,8 @@
             "elements": [
                 "modularmachinery:blockcasing@0",
                 "modularmachinery:blockinputbus",
-                "modularmachinery:blockmepatternprovider"
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmeiteminputbus"
             ]
         },
         {
@@ -279,7 +336,9 @@
             "elements": [
                 "chisel:factory1@1"
             ]
+            
         },
+        
         {
             "x": 3,
             "y": 3,
@@ -724,7 +783,9 @@
             "z": 4,
 
             "elements": [
-                "modularmachinery:blockcasing@0"
+                "modularmachinery:blockcasing@0",
+                "modularmachinery:blockinputbus",
+                "modularmachinery:blockmeiteminputbus"
             ]
         },
         {

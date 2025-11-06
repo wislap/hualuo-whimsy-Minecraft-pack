@@ -256,9 +256,10 @@ RecipeBuilder.newBuilder("assemblyplant_czdl","assemblyplant",3600)
 		<draconicevolution:chaotic_core>*1,
 		<mekanism:controlcircuit:3>*2,
 		<mekanism:cosmicalloy>*4,
-		<ore:Antimatter>*16
+		<ore:Antimatter>*16,
+		<avaritia:resource:6>*1
 	])
-	.addItemOutput(<mekanism:controlcircuit:4>*1)
+	.addItemOutput(<mekanism:controlcircuit:4>*16)
 	.build();
 
 RecipeBuilder.newBuilder("assemblyplant_yzhj","assemblyplant",1800)
@@ -459,60 +460,60 @@ RecipeBuilder.newBuilder("assemblyplant_cr","assemblyplant",600)
 
 RecipeBuilder.newBuilder("assemblyplant_mekax","assemblyplant",1200)
 	.addEnergyPerTickInput(10000000)
-	.addImpetusInput(50)
 	.addItemInputs([
+		<thermalfoundation:geode>*5,
 		<draconicevolution:chaotic_core>*1,
 		<mekanism:controlcircuit:3>*2,
 		<mekanism:cosmicalloy>*4,
 		<ore:PoloniumPellet>*4,
 		<draconicevolution:draconic_boots>*1
 	])
-	.addItemOutput(<mekanism:mekasuitboots>*1)
+	.addItemOutput(<mekanism:mekasuit_boots>*1)
 	.build();
 
 RecipeBuilder.newBuilder("assemblyplant_mekak","assemblyplant",1200)
 	.addEnergyPerTickInput(10000000)
-	.addImpetusInput(50)
 	.addItemInputs([
+		<thermalfoundation:geode>*5,
 		<draconicevolution:chaotic_core>*1,
 		<mekanism:controlcircuit:3>*2,
 		<mekanism:cosmicalloy>*4,
 		<ore:PoloniumPellet>*4,
 		<draconicevolution:draconic_legs>*1
 	])
-	.addItemOutput(<mekanism:mekasuitleggings>*1)
+	.addItemOutput(<mekanism:mekasuit_pants>*1)
 	.build();
 
 RecipeBuilder.newBuilder("assemblyplant_mekax","assemblyplant",1200)
 	.addEnergyPerTickInput(10000000)
-	.addImpetusInput(50)
 	.addItemInputs([
+		<thermalfoundation:geode>*5,
 		<draconicevolution:chaotic_core>*1,
 		<mekanism:controlcircuit:3>*2,
 		<mekanism:cosmicalloy>*4,
 		<ore:PoloniumPellet>*4,
 		<draconicevolution:draconic_chest>*1
 	])
-	.addItemOutput(<mekanism:mekasuitchestplate>*1)
+	.addItemOutput(<mekanism:mekasuit_bodyarmor>*1)
 	.build();
 
 RecipeBuilder.newBuilder("assemblyplant_mekat","assemblyplant",1200)
 	.addEnergyPerTickInput(10000000)
-	.addImpetusInput(50)
 	.addItemInputs([
+		<thermalfoundation:geode>*5,
 		<draconicevolution:chaotic_core>*1,
 		<mekanism:controlcircuit:3>*2,
 		<mekanism:cosmicalloy>*4,
 		<ore:PoloniumPellet>*4,
 		<draconicevolution:draconic_helm>*1
 	])
-	.addItemOutput(<mekanism:mekasuithelmet>*1)
+	.addItemOutput(<mekanism:mekasuit_helmet>*1)
 	.build();
 
 RecipeBuilder.newBuilder("assemblyplant_mekag","assemblyplant",1200)
 	.addEnergyPerTickInput(10000000)
-	.addImpetusInput(50)
 	.addItemInputs([
+		<thermalfoundation:geode>*5,
 		<draconicevolution:chaotic_core>*1,
 		<mekanism:controlcircuit:3>*2,
 		<mekanism:cosmicalloy>*4,
@@ -524,8 +525,8 @@ RecipeBuilder.newBuilder("assemblyplant_mekag","assemblyplant",1200)
 
 RecipeBuilder.newBuilder("assemblyplant_mekaj","assemblyplant",1200)
 	.addEnergyPerTickInput(10000000)
-	.addImpetusInput(50)
 	.addItemInputs([
+		<thermalfoundation:geode>*5,
 		<draconicevolution:chaotic_core>*1,
 		<mekanism:controlcircuit:3>*2,
 		<mekanism:cosmicalloy>*4,
@@ -544,4 +545,115 @@ RecipeBuilder.newBuilder("assemblyplant_czkzq","assemblyplant",1200)
 		<draconicevolution:fusion_crafting_core>*1
 	])
 	.addItemOutput(<modularmachinery:createmanipulator_factory_controller>*1)
+	.build();
+
+RecipeBuilder.newBuilder("assemblyplant_sllc","assemblyplant",200)
+	.addEnergyPerTickInput(192000)
+	.addItemInputs([
+		<contenttweaker:crystal_matrix_stance_generator>*2,
+		<ore:ingotPalladium>*4,
+		<mekanism:controlcircuit:3>*4,
+		<draconicevolution:awakened_core>*2,
+		<contenttweaker:shenlong_wire>*4,
+		<contenttweaker:plate_awakened_dragon>*4
+	])
+	.addItemOutput(<contenttweaker:shenlong_stand_generator>*2)
+	.build();
+
+RecipeBuilder.newBuilder("assemblyplant_zzjzlc","assemblyplant",200)
+	.addEnergyPerTickInput(224000)
+	.addItemInputs([
+		<contenttweaker:shenlong_stand_generator>*2,
+		<ore:ingotPalladium>*4,
+		<mekanism:controlcircuit:3>*4,
+		<ore:ingotCosmicNeutronium>*4,
+		<contenttweaker:degenerate_neutron_matrix_fibers>*2,
+		<contenttweaker:plate_degenerate_neutron_matrix>*4
+	])
+	.addItemOutput(<contenttweaker:degenerate_neutron_force_field_matrix_generator>*2)
+	.build();
+
+RecipeBuilder.newBuilder("assemblyplant_hdlc","assemblyplant",200)
+	.addEnergyPerTickInput(352000)
+	.addItemInputs([
+		<contenttweaker:degenerate_neutron_force_field_matrix_generator>*2,
+		<ore:ingotDarkIron>*4,
+		<mekanism:controlcircuit:3>*4,
+		<contenttweaker:plate_chaos_metal>*4,
+		<draconicevolution:chaotic_core>*2,
+		<contenttweaker:chaos_wire>*4
+	])
+	.addItemOutput(<contenttweaker:chaos_stance_generator>*2)
+	.build();
+
+RecipeBuilder.newBuilder("assemblyplant_slt","assemblyplant",200)
+	.addEnergyPerTickInput(192000)
+	.addItemInputs([
+		<draconicevolution:wyvern_helm>*1,
+		<contenttweaker:shenlong_stand_generator>*2,
+		<contenttweaker:plate_awakened_dragon>*4,
+		<contenttweaker:precision_bolts_awakened_dragon>*4,
+		<contenttweaker:shenlong_wire>*4
+	])
+	.addItemOutput(<draconicevolution:draconic_helm>*1)
+	.build();
+
+RecipeBuilder.newBuilder("assemblyplant_slj","assemblyplant",200)
+	.addEnergyPerTickInput(192000)
+	.addItemInputs([
+		<draconicevolution:wyvern_chest>*1,
+		<contenttweaker:shenlong_stand_generator>*2,
+		<contenttweaker:plate_awakened_dragon>*4,
+		<contenttweaker:precision_bolts_awakened_dragon>*4,
+		<contenttweaker:shenlong_wire>*4
+	])
+	.addItemOutput(<draconicevolution:draconic_chest>*1)
+	.build();
+
+RecipeBuilder.newBuilder("assemblyplant_slk","assemblyplant",200)
+	.addEnergyPerTickInput(192000)
+	.addItemInputs([
+		<draconicevolution:wyvern_legs>*1,
+		<contenttweaker:shenlong_stand_generator>*2,
+		<contenttweaker:plate_awakened_dragon>*4,
+		<contenttweaker:precision_bolts_awakened_dragon>*4,
+		<contenttweaker:shenlong_wire>*4
+	])
+	.addItemOutput(<draconicevolution:draconic_legs>*1)
+	.build();
+
+RecipeBuilder.newBuilder("assemblyplant_slx","assemblyplant",200)
+	.addEnergyPerTickInput(192000)
+	.addItemInputs([
+		<draconicevolution:wyvern_boots>*1,
+		<contenttweaker:shenlong_stand_generator>*2,
+		<contenttweaker:plate_awakened_dragon>*4,
+		<contenttweaker:precision_bolts_awakened_dragon>*4,
+		<contenttweaker:shenlong_wire>*4
+	])
+	.addItemOutput(<draconicevolution:draconic_boots>*1)
+	.build();
+
+RecipeBuilder.newBuilder("assemblyplant_slmater","assemblyplant",200)
+	.addEnergyPerTickInput(384000)
+	.addItemInputs([
+		<tconevo:material>*19,
+		<contenttweaker:shenlong_stand_generator>*16,
+		<contenttweaker:plate_awakened_dragon>*32,
+		<contenttweaker:precision_bolts_awakened_dragon>*32,
+		<contenttweaker:shenlong_wire>*32
+	])
+	.addItemOutput(<tconevo:metal:5>*19)
+	.build();
+
+RecipeBuilder.newBuilder("assemblyplant_hdmater","assemblyplant",200)
+	.addEnergyPerTickInput(1536000)
+	.addItemInputs([
+		<tconevo:material>*19,
+		<contenttweaker:chaos_stance_generator>*8,
+		<contenttweaker:plate_chaos_metal>*32,
+		<contenttweaker:precision_bolts_chaos_metal>*32,
+		<contenttweaker:chaos_wire>*32
+	])
+	.addItemOutput(<tconevo:metal:10>*19)
 	.build();

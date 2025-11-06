@@ -1,0 +1,20 @@
+import mods.modularmachinery.RecipeModifier;
+
+zenClass RecipeModifierBuilder {
+    
+    static function newBuilder() as RecipeModifierBuilder;
+    
+    function setValue(value as float) as RecipeModifierBuilder;
+    
+    static function create(type as string, ioTypeStr as string, value as float, operation as int, affectChance as bool) as RecipeModifierBuilder;
+    
+    function build() as RecipeModifier;
+    
+    function setRequirementType(type as string) as RecipeModifierBuilder;
+    
+    function isAffectChance(affectChance as bool) as RecipeModifierBuilder;
+    
+    function setOperation(operation as int) as RecipeModifierBuilder;
+    
+    function setIOType(ioTypeStr as string) as RecipeModifierBuilder;
+}

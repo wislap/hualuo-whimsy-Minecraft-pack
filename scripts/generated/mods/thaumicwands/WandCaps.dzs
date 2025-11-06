@@ -1,0 +1,17 @@
+import crafttweaker.item.IItemStack;
+import thaumcraft.aspect.CTAspectStack;
+
+zenClass WandCaps {
+    
+    static function remove(arg0 as IItemStack) as void;
+    
+    static function remove(arg0 as string) as void;
+    
+    static function register(arg0 as string, arg1 as float, arg2 as IItemStack, arg3 as int) as void;
+    
+    static function register(arg0 as string, arg1 as string, arg2 as float, arg3 as CTAspectStack[], arg4 as IItemStack, arg5 as int) as void;
+    
+    static function register(arg0 as string, arg1 as float, arg2 as CTAspectStack[], arg3 as IItemStack, arg4 as int) as void;
+    
+    static function register(arg0 as string, arg1 as string, arg2 as float, arg3 as IItemStack, arg4 as int) as void;
+}

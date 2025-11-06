@@ -1,0 +1,10 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
+
+zenClass Canner {
+    
+    static function addEnrichRecipe(arg0 as ILiquidStack, arg1 as ILiquidStack, arg2 as IIngredient) as void;
+    
+    static function addBottleRecipe(arg0 as IItemStack, arg1 as IIngredient, arg2 as IIngredient) as void;
+}

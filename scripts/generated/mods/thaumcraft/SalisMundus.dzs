@@ -1,0 +1,13 @@
+import crafttweaker.block.IBlock;
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDictEntry;
+
+zenClass SalisMundus {
+    
+    static function removeSingleConversion(output as IIngredient) as void;
+    
+    static function addSingleConversion(_in as IBlock, out as IItemStack, research as string = null) as void;
+    
+    static function addSingleConversion(_in as IOreDictEntry, out as IItemStack, research as string = null) as void;
+}

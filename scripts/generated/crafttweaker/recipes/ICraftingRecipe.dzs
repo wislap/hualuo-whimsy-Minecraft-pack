@@ -1,0 +1,19 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+
+zenClass ICraftingRecipe {
+    val name as string;
+    val hidden as bool;
+    val commandString as string;
+    val hasTransformers as bool;
+    val fullResourceDomain as string;
+    val output as IItemStack;
+    val shaped as bool;
+    val ingredients1D as IIngredient[];
+    val ingredients2D as IIngredient[][];
+    val hasRecipeAction as bool;
+    val resourceDomain as string;
+    val hasRecipeFunction as bool;
+    
+    function getName() as string;
+}

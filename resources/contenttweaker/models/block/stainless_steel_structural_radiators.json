@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "contenttweaker:blocks/stainless_steel_housing",
+        "down": "contenttweaker:blocks/structural_radiators/stainless_steel/stainless_steel_structural_radiators_bottom",
+        "up": "contenttweaker:blocks/structural_radiators/stainless_steel/stainless_steel_structural_radiators_top",
+        "north": "contenttweaker:blocks/stainless_steel_housing",
+        "east": "contenttweaker:blocks/stainless_steel_housing",
+        "south": "contenttweaker:blocks/stainless_steel_housing",
+        "west": "contenttweaker:blocks/stainless_steel_housing"
+    }
+}

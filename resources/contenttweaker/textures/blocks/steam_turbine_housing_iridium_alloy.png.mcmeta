@@ -1,0 +1,17 @@
+{
+  "ctm": {
+    "ctm_version": 1,
+    "type": "CTM",
+    "layer": "SOLID",
+    "textures": [
+      "contenttweaker:blocks/steam_turbine_housing_iridium_alloy-ctm"
+    ],
+    "extra": {
+      "connect_to": [
+        {"block": "contenttweaker:iridium_alloy_structural_radiators"},
+        {"block": "contenttweaker:steam_turbine_housing_iridium_alloy"}
+      ]
+    }
+  }
+}
+  

@@ -1,0 +1,10 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.WeightedItemStack;
+
+zenClass SmeltingBonus {
+    
+    static function addSmeltingBonus(input as IIngredient, stack as WeightedItemStack) as void;
+    
+    static function removeSmeltingBonus(input as IIngredient, stack as IItemStack) as void;
+}

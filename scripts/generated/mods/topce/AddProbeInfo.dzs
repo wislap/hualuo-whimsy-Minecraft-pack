@@ -1,0 +1,11 @@
+import crafttweaker.block.IBlockState;
+
+zenClass AddProbeInfo {
+    
+    static function addProbeText(arg0 as IBlockState, arg1 as string) as void;
+    
+    
+    static function addDimensionModeText(arg0 as IBlockState, arg1 as string, arg2 as int) as void;
+    
+    
+}

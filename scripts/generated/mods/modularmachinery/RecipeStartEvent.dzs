@@ -1,0 +1,5 @@
+import mods.modularmachinery.RecipeEvent;
+
+zenClass RecipeStartEvent extends RecipeEvent {
+    
+}

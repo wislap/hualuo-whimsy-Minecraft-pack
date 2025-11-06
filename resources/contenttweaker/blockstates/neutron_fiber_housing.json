@@ -1,0 +1,16 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "texture": "contenttweaker:blocks/neutron_fiber_housing",
+      "particle": "contenttweaker:blocks/neutron_fiber_housing"
+    },
+    "model":"contenttweaker:neutron_fiber_housing",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "forge_marker": 1,
+  "defaults": {"model": "contenttweaker:ec_modular_synthetic_memory/l6_synthetic_storage_matrix_off_line" },
+  "variants": {
+      "facing=north": { "model": "contenttweaker:ec_modular_synthetic_memory/l6_synthetic_storage_matrix_off_line", "y": -180  },
+      "facing=south": { "model": "contenttweaker:ec_modular_synthetic_memory/l6_synthetic_storage_matrix_off_line"},
+      "facing=west":  { "model": "contenttweaker:ec_modular_synthetic_memory/l6_synthetic_storage_matrix_off_line", "y": 90 },
+      "facing=east":  { "model": "contenttweaker:ec_modular_synthetic_memory/l6_synthetic_storage_matrix_off_line", "y": 270 },
+      "inventory": [
+        {
+          "transform": "forge:default-block"
+        }
+      ]
+    }
+  }
+  

@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "contenttweaker:blocks/steam_turbine/roulette_coil_set_fixed_star_alloys",
+        "down": "contenttweaker:blocks/steam_turbine/roulette_coil_set_up",
+        "up": "contenttweaker:blocks/steam_turbine/roulette_coil_set_up",
+        "north": "contenttweaker:blocks/steam_turbine/roulette_coil_set_fixed_star_alloys",
+        "east": "contenttweaker:blocks/steam_turbine/roulette_coil_set_fixed_star_alloys",
+        "south": "contenttweaker:blocks/steam_turbine/roulette_coil_set_fixed_star_alloys",
+        "west": "contenttweaker:blocks/steam_turbine/roulette_coil_set_fixed_star_alloys"
+    }
+}

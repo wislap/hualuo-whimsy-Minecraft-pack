@@ -1,0 +1,6 @@
+import crafttweaker.block.IBlockState;
+
+zenClass IBlockStatePredicate {
+    
+    function (t as IBlockState) as bool;
+}

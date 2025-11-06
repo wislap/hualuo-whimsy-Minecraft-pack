@@ -13,7 +13,20 @@ recipes.remove(<ic2:resource:12>);
 recipes.remove(<draconicevolution:chaotic_core>);
 recipes.remove(<draconicevolution:draconic_core>);
 recipes.remove(<twilightforest:uncrafting_table>);
+recipes.remove(<draconicevolution:wyvern_helm>);
+recipes.remove(<draconicevolution:wyvern_chest>);
+recipes.remove(<draconicevolution:wyvern_legs>);
+recipes.remove(<draconicevolution:wyvern_boots>);
 
+FusionCrafting.remove(<draconicevolution:wyvern_helm>);
+FusionCrafting.remove(<draconicevolution:wyvern_chest>);
+FusionCrafting.remove(<draconicevolution:wyvern_legs>);
+FusionCrafting.remove(<draconicevolution:wyvern_boots>);
+FusionCrafting.remove(<tconevo:material>);
+FusionCrafting.remove(<minecraft:diamond_helmet>);
+FusionCrafting.remove(<minecraft:diamond_chestplate>);
+FusionCrafting.remove(<minecraft:diamond_leggings>);
+FusionCrafting.remove(<minecraft:diamond_boots>);
 FusionCrafting.remove(<draconicevolution:chaos_shard>);
 FusionCrafting.remove(<minecraft:nether_star>);
 
@@ -239,8 +252,8 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <extendedcrafting:material:32>*
 	[<ore:ingotShadowium>, <ore:ingotOrichalcos>, <ore:ingotTitanium>, <ore:ingotSilver>, <ore:ingotFireDragonsteel>, <ore:ingotIceDragonsteel>, <ore:ingotFluixSteel>, <mets:niobium_titanium_ingot>, <ore:ingotFusionite>], 
 	[<ore:ingotIrradium>, <ore:ingotSolarsteel>, <ore:ingotGallium>, <ore:ingotGravitonium>, <ore:ingotRunesteel>, <ore:ingotTrichromadentium>, <ore:ingotAtronium>, <ore:ingotEbonite>, <ore:ingotThaumium>], 
 	[<ore:ingotVoid>, <ore:ingotBrass>, <ore:ingotIronwood>, <ore:ingotFiery>, <ore:ingotKnightmetal>, <ore:ingotCobalt>, <ore:ingotArdite>, <ore:ingotManyullyn>, <ore:ingotKnightslime>], 
-	[<ore:ingotWyvernMetal>, <ore:ingotDraconicMetal>, <ore:ingotChaoticMetal>, <ore:ingotEnergium>, <ore:ingotUUMatter>, <ore:ingotValasium>, <ore:ingotRefinedGlowstone>, <ore:ingotRefinedObsidian>, <ore:ingotOsmium>], 
-	[<ore:ingotAlubrass>, null, null, null, null, null, null, null, null], 
+	[<ore:ingotWyvernMetal>, <ore:ingotDraconicMetal>, <ore:ingotAlubrass>, <ore:ingotEnergium>, <ore:ingotUUMatter>, <ore:ingotValasium>, <ore:ingotRefinedGlowstone>, <ore:ingotRefinedObsidian>, <ore:ingotOsmium>], 
+	[<ore:ingotCopper>, null, null, null, null, null, null, null, null], 
 	[null, null, null, null, null, null, null, null, null]
 ]);
 
@@ -256,9 +269,9 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <draconicevolution:draconium_ca
 	[<draconicevolution:chaotic_core>, <extendedcrafting:material:13>, <ore:ingotUltimate>, <ore:ingotUltimate>, <draconicevolution:chaotic_core>, <ore:ingotUltimate>, <ore:ingotUltimate>, <extendedcrafting:material:13>, <draconicevolution:chaotic_core>], 
 	[<extendedcrafting:material:13>, <mekanism:controlcircuit:4>, <draconicevolution:draconium_capacitor:1>, <draconicevolution:draconium_capacitor:1>, <draconicevolution:reactor_component>, <draconicevolution:draconium_capacitor:1>, <draconicevolution:draconium_capacitor:1>, <mekanism:controlcircuit:4>, <extendedcrafting:material:13>], 
 	[<ore:ingotUltimate>, <draconicevolution:draconium_capacitor:1>, <mekanism:controlcircuit:4>, <galacticraftplanets:atomic_battery>, <ecoaeextension:estorage_energy_cell_l9>, <galacticraftplanets:atomic_battery>, <mekanism:controlcircuit:4>, <draconicevolution:draconium_capacitor:1>, <ore:ingotUltimate>], 
-	[<ore:ingotUltimate>, <draconicevolution:draconium_capacitor:1>, <galaxyspace:ultimate_battery:100>, <draconicevolution:energy_storage_core>, <ore:gearChaoticMetal>, <draconicevolution:energy_storage_core>, <extraplanets:massive_battery>, <draconicevolution:draconium_capacitor:1>, <ore:ingotUltimate>], 
+	[<ore:ingotUltimate>, <draconicevolution:draconium_capacitor:1>, <ore:ingotAtronium>, <draconicevolution:energy_storage_core>, <ore:gearChaoticMetal>, <draconicevolution:energy_storage_core>, <extraplanets:massive_battery>, <draconicevolution:draconium_capacitor:1>, <ore:ingotUltimate>], 
 	[<draconicevolution:chaotic_core>, <draconicevolution:reactor_component>, <ecoaeextension:estorage_energy_cell_l9>, <ore:gearChaoticMetal>, <draconicevolution:reactor_core>, <ore:gearChaoticMetal>, <ecoaeextension:estorage_energy_cell_l9>, <draconicevolution:reactor_component>, <draconicevolution:chaotic_core>], 
-	[<ore:ingotUltimate>, <draconicevolution:draconium_capacitor:1>, <galaxyspace:ultimate_battery:100>, <draconicevolution:energy_storage_core>, <ore:gearChaoticMetal>, <draconicevolution:energy_storage_core>, <extraplanets:massive_battery>, <draconicevolution:draconium_capacitor:1>, <ore:ingotUltimate>], 
+	[<ore:ingotUltimate>, <draconicevolution:draconium_capacitor:1>, <ore:ingotAtronium>, <draconicevolution:energy_storage_core>, <ore:gearChaoticMetal>, <draconicevolution:energy_storage_core>, <extraplanets:massive_battery>, <draconicevolution:draconium_capacitor:1>, <ore:ingotUltimate>], 
 	[<ore:ingotUltimate>, <draconicevolution:draconium_capacitor:1>, <mekanism:controlcircuit:4>, <extraplanets:electric_parts:1>, <ecoaeextension:estorage_energy_cell_l9>, <extraplanets:electric_parts:1>, <mekanism:controlcircuit:4>, <draconicevolution:draconium_capacitor:1>, <ore:ingotUltimate>], 
 	[<extendedcrafting:material:13>, <mekanism:controlcircuit:4>, <draconicevolution:draconium_capacitor:1>, <draconicevolution:draconium_capacitor:1>, <draconicevolution:reactor_component>, <draconicevolution:draconium_capacitor:1>, <draconicevolution:draconium_capacitor:1>, <mekanism:controlcircuit:4>, <extendedcrafting:material:13>], 
 	[<draconicevolution:chaotic_core>, <extendedcrafting:material:13>, <ore:ingotUltimate>, <ore:ingotUltimate>, <draconicevolution:chaotic_core>, <ore:ingotUltimate>, <ore:ingotUltimate>, <extendedcrafting:material:13>, <draconicevolution:chaotic_core>]

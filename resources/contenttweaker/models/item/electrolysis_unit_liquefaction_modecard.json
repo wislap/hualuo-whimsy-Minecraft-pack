@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/electrolysis_unit_liquefaction_modecard"
+  }
+}

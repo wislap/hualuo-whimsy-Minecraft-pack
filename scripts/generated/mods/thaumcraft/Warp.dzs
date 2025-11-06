@@ -1,0 +1,6 @@
+import crafttweaker.item.IItemStack;
+
+zenClass Warp {
+    
+    static function setWarp(stack as IItemStack, amount as int) as void;
+}

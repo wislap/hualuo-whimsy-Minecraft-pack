@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/quick_insert_quartz_tube_orange_ink"
+  }
+}

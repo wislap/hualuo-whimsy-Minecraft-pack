@@ -1,0 +1,106 @@
+{
+  "forge_marker": 1,
+  "defaults": {"model": "contenttweaker:acid_resistant_aluminum_engineering_block"},
+  "variants": {
+    "normal": [{"model": "contenttweaker:acid_resistant_aluminum_engineering_block"}],
+    "inventory": [
+      {"transform": "forge:default-block"}
+    ],
+    "facing=north,plane_rot=down": [{
+      "model": "contenttweaker:acid_resistant_aluminum_engineering_block",
+      "transform": "identity"
+    }],
+    "facing=north,plane_rot=up": [{
+      "model": "contenttweaker:acid_resistant_aluminum_engineering_block",
+      "transform": {"rotation": [0, 0, 180]}
+    }],
+    "facing=north,plane_rot=left": [{
+      "model": "contenttweaker:acid_resistant_aluminum_engineering_block",
+      "transform": {"rotation": [0, 0, 90]}
+    }],
+    "facing=north,plane_rot=right": [{
+      "model": "contenttweaker:acid_resistant_aluminum_engineering_block",
+      "transform": {"rotation": [0, 0, 270]}
+    }],
+    "facing=south,plane_rot=down": [{
+      "model": "contenttweaker:acid_resistant_aluminum_engineering_block",
+      "transform": {"rotation": [0, 180, 0]}
+    }],
+    "facing=south,plane_rot=up": [{
+      "model": "contenttweaker:acid_resistant_aluminum_engineering_block",
+      "transform": {"rotation": [0, 180, 180]}
+    }],
+    "facing=south,plane_rot=left": [{
+      "model": "contenttweaker:acid_resistant_aluminum_engineering_block",
+      "transform": {"rotation": [0, 180, 90]}
+    }],
+    "facing=south,plane_rot=right": [{
+      "model": "contenttweaker:acid_resistant_aluminum_engineering_block",
+      "transform": {"rotation": [0, 180, 270]}
+    }],
+    "facing=west,plane_rot=down": [{
+      "model": "contenttweaker:acid_resistant_aluminum_engineering_block",
+      "transform": {"rotation": [0, 90, 0]}
+    }],
+    "facing=west,plane_rot=up": [{
+      "model": "contenttweaker:acid_resistant_aluminum_engineering_block",
+      "transform": {"rotation": [0, 90, 180]}
+    }],
+    "facing=west,plane_rot=left": [{
+      "model": "contenttweaker:acid_resistant_aluminum_engineering_block",
+      "transform": {"rotation": [0, 90, 90]}
+    }],
+    "facing=west,plane_rot=right": [{
+      "model": "contenttweaker:acid_resistant_aluminum_engineering_block",
+      "transform": {"rotation": [0, 90, 270]}
+    }],
+    "facing=east,plane_rot=down": [{
+      "model": "contenttweaker:acid_resistant_aluminum_engineering_block",
+      "transform": {"rotation": [0, 270, 0]}
+    }],
+    "facing=east,plane_rot=up": [{
+      "model": "contenttweaker:acid_resistant_aluminum_engineering_block",
+      "transform": {"rotation": [0, 270, 180]}
+    }],
+    "facing=east,plane_rot=left": [{
+      "model": "contenttweaker:acid_resistant_aluminum_engineering_block",
+      "transform": {"rotation": [0, 270, 90]}
+    }],
+    "facing=east,plane_rot=right": [{
+      "model": "contenttweaker:acid_resistant_aluminum_engineering_block",
+      "transform": {"rotation": [0, 270, 270]}
+    }],
+    "facing=up,plane_rot=down": [{
+      "model": "contenttweaker:acid_resistant_aluminum_engineering_block",
+      "transform": {"rotation": [90, 0, 0]}
+    }],
+    "facing=up,plane_rot=up": [{
+      "model": "contenttweaker:acid_resistant_aluminum_engineering_block",
+      "transform": {"rotation": [90, 0, 180]}
+    }],
+    "facing=up,plane_rot=left": [{
+      "model": "contenttweaker:acid_resistant_aluminum_engineering_block",
+      "transform": {"rotation": [90, 0, 90]}
+    }],
+    "facing=up,plane_rot=right": [{
+      "model": "contenttweaker:acid_resistant_aluminum_engineering_block",
+      "transform": {"rotation": [90, 0, 270]}
+    }],
+    "facing=down,plane_rot=down": [{
+      "model": "contenttweaker:acid_resistant_aluminum_engineering_block",
+      "transform": {"rotation": [270, 0, 0]}
+    }],
+    "facing=down,plane_rot=up": [{
+      "model": "contenttweaker:acid_resistant_aluminum_engineering_block",
+      "transform": {"rotation": [270, 0, 180]}
+    }],
+    "facing=down,plane_rot=left": [{
+      "model": "contenttweaker:acid_resistant_aluminum_engineering_block",
+      "transform": {"rotation": [270, 0, 90]}
+    }],
+    "facing=down,plane_rot=right": [{
+      "model": "contenttweaker:acid_resistant_aluminum_engineering_block",
+      "transform": {"rotation": [270, 0, 270]}
+    }]
+  }
+}

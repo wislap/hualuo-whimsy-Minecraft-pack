@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:parts/part_01",
+    "layer1": "contenttweaker:items/encapsulation_endest_pearl"
+  }
+}

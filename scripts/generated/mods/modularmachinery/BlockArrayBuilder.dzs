@@ -1,0 +1,52 @@
+import crafttweaker.block.IBlockState;
+import crafttweaker.data.IData;
+import crafttweaker.item.IItemStack;
+import mods.modularmachinery.AdvancedBlockChecker;
+import mods.modularmachinery.TaggedPositionBlockArray;
+
+zenClass BlockArrayBuilder {
+    
+    static function newBuilder() as BlockArrayBuilder;
+    
+    static function newBuilder(blockArray as TaggedPositionBlockArray) as BlockArrayBuilder;
+    
+    function setNBT(data as IData) as BlockArrayBuilder;
+    
+    function setTag(tag as string) as BlockArrayBuilder;
+    
+    function addBlock(xList as int[], yList as int[], zList as int[], nbt as IData, previewNBT as IData, ...blockNames as string) as BlockArrayBuilder;
+    
+    function addBlock(xList as int[], yList as int[], zList as int[], nbt as IData, previewNBT as IData, checker as AdvancedBlockChecker, ...blockNames as string) as BlockArrayBuilder;
+    
+    function addBlock(x as int, y as int, z as int, ...blockNames as string) as BlockArrayBuilder;
+    
+    function addBlock(xList as int[], yList as int[], zList as int[], ...ctItemStacks as IItemStack) as BlockArrayBuilder;
+    
+    function addBlock(xList as int[], yList as int[], zList as int[], checker as AdvancedBlockChecker, ...blockNames as string) as BlockArrayBuilder;
+    
+    function addBlock(xList as int[], yList as int[], zList as int[], ...blockNames as string) as BlockArrayBuilder;
+    
+    function addBlock(xList as int[], yList as int[], zList as int[], ...ctBlockStates as IBlockState) as BlockArrayBuilder;
+    
+    function addBlock(xList as int[], yList as int[], zList as int[], checker as AdvancedBlockChecker, ...ctBlockStates as IBlockState) as BlockArrayBuilder;
+    
+    function addBlock(xList as int[], yList as int[], zList as int[], nbt as IData, previewNBT as IData, ...ctBlockStates as IBlockState) as BlockArrayBuilder;
+    
+    function addBlock(xList as int[], yList as int[], zList as int[], nbt as IData, previewNBT as IData, checker as AdvancedBlockChecker, ...ctBlockStates as IBlockState) as BlockArrayBuilder;
+    
+    function addBlock(x as int, y as int, z as int, ...ctBlockStates as IBlockState) as BlockArrayBuilder;
+    
+    function addBlock(xList as int[], yList as int[], zList as int[], checker as AdvancedBlockChecker, ...ctItemStacks as IItemStack) as BlockArrayBuilder;
+    
+    function addBlock(xList as int[], yList as int[], zList as int[], nbt as IData, previewNBT as IData, ...ctItemStacks as IItemStack) as BlockArrayBuilder;
+    
+    function addBlock(xList as int[], yList as int[], zList as int[], nbt as IData, previewNBT as IData, checker as AdvancedBlockChecker, ...ctItemStacks as IItemStack) as BlockArrayBuilder;
+    
+    function addBlock(x as int, y as int, z as int, ...ctItemStacks as IItemStack) as BlockArrayBuilder;
+    
+    function getBlockArray() as TaggedPositionBlockArray;
+    
+    function setPreviewNBT(data as IData) as BlockArrayBuilder;
+    
+    function setBlockChecker(checker as AdvancedBlockChecker) as BlockArrayBuilder;
+}

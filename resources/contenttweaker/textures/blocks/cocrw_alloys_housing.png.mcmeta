@@ -1,0 +1,16 @@
+{
+  "ctm": {
+    "ctm_version": 1,
+    "type": "CTM",
+    "layer": "SOLID",
+    "textures": [
+      "contenttweaker:blocks/cocrw_alloys_housing-ctm"
+    ],
+    "extra": {
+      "connect_to": [
+        {"block": "contenttweaker:cocrw_alloys_structural_radiators"},
+        {"block": "contenttweaker:cocrw_alloys_housing"}
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"1": "contenttweaker:blocks/ceramics/white_tiles/white_tiles_brick/white_tiles_brick_bottom",
+		"3": "contenttweaker:blocks/ceramics/white_tiles/white_tiles_brick/white_tiles_brick_north",
+		"4": "contenttweaker:blocks/ceramics/white_tiles/white_tiles_brick/white_tiles_brick_top",
+		"5": "contenttweaker:blocks/ceramics/white_tiles/white_tiles_brick/white_tiles_brick_east",
+		"6": "contenttweaker:blocks/ceramics/white_tiles/white_tiles_brick/white_tiles_brick_south",
+		"7": "contenttweaker:blocks/ceramics/white_tiles/white_tiles_brick/white_tiles_brick_west",
+		"particle": "contenttweaker:blocks/ceramics/white_tiles/white_tiles_brick/white_tiles_brick_west"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#5"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#6"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#7"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
+		}
+	]
+}

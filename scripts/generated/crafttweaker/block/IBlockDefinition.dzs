@@ -1,0 +1,68 @@
+import crafttweaker.block.IBlockState;
+import crafttweaker.creativetabs.ICreativeTab;
+import crafttweaker.entity.IEntity;
+import crafttweaker.world.IBlockAccess;
+import crafttweaker.world.IBlockPos;
+import crafttweaker.world.IExplosion;
+import crafttweaker.world.IFacing;
+import crafttweaker.world.IWorld;
+
+zenClass IBlockDefinition {
+    val id as string;
+    val displayName as string;
+    val defaultState as IBlockState;
+    var hardness as float;
+    var resistance as float;
+    val unlocalizedName as string;
+    var lightOpacity as float;
+    var defaultSlipperiness as float;
+    var lightLevel as float;
+    val harvestLevel as int;
+    val harvestTool as string;
+    var creativeTab as ICreativeTab;
+    var tickRandomly as bool;
+    val canSpawnInBlock as bool;
+    val numericalId as int;
+    
+    function getResistance() as float;
+    
+    function getResistance(world as IWorld, pos as IBlockPos, entity as IEntity, explosion as IExplosion) as float;
+    
+    function canPlaceBlockAt(world as IWorld, pos as IBlockPos) as bool;
+    
+    function getLightOpacity() as float;
+    
+    function getLightOpacity(state as IBlockState, world as IWorld, pos as IBlockPos) as float;
+    
+    function getLightOpacity(state as IBlockState) as float;
+    
+    function tickRate(world as IWorld) as int;
+    
+    function getStateFromMeta(meta as int) as IBlockState;
+    
+    function getLightLevel(state as IBlockState) as float;
+    
+    function getLightLevel() as float;
+    
+    function getLightLevel(state as IBlockState, world as IWorld, pos as IBlockPos) as float;
+    
+    function isToolEffective(type as string, state as IBlockState) as bool;
+    
+    function getHarvestLevel() as int;
+    
+    function getHarvestLevel(state as IBlockState) as int;
+    
+    function setHarvestLevel(toolClass as string, level as int, state as IBlockState = null) as void;
+    
+    function getHarvestTool(state as IBlockState) as string;
+    
+    function getHarvestTool() as string;
+    
+    function getSlipperiness(state as IBlockState, access as IBlockAccess, pos as IBlockPos, entity as IEntity = null) as float;
+    
+    function setUnbreakable() as void;
+    
+    function canPlaceBlockOnSide(world as IWorld, pos as IBlockPos, facing as IFacing) as bool;
+    
+    static function getFromNumericalId(id as int) as IBlockDefinition;
+}

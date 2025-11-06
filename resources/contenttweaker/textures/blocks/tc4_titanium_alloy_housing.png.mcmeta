@@ -1,0 +1,16 @@
+{
+  "ctm": {
+    "ctm_version": 1,
+    "type": "CTM",
+    "layer": "SOLID",
+    "textures": [
+      "contenttweaker:blocks/tc4_titanium_alloy_housing-ctm"
+    ],
+    "extra": {
+      "connect_to": [
+        {"block": "contenttweaker:tc4_titanium_alloy_housing"}
+      ]
+    }
+  }
+}
+  

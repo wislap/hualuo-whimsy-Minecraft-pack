@@ -1,0 +1,12 @@
+import crafttweaker.item.IItemStack;
+
+zenClass WandRods {
+    
+    static function remove(arg0 as string) as void;
+    
+    static function remove(arg0 as IItemStack) as void;
+    
+    static function register(arg0 as string, arg1 as string, arg2 as int, arg3 as IItemStack, arg4 as int) as void;
+    
+    static function register(arg0 as string, arg1 as int, arg2 as IItemStack, arg3 as int) as void;
+}

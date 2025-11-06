@@ -1,0 +1,13 @@
+{
+	"credit": "Made with WI_8614_ice",
+    "parent": "block/cube",
+    "textures": {
+        "particle": "contenttweaker:blocks/neutron_star_energy_core/degenerate_neutron_force_field_framework_side",
+        "down": "contenttweaker:blocks/neutron_star_energy_core/degenerate_neutron_framework_up_down",
+        "up": "contenttweaker:blocks/neutron_star_energy_core/degenerate_neutron_framework_up_down",
+        "north": "contenttweaker:blocks/neutron_star_energy_core/degenerate_neutron_force_field_framework_side",
+        "east": "contenttweaker:blocks/neutron_star_energy_core/degenerate_neutron_force_field_framework_side",
+        "south": "contenttweaker:blocks/neutron_star_energy_core/degenerate_neutron_force_field_framework_side",
+        "west": "contenttweaker:blocks/neutron_star_energy_core/degenerate_neutron_force_field_framework_side"
+    }
+}

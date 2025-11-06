@@ -1,0 +1,26 @@
+
+zenClass SmartInterfaceType {
+    val priority as int;
+    val type as string;
+    val defaultValue as float;
+    val notEqualMessage as string;
+    val headerInfo as string;
+    val valueInfo as string;
+    val footerInfo as string;
+    val jeiTooltip as string;
+    val jeiTooltipArgsCount as int;
+    
+    function setPriority(priority as int) as SmartInterfaceType;
+    
+    static function create(type as string, defaultValue as float) as SmartInterfaceType;
+    
+    function setHeaderInfo(headerInfo as string) as SmartInterfaceType;
+    
+    function setFooterInfo(footerInfo as string) as SmartInterfaceType;
+    
+    function setValueInfo(valueInfo as string) as SmartInterfaceType;
+    
+    function setJeiTooltip(jeiTooltip as string, argsCount as int) as SmartInterfaceType;
+    
+    function setNotEqualMessage(notEqualMessage as string) as SmartInterfaceType;
+}

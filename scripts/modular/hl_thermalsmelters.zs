@@ -2,13 +2,25 @@ import mods.modularmachinery.RecipePrimer;
 import mods.modularmachinery.RecipeBuilder;
 import mods.modularmachinery.IngredientArrayBuilder;
 
+RecipeBuilder.newBuilder("impetusminecraftslime_geode_a","impetusminecraftslime",400)
+	.addEnergyPerTickInput(40000)
+	.addImpetusInput(10)
+	.addItemOutput(<thermalfoundation:geode>*1)
+	.build();
+
+RecipeBuilder.newBuilder("impetusminecraftslime_geode_b","impetusminecraftslime",400)
+	.addEnergyPerTickInput(40000)
+	.addItemInput(<astralsorcery:itemrockcrystalsimple>*1).setChance(0.01)
+	.addItemOutput(<thermalfoundation:geode>*1)
+	.build();
+
 RecipeBuilder.newBuilder("impetusminecraftslime_a","impetusminecraftslime",400)
 	.addEnergyPerTickInput(40000)
-	.addImpetusInput(20)
 	.addItemInputs([
 		<thaumcraft:salis_mundus>*16,
 		<thaumcraft:quicksilver>*8,
-		<ore:dirt>*4
+		<ore:dirt>*4,
+		<thermalfoundation:geode>*1
 	])
 	.addItemOutput(<thaumcraft:curio>*1).setChance(0.05)
     .addItemOutput(<thaumcraft:curio:1>*1).setChance(0.05)
@@ -20,11 +32,11 @@ RecipeBuilder.newBuilder("impetusminecraftslime_a","impetusminecraftslime",400)
     
 RecipeBuilder.newBuilder("impetusminecraftslime_b","impetusminecraftslime",400)
 	.addEnergyPerTickInput(40000)
-	.addImpetusInput(20)
 	.addItemInputs([
 		<thaumcraft:nugget:10>*1,
 		<thaumcraft:quicksilver>*16,
-		<ore:dirt>*4
+		<ore:dirt>*4,
+		<thermalfoundation:geode>*2,
 	])
 	.addItemOutput(<thaumcraft:void_seed>*8).setMinMaxAmount(8,32)
     .addItemOutput(<thaumcraft:curio:6>*1).setChance(0.05)
@@ -36,19 +48,19 @@ RecipeBuilder.newBuilder("impetusminecraftslime_b","impetusminecraftslime",400)
 
 RecipeBuilder.newBuilder("impetusminecraftslime_c","impetusminecraftslime",1)
 	.addEnergyPerTickInput(40000)
-	.addImpetusInput(10)
 	.addItemInputs([
-		<ore:dustRedstone>*1
+		<ore:dustRedstone>*1,
+		<thermalfoundation:geode>*1
 	])
 	.addItemOutput(<thaumcraft:salis_mundus>*1)
 	.build();
 
 RecipeBuilder.newBuilder("impetusminecraftslime_d","impetusminecraftslime",400)
 	.addEnergyPerTickInput(40000)
-	.addImpetusInput(50)
 	.addItemInputs([
 		<minecraft:apple>*1,
-		<minecraft:rotten_flesh>*1
+		<minecraft:rotten_flesh>*1,
+		<thermalfoundation:geode>*5,
 	])
 	.addItemOutput(<avaritia:ultimate_stew>*1).setChance(0.1)
 	.addItemOutput(<avaritia:cosmic_meatballs>*1).setChance(0.1)

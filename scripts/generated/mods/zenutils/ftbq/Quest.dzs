@@ -1,0 +1,16 @@
+import mods.zenutils.ftbq.Chapter;
+import mods.zenutils.ftbq.QuestObjectBase;
+
+zenClass Quest extends QuestObjectBase {
+    val description as string[];
+    val shape as string;
+    val y as double;
+    val canRepeat as bool;
+    val disableJEI as string;
+    val x as double;
+    val chapter as Chapter;
+    val width as double;
+    val height as double;
+    val subtitle as string;
+    
+}

@@ -1,0 +1,63 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"down": "contenttweaker:blocks/structural_radiators/tzm_alloys/tzm_alloys_structural_radiators_bottom",
+		"up": "contenttweaker:blocks/structural_radiators/tzm_alloys/tzm_alloys_structural_radiators_top",
+		"particle": "contenttweaker:blocks/tzm_alloy_housings",
+		"west": "contenttweaker:blocks/tzm_alloy_housings"
+	},
+	"elements": [
+		{
+			"from": [-16, -16, -16],
+			"to": [32, 32, 32],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-16, -16, -16]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#west"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#west"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#west"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#down"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [69, 0, 0],
+			"translation": [-6, 2.25, -1.25],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [69, 0, 0],
+			"translation": [-6, 2.25, -1.25],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"firstperson_righthand": {
+			"rotation": [-1, 0, 0],
+			"translation": [-6, -4.25, 0],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-1, 0, 0],
+			"translation": [-6.75, -4.25, 0],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"ground": {
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"gui": {
+			"rotation": [36, 44, 0],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"head": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 18, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -7.25],
+			"scale": [0.4, 0.4, 0.4]
+		}
+	}
+}

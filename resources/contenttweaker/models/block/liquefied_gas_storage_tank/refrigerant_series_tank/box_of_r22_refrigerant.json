@@ -1,0 +1,23 @@
+{
+	"credit": "Made with WI_8614_ice X:@wi8614ice QQ:1463599076",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "contenttweaker:blocks/liquefied_gas_storage_tank/refrigerant_series_tank/box_of_r22_refrigerant",
+		"particle": "contenttweaker:blocks/liquefied_gas_storage_tank/refrigerant_series_tank/box_of_r22_refrigerant_particle"
+	},
+	"elements": [
+		{
+			"name": "box_of_r22_refrigerant",
+			"from": [0, 0, 0],
+			"to": [16, 26, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 6.5], "texture": "#0"},
+				"east": {"uv": [4.25, 0, 8.25, 6.5], "texture": "#0"},
+				"south": {"uv": [0, 6.75, 4, 13.25], "texture": "#0"},
+				"west": {"uv": [4.25, 6.75, 8.25, 13.25], "texture": "#0"},
+				"up": {"uv": [12.5, 4, 8.5, 0], "texture": "#0"},
+				"down": {"uv": [12.5, 4.25, 8.5, 8.25], "texture": "#0"}
+			}
+		}
+	]
+}

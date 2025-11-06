@@ -1,0 +1,13 @@
+import crafttweaker.creativetabs.ICreativeTab;
+import crafttweaker.item.IItemStack;
+import mods.contenttweaker.IItemStackSupplier;
+
+zenClass CreativeTab extends ICreativeTab {
+    var unlocalizedName as string;
+    var iconStack as IItemStack;
+    var iconStackSupplier as IItemStackSupplier;
+    
+    function register() as void;
+    
+    function setHasSearch() as void;
+}

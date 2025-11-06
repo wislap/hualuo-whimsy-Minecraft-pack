@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {"model": "contenttweaker:high_pressure_working_fluid_directional_injector" },
+  "variants": {
+    "facing=down":  { "model": "contenttweaker:high_pressure_working_fluid_directional_injector"},
+    "facing=up":    { "model": "contenttweaker:high_pressure_working_fluid_directional_injector", "x": 180  },
+    "facing=north": { "model": "contenttweaker:high_pressure_working_fluid_directional_injector", "x": -90 },
+    "facing=south": { "model": "contenttweaker:high_pressure_working_fluid_directional_injector", "x": 90 },
+    "facing=west":  { "model": "contenttweaker:high_pressure_working_fluid_directional_injector", "x": -90,"y":-90 },
+    "facing=east":  { "model": "contenttweaker:high_pressure_working_fluid_directional_injector", "x": 90,"y":270 },
+    "inventory": [
+      {
+        "transform": "forge:default-block"
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"0": "contenttweaker:blocks/models_textures/las/las_sio_large_lasers_03",
+		"1": "contenttweaker:blocks/models_textures/las/las_sio_large_lasers_04",
+		"2": "contenttweaker:blocks/models_textures/las/las_sio_large_lasers_01",
+		"3": "contenttweaker:blocks/models_textures/las/las_sio_large_lasers_02",
+		"particle": "contenttweaker:blocks/models_textures/las/las_sio_large_lasers_03"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [16, 16, 0, 0], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#1"},
+				"south": {"uv": [16, 0, 0, 16], "texture": "#0"},
+				"west": {"uv": [16, 0, 0, 16], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [16, 0, 0, 16], "rotation": 180, "texture": "#3"},
+				"down": {"uv": [16, 0, 0, 16], "texture": "#2"}
+			}
+		}
+	]
+}

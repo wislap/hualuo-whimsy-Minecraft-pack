@@ -1,0 +1,28 @@
+import crafttweaker.item.IItemStack;
+
+zenClass ExtraPlanets {
+    
+    static function removeSolarEvaporationChamberRecipe(arg0 as IItemStack) as void;
+    
+    static function removeNASATier7RocketRecipe() as void;
+    
+    static function removeNASATier6RocketRecipe() as void;
+    
+    static function removeNASATier8RocketRecipe() as void;
+    
+    static function removeNASATier5RocketRecipe() as void;
+    
+    static function removeNASATier10RocketRecipe() as void;
+    
+    static function removeNASATier9RocketRecipe() as void;
+    
+    static function removeNASATier4RocketRecipe() as void;
+    
+    static function addSolarEvaporationChamberRecipe(arg0 as IItemStack, arg1 as IItemStack) as void;
+    
+    static function addBlockSmasherRecipe(arg0 as IItemStack, arg1 as IItemStack) as void;
+    
+    static function removeBlockSmasherRecipe(arg0 as IItemStack) as void;
+    
+    static function addNASATieredRocketRecipe(arg0 as int, arg1 as IItemStack[]) as void;
+}

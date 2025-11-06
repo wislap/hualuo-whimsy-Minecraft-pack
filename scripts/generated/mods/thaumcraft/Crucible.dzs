@@ -1,0 +1,12 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import thaumcraft.aspect.CTAspectStack;
+
+zenClass Crucible {
+    
+    static function removeRecipe(output as IItemStack) as void;
+    
+    static function removeRecipe(name as string) as void;
+    
+    static function registerRecipe(name as string, researchKey as string, output as IItemStack, input as IIngredient, aspects as CTAspectStack[]) as void;
+}

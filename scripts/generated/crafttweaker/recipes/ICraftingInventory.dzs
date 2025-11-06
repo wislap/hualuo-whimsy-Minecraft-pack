@@ -1,0 +1,20 @@
+import crafttweaker.item.IItemStack;
+import crafttweaker.player.IPlayer;
+
+zenClass ICraftingInventory {
+    val items as IItemStack[][];
+    val size as int;
+    val itemArray as IItemStack[];
+    val width as int;
+    val height as int;
+    val player as IPlayer;
+    val stackCount as int;
+    
+    function getStack(i as int) as IItemStack;
+    
+    function getStack(row as int, column as int) as IItemStack;
+    
+    function setStack(row as int, column as int, stack as IItemStack) as void;
+    
+    function setStack(i as int, stack as IItemStack) as void;
+}

@@ -1,0 +1,15 @@
+{
+  "ctm": {
+    "ctm_version": 1,
+    "type": "CTM",
+    "layer": "SOLID",
+    "textures": [
+      "contenttweaker:blocks/heavy_duty_dense_iridium_alloy_chassis-ctm"
+    ],
+    "extra": {
+      "connect_to": [
+        {"block": "contenttweaker:heavy_duty_dense_iridium_alloy_chassis"}
+      ]
+    }
+  }
+}

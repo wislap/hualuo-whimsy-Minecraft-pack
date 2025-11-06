@@ -1,0 +1,8 @@
+
+zenClass IDynamicPatternInfo {
+    val size as int;
+    val maxSize as int;
+    val facing as string;
+    val name as string;
+    val minSize as int;
+}

@@ -1,0 +1,60 @@
+import mods.modularmachinery.IFunction;
+import mods.modularmachinery.RecipeModifier;
+import mods.modularmachinery.UpgradeEventHandler;
+
+zenClass MachineUpgradeBuilder {
+    
+    static function newBuilder(name as string, localizedName as string, level as float, maxStack as int) as MachineUpgradeBuilder;
+    
+    function addControllerGUIRenderHandler(handler as UpgradeEventHandler) as MachineUpgradeBuilder;
+    
+    function addFactoryRecipeStartHandler(handler as UpgradeEventHandler) as MachineUpgradeBuilder;
+    
+    function addFactoryRecipePostTickHandler(handler as UpgradeEventHandler) as MachineUpgradeBuilder;
+    
+    function addSmartInterfaceUpdateHandler(handler as UpgradeEventHandler) as MachineUpgradeBuilder;
+    
+    function addFactoryRecipeFailureHandler(handler as UpgradeEventHandler) as MachineUpgradeBuilder;
+    
+    function addFactoryRecipeFinishHandler(handler as UpgradeEventHandler) as MachineUpgradeBuilder;
+    
+    function addFactoryRecipePreTickHandler(handler as UpgradeEventHandler) as MachineUpgradeBuilder;
+    
+    function setBusGUIDescriptionHandler(handler as IFunction) as MachineUpgradeBuilder;
+    
+    function addModifier(stackAble as bool, modifierKey as string, modifier as RecipeModifier) as MachineUpgradeBuilder;
+    
+    function addDescriptions(...descriptions as string) as MachineUpgradeBuilder;
+    
+    function buildAndRegister() as void;
+    
+    function addRecipePreTickHandler(handler as UpgradeEventHandler) as MachineUpgradeBuilder;
+    
+    function addRecipeStartHandler(handler as UpgradeEventHandler) as MachineUpgradeBuilder;
+    
+    function addCompatibleMachines(...machineNames as string) as MachineUpgradeBuilder;
+    
+    function addRecipePostTickHandler(handler as UpgradeEventHandler) as MachineUpgradeBuilder;
+    
+    function addRecipeTickHandler(handler as UpgradeEventHandler) as MachineUpgradeBuilder;
+    
+    function addRecipeFailureHandler(handler as UpgradeEventHandler) as MachineUpgradeBuilder;
+    
+    function addRecipeFinishHandler(handler as UpgradeEventHandler) as MachineUpgradeBuilder;
+    
+    function addMachinePreTickHandler(handler as UpgradeEventHandler) as MachineUpgradeBuilder;
+    
+    function addIncompatibleMachines(...machineNames as string) as MachineUpgradeBuilder;
+    
+    function addRecipeCheckHandler(handler as UpgradeEventHandler) as MachineUpgradeBuilder;
+    
+    function addMachinePostTickHandler(handler as UpgradeEventHandler) as MachineUpgradeBuilder;
+    
+    function addStructureUpdateHandler(handler as UpgradeEventHandler) as MachineUpgradeBuilder;
+    
+    function addStructureFormedHandler(handler as UpgradeEventHandler) as MachineUpgradeBuilder;
+    
+    function addPostRecipeCheckHandler(handler as UpgradeEventHandler) as MachineUpgradeBuilder;
+    
+    function addPreRecipeCheckHandler(handler as UpgradeEventHandler) as MachineUpgradeBuilder;
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/infinity_computation_matrix_blocks_1x"
+  }
+}

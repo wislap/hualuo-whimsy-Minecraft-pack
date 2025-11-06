@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {"model": "contenttweaker:roulette_coil_set_fixed_star_alloys" },
+  "variants": {
+    "facing=down":  { "model": "contenttweaker:roulette_coil_set_fixed_star_alloys"},
+    "facing=up":    { "model": "contenttweaker:roulette_coil_set_fixed_star_alloys", "x": 180  },
+    "facing=north": { "model": "contenttweaker:roulette_coil_set_fixed_star_alloys", "x": -90 },
+    "facing=south": { "model": "contenttweaker:roulette_coil_set_fixed_star_alloys", "x": 90 },
+    "facing=west":  { "model": "contenttweaker:roulette_coil_set_fixed_star_alloys", "x": -90,"y":-90 },
+    "facing=east":  { "model": "contenttweaker:roulette_coil_set_fixed_star_alloys", "x": 90,"y":270 },
+    "inventory": [
+      {
+        "transform": "forge:default-block"
+      }
+    ]
+  }
+}

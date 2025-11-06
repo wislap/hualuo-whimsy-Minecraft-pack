@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/copper_clad_laminate_brown_ink_c_i_04"
+  }
+}

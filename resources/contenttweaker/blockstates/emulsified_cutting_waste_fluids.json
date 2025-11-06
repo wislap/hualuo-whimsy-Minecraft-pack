@@ -1,0 +1,12 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "forge:fluid",
+    "custom": {
+      "fluid": "emulsified_cutting_waste_fluids"
+    }
+  },
+  "variants": {
+    "normal": [{}]
+  }
+}

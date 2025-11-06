@@ -1,0 +1,21 @@
+
+zenClass GameRuleHelper {
+    
+    function getBoolean(name as string) as bool;
+    
+    function getInt(name as string) as int;
+    
+    function setBoolean(name as string, value as bool) as void;
+    
+    function setInt(name as string, value as int) as void;
+    
+    function getString(name as string) as string;
+    
+    function getRules() as string[];
+    
+    function setString(name as string, value as string) as void;
+    
+    function addGameRule(key as string, value as string, type as string) as void;
+    
+    function hasRule(name as string) as bool;
+}
