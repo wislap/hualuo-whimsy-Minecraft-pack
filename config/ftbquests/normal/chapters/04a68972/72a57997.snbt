@@ -1,0 +1,18 @@
+{
+	x: 2.5d,
+	y: -4.0d,
+	description: "不太合理の粉碎机",
+	text: [
+		""
+	],
+	dependencies: [
+		"81747a6f"
+	],
+	tasks: [{
+		uid: "87b7d789",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock 1 3"
+		}]
+	}]
+}

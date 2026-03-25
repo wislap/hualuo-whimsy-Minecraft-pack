@@ -1,0 +1,46 @@
+{
+	x: -8.5d,
+	y: 4.0d,
+	dependencies: [
+		"09769e78"
+	],
+	tasks: [{
+		uid: "c2cb3538",
+		type: "item",
+		items: [{
+			id: "mets:mrblade_final",
+			tag: {
+				SpecialAttackType: 750954,
+				CurrentItemName: "flammpfeil.slashblade.named.mrblade_final",
+				isDefaultBewitched: 1b,
+				SB.SEffect: {
+					MrbladeSE: 25
+				},
+				AttackAmplifier: 0.01f,
+				ench: [{
+					lvl: 3s,
+					id: 48
+				},
+				{
+					lvl: 3s,
+					id: 34
+				},
+				{
+					lvl: 3s,
+					id: 16
+				}],
+				TextureName: "named/mrblade/texture",
+				ModelName: "named/mrblade/advanced",
+				isCharged: 0b,
+				isBroken: 0b,
+				baseAttackModifier: 25.0f,
+				SummonedSwordColor: 255,
+				StandbyRenderType: 2,
+				SlashBlade: {},
+				CustomMaxDamage: 640
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

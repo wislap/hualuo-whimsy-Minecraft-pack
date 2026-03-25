@@ -1,0 +1,20 @@
+{
+	title: "创造龙食",
+	x: -3.0d,
+	y: -3.0d,
+	description: "创造龙食，养龙不再苦恼",
+	text: [
+		"不要998，不要888，只要188！"
+	],
+	dependencies: [
+		"37fcb7eb"
+	],
+	tasks: [{
+		uid: "78e36575",
+		type: "item",
+		items: [{
+			item: "iceandfire:creative_dragon_meal"
+		}],
+		consume_items: 0b
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: 5.5d,
+	y: 4.0d,
+	description: "水深管热",
+	text: [
+		""
+	],
+	dependencies: [
+		"8b820af3"
+	],
+	tasks: [{
+		uid: "305627cc",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock2 1 5"
+		}]
+	}]
+}

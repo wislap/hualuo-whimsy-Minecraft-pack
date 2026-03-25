@@ -1,0 +1,11 @@
+{
+	x: 2.5d,
+	y: -4.0d,
+	tasks: [{
+		uid: "3b019359",
+		type: "item",
+		items: [{
+			item: "modularmachinery:auramanipulator_factory_controller"
+		}]
+	}]
+}

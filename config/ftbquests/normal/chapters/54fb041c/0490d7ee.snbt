@@ -1,0 +1,19 @@
+{
+	title: "神秘时代",
+	x: 5.5d,
+	y: 2.5d,
+	description: "踏入灵气的世界",
+	text: [
+		""
+	],
+	dependencies: [
+		"9e7937bd"
+	],
+	tasks: [{
+		uid: "bd850d36",
+		type: "item",
+		items: [{
+			item: "thaumcraft:infusion_matrix"
+		}]
+	}]
+}

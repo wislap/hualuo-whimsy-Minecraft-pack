@@ -1,0 +1,23 @@
+{
+	title: "创造元件",
+	x: -7.5d,
+	y: 0.0d,
+	description: "创造创造",
+	text: [
+		"和创造取出升级坐一桌！"
+	],
+	dependencies: [
+		"0683aca6"
+	],
+	tasks: [{
+		uid: "7f4f8b8c",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:creative_storage_cell",
+			tag: {}
+		}],
+		consume_items: 0b,
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	title: "这是？工作台！",
+	x: 2.0d,
+	y: 2.0d,
+	dependencies: [
+		"77a8155a"
+	],
+	tasks: [{
+		uid: "33943642",
+		type: "item",
+		items: [{
+			item: "minecraft:crafting_table"
+		}],
+		consume_items: 0b
+	}]
+}

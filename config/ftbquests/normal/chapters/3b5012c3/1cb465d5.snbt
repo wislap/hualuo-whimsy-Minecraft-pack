@@ -1,0 +1,16 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	dependencies: [
+		"a6170ec1"
+	],
+	tasks: [{
+		uid: "9dc9c54d",
+		type: "item",
+		items: [{
+			item: "thaumcraft:cloud_ring"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

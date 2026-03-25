@@ -1,0 +1,19 @@
+{
+	x: 10.0d,
+	y: 0.0d,
+	description: "我的超级计算机在哪？",
+	text: [
+		""
+	],
+	dependencies: [
+		"86e45119",
+		"e52ba59d"
+	],
+	tasks: [{
+		uid: "74de166d",
+		type: "item",
+		items: [{
+			item: "mekanism:controlcircuit 1 2"
+		}]
+	}]
+}

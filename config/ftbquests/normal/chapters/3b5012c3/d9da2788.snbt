@@ -1,0 +1,16 @@
+{
+	x: 3.0d,
+	y: -3.0d,
+	dependencies: [
+		"1cb465d5"
+	],
+	tasks: [{
+		uid: "54b8ecd3",
+		type: "item",
+		items: [{
+			item: "thaumcraft:charm_undying"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

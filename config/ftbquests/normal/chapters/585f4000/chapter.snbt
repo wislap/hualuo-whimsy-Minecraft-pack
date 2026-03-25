@@ -1,0 +1,7 @@
+{
+	title: "工业时代",
+	icon: "ic2:resource 1 12",
+	always_invisible: 0b,
+	group: 291560003,
+	default_quest_shape: ""
+}

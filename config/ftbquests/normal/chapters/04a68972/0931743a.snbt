@@ -1,0 +1,17 @@
+{
+	title: "通用机械",
+	icon: "mekanism:atomicdisassembler",
+	x: 0.0d,
+	y: 0.0d,
+	description: "这里有很多好东西",
+	text: [
+		""
+	],
+	dependencies: [
+		"9e7937bd"
+	],
+	tasks: [{
+		uid: "e6aff86a",
+		type: "checkmark"
+	}]
+}

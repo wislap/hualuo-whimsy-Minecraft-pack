@@ -1,0 +1,25 @@
+{
+	title: "注魔增强",
+	x: -1.5d,
+	y: 3.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"a6170ec1"
+	],
+	tasks: [{
+		uid: "1eb146ee",
+		type: "item",
+		items: [{
+			item: "thaumcraft:matrix_speed"
+		}]
+	},
+	{
+		uid: "5542eaae",
+		type: "item",
+		items: [{
+			item: "thaumcraft:matrix_cost"
+		}]
+	}]
+}

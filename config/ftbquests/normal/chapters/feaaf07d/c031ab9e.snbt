@@ -1,0 +1,27 @@
+{
+	title: "虫子，还是蛇？",
+	icon: "twilightforest:miniature_structure 1 5",
+	x: 6.0d,
+	y: 0.0d,
+	description: "好长的东西，把他切碎！",
+	text: [
+		"击杀他，获得他的鳞片"
+	],
+	dependencies: [
+		"77505424"
+	],
+	tasks: [{
+		uid: "1676d9c7",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy"
+		}],
+		consume_items: 0b
+	}],
+	rewards: [{
+		uid: "24189899",
+		type: "item",
+		item: "twilightforest:naga_scale",
+		count: 16
+	}]
+}

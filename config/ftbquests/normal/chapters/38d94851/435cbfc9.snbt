@@ -1,0 +1,17 @@
+{
+	title: "狄俄娜",
+	x: 24.5d,
+	y: 2.0d,
+	description: "外星文明？",
+	text: [
+		"这里似乎存在着很多外星文明存在过的痕迹"
+	],
+	dependencies: [
+		"88c890e7"
+	],
+	tasks: [{
+		uid: "ea3e2069",
+		type: "dimension",
+		dim: -2542
+	}]
+}

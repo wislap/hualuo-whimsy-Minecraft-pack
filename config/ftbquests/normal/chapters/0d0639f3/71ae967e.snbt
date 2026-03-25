@@ -1,0 +1,15 @@
+{
+	x: -2.5d,
+	y: 0.0d,
+	dependencies: [
+		"cbc23592",
+		"6e40ab72"
+	],
+	tasks: [{
+		uid: "e39dc3ad",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:essentia_component_1k"
+		}]
+	}]
+}

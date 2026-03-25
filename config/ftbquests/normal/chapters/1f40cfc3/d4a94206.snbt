@@ -1,0 +1,17 @@
+{
+	title: "土卫六",
+	x: -11.0d,
+	y: 2.0d,
+	description: "资源丰富",
+	text: [
+		"这个星球上存在很多甲烷，原版矿石（包括绿宝石），还有蓝月宝石"
+	],
+	dependencies: [
+		"3985225e"
+	],
+	tasks: [{
+		uid: "8d0a2873",
+		type: "dimension",
+		dim: -1508
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	title: "水星",
+	x: -32.0d,
+	y: -4.0d,
+	description: "真正的冰火两重天",
+	text: [
+		"潮汐锁定的行星，面向太阳对的一面温度极高，背箱太阳的一面温度极低"
+	],
+	dependencies: [
+		"1654d90d"
+	],
+	tasks: [{
+		uid: "0d4fc378",
+		type: "dimension",
+		dim: -13
+	}]
+}

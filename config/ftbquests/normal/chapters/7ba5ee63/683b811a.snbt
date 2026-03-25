@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 6.5d,
+	dependencies: [
+		"36eeb830"
+	],
+	tasks: [{
+		uid: "cb82444f",
+		type: "item",
+		items: [{
+			item: "thaumcraft:vis_battery"
+		}]
+	}]
+}

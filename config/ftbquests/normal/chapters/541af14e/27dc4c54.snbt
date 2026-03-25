@@ -1,0 +1,11 @@
+{
+	x: 24.0d,
+	y: 8.0d,
+	tasks: [{
+		uid: "6592c88a",
+		type: "item",
+		items: [{
+			item: "tconevo:metal 1 10"
+		}]
+	}]
+}

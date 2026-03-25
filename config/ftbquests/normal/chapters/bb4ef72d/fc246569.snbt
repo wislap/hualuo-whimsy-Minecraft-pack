@@ -1,0 +1,19 @@
+{
+	x: 8.0d,
+	y: 0.0d,
+	description: "终极还不够终极",
+	text: [
+		"宇宙的真理，我已解明"
+	],
+	dependencies: [
+		"7493d5da",
+		"24601675"
+	],
+	tasks: [{
+		uid: "546abcf8",
+		type: "item",
+		items: [{
+			item: "mekanism:cosmicalloy"
+		}]
+	}]
+}

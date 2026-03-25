@@ -1,0 +1,26 @@
+{
+	title: "巨大的恶魂",
+	x: 12.0d,
+	y: 3.0d,
+	description: "为什么你比普通恶魂多四个触手",
+	text: [
+		"击败他以获得重要材料：炽热的泪"
+	],
+	dependencies: [
+		"34b841d4"
+	],
+	tasks: [{
+		uid: "0b3f42f6",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 3"
+		}],
+		consume_items: 0b
+	}],
+	rewards: [{
+		uid: "b811a65d",
+		type: "item",
+		item: "twilightforest:fiery_tears",
+		count: 8
+	}]
+}

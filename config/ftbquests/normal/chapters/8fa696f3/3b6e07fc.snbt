@@ -1,0 +1,16 @@
+{
+	title: "神秘能源",
+	x: 9.5d,
+	y: -1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"93c1fa9f"
+	],
+	tasks: [{
+		uid: "0f42b82b",
+		type: "checkmark",
+		icon: "thaumicenergistics:knowledge_core"
+	}]
+}

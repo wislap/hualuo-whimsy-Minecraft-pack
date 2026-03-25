@@ -1,0 +1,21 @@
+{
+	title: "三阶设计图",
+	x: 20.5d,
+	y: 4.0d,
+	description: "飞向宇宙",
+	text: [
+		"可以前往金星，水星，小行星带，尼比鲁，狄俄娜，奶酪星，糖果星",
+		"哦对了，差点忘了说了，三阶图纸只是一个任务道具，三阶火箭配方请查询jei~"
+	],
+	dependencies: [
+		"f3cd7386"
+	],
+	tasks: [{
+		uid: "89b1d39a",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:schematic"
+		}],
+		ignore_nbt: 1b
+	}]
+}

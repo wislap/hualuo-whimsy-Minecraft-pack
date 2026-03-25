@@ -1,0 +1,18 @@
+{
+	title: "快速访问",
+	x: -2.5d,
+	y: -2.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"cbc23592"
+	],
+	tasks: [{
+		uid: "a911da4a",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:essentia_terminal"
+		}]
+	}]
+}

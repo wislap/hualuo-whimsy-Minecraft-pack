@@ -1,0 +1,37 @@
+{
+	title: "聚集 扩散",
+	x: 0.0d,
+	y: -2.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"d948a001"
+	],
+	tasks: [{
+		uid: "8ea635e5",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:coalescence_core"
+		}]
+	},
+	{
+		uid: "be119a2d",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:diffusion_core"
+		}]
+	}],
+	rewards: [{
+		uid: "0d0e9fb6",
+		type: "item",
+		item: "thaumicenergistics:coalescence_core",
+		count: 4
+	},
+	{
+		uid: "b3fa9923",
+		type: "item",
+		item: "thaumicenergistics:diffusion_core",
+		count: 4
+	}]
+}

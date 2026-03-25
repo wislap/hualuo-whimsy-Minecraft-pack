@@ -1,0 +1,11 @@
+{
+	x: 5.5d,
+	y: -4.0d,
+	tasks: [{
+		uid: "59289d8e",
+		type: "item",
+		items: [{
+			item: "modularmachinery:thaumicminecraftslime_factory_controller"
+		}]
+	}]
+}

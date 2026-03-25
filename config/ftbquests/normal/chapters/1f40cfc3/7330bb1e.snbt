@@ -1,0 +1,17 @@
+{
+	title: "木卫一",
+	x: -25.0d,
+	y: 3.5d,
+	description: "酷热星球",
+	text: [
+		"在这里可以获取火山岩矿石"
+	],
+	dependencies: [
+		"8bfb3083"
+	],
+	tasks: [{
+		uid: "46a33ef7",
+		type: "dimension",
+		dim: -1500
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	title: "柯伊伯带",
+	x: -1.5d,
+	y: 3.5d,
+	description: "X行星？",
+	text: [
+		""
+	],
+	dependencies: [
+		"7081dd71"
+	],
+	tasks: [{
+		uid: "fe342fc8",
+		type: "dimension",
+		dim: -1009
+	}]
+}

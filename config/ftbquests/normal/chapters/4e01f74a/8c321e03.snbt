@@ -1,0 +1,19 @@
+{
+	title: "空之律者",
+	icon: "extrabotany:coregod",
+	x: 18.0d,
+	y: 0.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"85f38e83"
+	],
+	tasks: [{
+		uid: "75805932",
+		type: "kill",
+		icon: "extrabotany:coregod",
+		entity: "extrabotany:voidherrscher",
+		value: 1L
+	}]
+}

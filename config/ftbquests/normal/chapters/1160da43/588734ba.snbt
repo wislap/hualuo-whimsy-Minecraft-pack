@@ -1,0 +1,24 @@
+{
+	title: "奥穆索",
+	x: 0.0d,
+	y: 4.0d,
+	description: "扎哈尔的领地",
+	text: [
+		"一个无尽神殿的城市建筑在理智世界的边缘。扎哈尔的国度有着通往旧日支配者栖居之处的唯一入口。",
+		"小心虚空。"
+	],
+	dependencies: [
+		"d04927be"
+	],
+	tasks: [{
+		uid: "fefb85ab",
+		type: "dimension",
+		dim: 52
+	}],
+	rewards: [{
+		uid: "2efefdc6",
+		type: "item",
+		item: "abyssalcraft:ethaxiumingot",
+		count: 4
+	}]
+}

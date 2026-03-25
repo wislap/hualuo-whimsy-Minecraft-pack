@@ -1,0 +1,21 @@
+{
+	x: 13.0d,
+	y: 10.0d,
+	text: [
+		"由两把任意妖刀合成"
+	],
+	tasks: [{
+		uid: "351c2c2e",
+		type: "item",
+		items: [{
+			id: "flammpfeil.slashblade:slashbladenamed",
+			tag: {
+				ProudSoul: 1000,
+				SB.SEffect: {},
+				SlashBlade: {}
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

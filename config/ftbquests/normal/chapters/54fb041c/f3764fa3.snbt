@@ -1,0 +1,26 @@
+{
+	title: "锻造之路",
+	x: -1.5d,
+	y: -5.0d,
+	description: "刀剑最懂你",
+	text: [
+		""
+	],
+	dependencies: [
+		"5b6a5aa6",
+		"a45c435f"
+	],
+	tasks: [{
+		uid: "8ca0eaa5",
+		type: "item",
+		items: [{
+			id: "flammpfeil.slashblade:slashbladewood",
+			tag: {
+				SlashBlade: {},
+				SB.SEffect: {}
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,44 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	dependencies: [
+		"44fd46e5"
+	],
+	tasks: [{
+		uid: "5881ff9a",
+		type: "item",
+		items: [{
+			id: "abyssalcraft:necronomicon",
+			tag: {
+				PotEnergy: 0.0f
+			}
+		}],
+		consume_items: 0b,
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "45a83677",
+		type: "item",
+		item: "abyssalcraft:oblivionshard",
+		count: 4,
+		random_bonus: 4
+	},
+	{
+		uid: "2ebb9d4b",
+		type: "item",
+		item: {
+			id: "abyssalcraft:unique_scroll",
+			tag: {
+				Spell: "ac.spell.entropy"
+			}
+		}
+	},
+	{
+		uid: "363e176a",
+		type: "item",
+		item: "abyssalcraft:shadowgem",
+		count: 8,
+		random_bonus: 16
+	}]
+}

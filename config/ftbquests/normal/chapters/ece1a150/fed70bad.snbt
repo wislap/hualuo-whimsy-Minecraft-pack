@@ -1,0 +1,22 @@
+{
+	x: 0.0d,
+	y: -7.5d,
+	tasks: [{
+		uid: "6d93a0a3",
+		type: "item",
+		items: [{
+			id: "flammpfeil.slashblade:slashbladenamed",
+			tag: {
+				CurrentItemName: "slashblade.tofucraft.ishikatana",
+				TextureName: "tofuishi_katana",
+				SlashBlade: {},
+				SB.SEffect: {},
+				AttackAmplifier: 0.01f,
+				baseAttackModifier: 3.0f,
+				CustomMaxDamage: 183
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

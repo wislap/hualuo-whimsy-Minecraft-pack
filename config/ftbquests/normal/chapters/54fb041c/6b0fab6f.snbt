@@ -1,0 +1,13 @@
+{
+	x: -4.5d,
+	y: 0.0d,
+	dependencies: [
+		"cb633cf2"
+	],
+	tasks: [{
+		uid: "6544fc49",
+		type: "checkmark",
+		title: "第一章",
+		icon: "minecraft:log"
+	}]
+}

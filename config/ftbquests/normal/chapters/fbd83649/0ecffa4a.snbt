@@ -1,0 +1,14 @@
+{
+	x: -10.5d,
+	y: 3.5d,
+	dependencies: [
+		"2e41595d"
+	],
+	tasks: [{
+		uid: "3245f87a",
+		type: "item",
+		items: [{
+			item: "ecoaeextension:extendable_calculator_subsystem_l6"
+		}]
+	}]
+}

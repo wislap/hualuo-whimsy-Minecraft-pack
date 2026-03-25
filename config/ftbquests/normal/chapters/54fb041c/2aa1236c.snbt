@@ -1,0 +1,20 @@
+{
+	title: "第五章",
+	icon: "draconicevolution:chaotic_core",
+	x: 9.0d,
+	y: 0.0d,
+	description: "是时候向着力量前进了",
+	text: [
+		""
+	],
+	dependencies: [
+		"9e7937bd"
+	],
+	tasks: [{
+		uid: "2d73420c",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_core"
+		}]
+	}]
+}

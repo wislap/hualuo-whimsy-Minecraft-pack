@@ -1,0 +1,20 @@
+{
+	title: "邪术学",
+	x: 3.5d,
+	y: -6.0d,
+	description: "我们在探索新世界时发现了异端",
+	text: [
+		"他们的出现让我们认识到这个世界还能更大"
+	],
+	dependencies: [
+		"1ad880d0"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "5e105fd4",
+		type: "item",
+		items: [{
+			item: "thaumcraft:curio 1 6"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: 17.0d,
+	dependencies: [
+		"91440e2c"
+	],
+	tasks: [{
+		uid: "2046b03c",
+		type: "item",
+		items: [{
+			id: "ecoaeextension:estorage_cell_item_256m",
+			tag: {}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

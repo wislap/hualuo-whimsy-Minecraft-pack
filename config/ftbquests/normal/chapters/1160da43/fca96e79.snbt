@@ -1,0 +1,25 @@
+{
+	title: "恐惧的精华",
+	x: 10.5d,
+	y: 7.5d,
+	description: "恐惧在你手中",
+	text: [
+		"浓缩的恐惧之力，可以用于升级死灵之书"
+	],
+	dependencies: [
+		"437051a2"
+	],
+	tasks: [{
+		uid: "bda3f2bc",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:essence 1 1"
+		}],
+		consume_items: 0b
+	}],
+	rewards: [{
+		uid: "c0b89b71",
+		type: "item",
+		item: "abyssalcraft:essence 1 1"
+	}]
+}

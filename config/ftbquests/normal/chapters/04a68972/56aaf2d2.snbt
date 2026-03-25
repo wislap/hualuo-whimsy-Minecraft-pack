@@ -1,0 +1,18 @@
+{
+	x: 5.0d,
+	y: -4.0d,
+	description: "听说你缺矿了？",
+	text: [
+		""
+	],
+	dependencies: [
+		"81747a6f"
+	],
+	tasks: [{
+		uid: "41fc670f",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock"
+		}]
+	}]
+}

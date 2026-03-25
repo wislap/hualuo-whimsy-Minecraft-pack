@@ -1,0 +1,18 @@
+{
+	title: "盖亚守护者III",
+	icon: "botania:gaiahead",
+	x: 15.0d,
+	y: 0.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"3aa10bdd"
+	],
+	tasks: [{
+		uid: "b45fe8df",
+		type: "kill",
+		entity: "extrabotany:gaiaiii",
+		value: 1L
+	}]
+}

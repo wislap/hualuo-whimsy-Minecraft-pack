@@ -1,0 +1,43 @@
+{
+	x: 14.0d,
+	y: 0.0d,
+	dependencies: [
+		"02cfe4e1"
+	],
+	tasks: [{
+		uid: "a83c534e",
+		type: "item",
+		items: [{
+			id: "flammpfeil.slashblade:slashbladenamed",
+			tag: {
+				SpecialAttackType: 6,
+				CurrentItemName: "flammpfeil.slashblade.named.kirisaya",
+				isDefaultBewitched: 1b,
+				StandbyRenderType: 1,
+				SB.SEffect: {
+					BurstDrive: 30
+				},
+				ench: [{
+					lvl: 8s,
+					id: 48
+				},
+				{
+					lvl: 10s,
+					id: 34
+				},
+				{
+					lvl: 4s,
+					id: 51
+				}],
+				TextureName: "named/kirisaya/kirisaya",
+				baseAttackModifier: 3.0f,
+				AttackAmplifier: 0.01f,
+				ModelName: "named/kirisaya/kirisaya",
+				CustomMaxDamage: 11,
+				SlashBlade: {}
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

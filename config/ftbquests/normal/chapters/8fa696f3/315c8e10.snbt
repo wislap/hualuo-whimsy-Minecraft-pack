@@ -1,0 +1,23 @@
+{
+	title: "神秘学",
+	icon: "thaumcraft:focus_1",
+	x: 9.5d,
+	y: 3.0d,
+	description: "操纵灵气",
+	text: [
+		"我们需要对灵气加以利用"
+	],
+	dependencies: [
+		"d2b0ff7f"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "55ae7235",
+		type: "item",
+		items: [{
+			item: "thaumcraft:focus_1"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

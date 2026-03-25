@@ -1,0 +1,20 @@
+{
+	title: "七阶设计图",
+	x: 4.0d,
+	y: 0.0d,
+	description: "奇怪的星球",
+	text: [
+		"可以前往海王星"
+	],
+	dependencies: [
+		"b3a0522d"
+	],
+	tasks: [{
+		uid: "990b5ff3",
+		type: "item",
+		items: [{
+			item: "extraplanets:schematic_tier7"
+		}],
+		ignore_nbt: 1b
+	}]
+}

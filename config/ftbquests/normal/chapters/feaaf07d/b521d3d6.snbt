@@ -1,0 +1,25 @@
+{
+	title: "冰封万里",
+	x: 14.0d,
+	y: 0.0d,
+	description: "你真的不冷吗？",
+	text: [
+		"去到极光城堡寻找冰雪女王"
+	],
+	dependencies: [
+		"eec0d6e7"
+	],
+	tasks: [{
+		uid: "80540ac2",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 5"
+		}],
+		consume_items: 0b
+	}],
+	rewards: [{
+		uid: "902d6155",
+		type: "choice",
+		table: 1
+	}]
+}

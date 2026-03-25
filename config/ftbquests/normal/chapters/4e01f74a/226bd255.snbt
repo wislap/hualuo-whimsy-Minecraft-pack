@@ -1,0 +1,20 @@
+{
+	title: "植物的魔法",
+	x: 0.0d,
+	y: 0.0d,
+	description: "净化一切",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "0f0dae68",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "puredaisy"
+			}
+		}],
+		consume_items: 0b
+	}]
+}

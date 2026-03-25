@@ -1,0 +1,16 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	dependencies: [
+		"315c8e10"
+	],
+	tasks: [{
+		uid: "61718673",
+		type: "item",
+		items: [{
+			item: "thaumcraft:caster_basic"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

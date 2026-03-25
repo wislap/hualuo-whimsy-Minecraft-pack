@@ -1,0 +1,98 @@
+{
+	title: "灵气",
+	x: 0.0d,
+	y: 0.0d,
+	description: "灵气的世界",
+	text: [
+		"随着你的探索，你发现了另一种魔力的存在",
+		"（世界盐需手动制作以解锁进度）"
+	],
+	dependencies: [
+		"0490d7ee"
+	],
+	tasks: [{
+		uid: "1ba871a8",
+		type: "item",
+		items: [{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aer"
+				}]
+			}
+		}]
+	},
+	{
+		uid: "f9120ae6",
+		type: "item",
+		items: [{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "terra"
+				}]
+			}
+		}]
+	},
+	{
+		uid: "578b642f",
+		type: "item",
+		items: [{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ignis"
+				}]
+			}
+		}]
+	},
+	{
+		uid: "05b08292",
+		type: "item",
+		items: [{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aqua"
+				}]
+			}
+		}]
+	},
+	{
+		uid: "b1808ddb",
+		type: "item",
+		items: [{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ordo"
+				}]
+			}
+		}]
+	},
+	{
+		uid: "44468e51",
+		type: "item",
+		items: [{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "perditio"
+				}]
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "a8b30257",
+		type: "item",
+		item: "thaumcraft:salis_mundus",
+		count: 16,
+		random_bonus: 16
+	}]
+}

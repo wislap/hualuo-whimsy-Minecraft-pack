@@ -1,0 +1,22 @@
+{
+	title: "终章",
+	x: 12.5d,
+	y: 0.0d,
+	description: "不够，远远不够！",
+	text: [
+		""
+	],
+	dependencies: [
+		"1654d90d",
+		"f815bf79",
+		"2aa1236c",
+		"669d58e8"
+	],
+	tasks: [{
+		uid: "85c3dd59",
+		type: "item",
+		items: [{
+			item: "mekanism:controlcircuit 1 4"
+		}]
+	}]
+}

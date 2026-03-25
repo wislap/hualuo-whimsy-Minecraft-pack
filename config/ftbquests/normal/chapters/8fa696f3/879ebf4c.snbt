@@ -1,0 +1,46 @@
+{
+	title: "神秘全解",
+	icon: "thaumcraft:thaumonomicon",
+	x: 12.5d,
+	y: -6.0d,
+	description: "可不要后悔哦~",
+	text: [
+		"神秘全解点击就送"
+	],
+	dependencies: [
+		"55db7f2b",
+		"aaa9705c"
+	],
+	tasks: [{
+		uid: "fedced53",
+		type: "item",
+		items: [{
+			item: "thaumcraft:thaumonomicon"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9911b78b",
+		type: "item",
+		items: [{
+			item: "mekanism:controlcircuit 1 2"
+		}],
+		count: 666L
+	}],
+	rewards: [{
+		uid: "453c6d3f",
+		type: "command",
+		title: "神秘全解",
+		icon: "thaumcraft:thaumonomicon",
+		team_reward: 0b,
+		auto: "disabled",
+		command: "/tc research @s all"
+	},
+	{
+		uid: "1a4bde9e",
+		type: "command",
+		title: "移除临时扭曲",
+		icon: "thaumcraft:curio 1 5",
+		command: "/tc warp @s set 0 TEMP"
+	}]
+}

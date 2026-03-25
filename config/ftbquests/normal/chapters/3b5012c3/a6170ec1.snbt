@@ -1,0 +1,15 @@
+{
+	title: "注魔",
+	x: 0.0d,
+	y: 0.0d,
+	dependencies: [
+		"93c1fa9f"
+	],
+	tasks: [{
+		uid: "9194c2a0",
+		type: "item",
+		items: [{
+			item: "thaumcraft:infusion_matrix"
+		}]
+	}]
+}

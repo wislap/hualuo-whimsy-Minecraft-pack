@@ -1,0 +1,7 @@
+{
+	title: "mek-part2",
+	icon: "mekanism:cosmicalloy",
+	always_invisible: 0b,
+	group: 936911622,
+	default_quest_shape: ""
+}

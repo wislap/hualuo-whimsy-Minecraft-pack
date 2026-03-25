@@ -1,0 +1,16 @@
+{
+	title: "拔刀剑",
+	icon: {
+		id: "flammpfeil.slashblade:slashbladewood",
+		tag: {
+			SlashBlade: {},
+			SB.SEffect: {}
+		},
+		ForgeCaps: {
+			Parent: {}
+		}
+	},
+	always_invisible: 0b,
+	group: -22351747,
+	default_quest_shape: ""
+}

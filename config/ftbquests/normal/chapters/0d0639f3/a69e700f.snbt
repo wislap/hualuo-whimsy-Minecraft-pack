@@ -1,0 +1,14 @@
+{
+	x: -7.5d,
+	y: 0.0d,
+	dependencies: [
+		"afbf14cd"
+	],
+	tasks: [{
+		uid: "6f089455",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:essentia_component_16k"
+		}]
+	}]
+}

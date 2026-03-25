@@ -1,0 +1,17 @@
+{
+	title: "木卫二",
+	x: -23.0d,
+	y: -3.5d,
+	description: "如果你很缺绿宝石，那我推荐你来这里",
+	text: [
+		"木卫二存在大量的绿宝石矿石"
+	],
+	dependencies: [
+		"8bfb3083"
+	],
+	tasks: [{
+		uid: "66df52a1",
+		type: "dimension",
+		dim: -1501
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "奥穆索的精华",
+	x: -1.5d,
+	y: 7.5d,
+	description: "奥穆索在你手中",
+	text: [
+		"浓缩的奥穆索之力，用于升级死灵之书"
+	],
+	dependencies: [
+		"588734ba"
+	],
+	tasks: [{
+		uid: "107fd62f",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:essence 1 2"
+		}],
+		consume_items: 0b
+	}],
+	rewards: [{
+		uid: "6466bf20",
+		type: "item",
+		item: "abyssalcraft:essence 1 2"
+	}]
+}

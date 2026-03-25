@@ -1,0 +1,11 @@
+{
+	x: 4.0d,
+	y: 4.0d,
+	tasks: [{
+		uid: "6e11126b",
+		type: "item",
+		items: [{
+			item: "modularmachinery:thermalpower_factory_controller"
+		}]
+	}]
+}

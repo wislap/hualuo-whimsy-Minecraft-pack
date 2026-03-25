@@ -1,0 +1,23 @@
+{
+	title: "终焉之地",
+	x: 16.0d,
+	y: 0.0d,
+	description: "以烈火烧尽障碍",
+	text: [
+		"（有一点点中二）"
+	],
+	dependencies: [
+		"3234d8ac",
+		"2e7d0ebd",
+		"b521d3d6"
+	],
+	tasks: [{
+		uid: "70c23bb4",
+		type: "item",
+		items: [{
+			item: "twilightforest:lamp_of_cinders"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	title: "开普勒22b",
+	x: 45.0d,
+	y: 0.0d,
+	description: "不知道你会不会考虑移居",
+	text: [
+		"这里有类似于地球的生态环境，十分适合生存"
+	],
+	dependencies: [
+		"44323e5c"
+	],
+	tasks: [{
+		uid: "49051878",
+		type: "dimension",
+		dim: -22
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	title: "木卫四",
+	x: -23.0d,
+	y: -3.5d,
+	description: "霉菌天堂",
+	text: [
+		"这个卫星上存在大量的石油和盐水"
+	],
+	dependencies: [
+		"8bfb3083"
+	],
+	tasks: [{
+		uid: "a46c1af9",
+		type: "dimension",
+		dim: -1505
+	}]
+}

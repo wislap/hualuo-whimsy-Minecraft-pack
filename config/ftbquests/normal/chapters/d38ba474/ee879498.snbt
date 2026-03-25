@@ -1,0 +1,26 @@
+{
+	title: "创造魔力石板",
+	x: 0.0d,
+	y: 4.0d,
+	description: "听说你缺魔力？",
+	text: [
+		"无限的魔力！"
+	],
+	dependencies: [
+		"37fcb7eb"
+	],
+	tasks: [{
+		uid: "ceba6d34",
+		type: "item",
+		items: [{
+			id: "botania:manatablet",
+			tag: {
+				mana: 500000,
+				creative: 1b
+			}
+		}],
+		consume_items: 0b,
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

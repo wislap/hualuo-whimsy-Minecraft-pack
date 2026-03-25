@@ -1,0 +1,20 @@
+{
+	title: "魔法和植物",
+	x: -1.5d,
+	y: 2.5d,
+	description: "植物魔法？植物科技！",
+	text: [
+		""
+	],
+	dependencies: [
+		"7d4bbbf5",
+		"a45c435f"
+	],
+	tasks: [{
+		uid: "96e040b2",
+		type: "item",
+		items: [{
+			item: "botania:flower"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: -28.0d,
+	y: 4.0d,
+	dependencies: [
+		"a9799ee2"
+	],
+	tasks: [{
+		uid: "b445d9be",
+		type: "item",
+		items: [{
+			item: "extraplanets:ingot_mercury"
+		}]
+	}]
+}

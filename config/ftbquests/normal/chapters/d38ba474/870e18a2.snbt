@@ -1,0 +1,22 @@
+{
+	title: "创造氧气",
+	x: 3.0d,
+	y: 3.0d,
+	description: "火星救援",
+	text: [
+		"氧气要耗尽了？"
+	],
+	dependencies: [
+		"37fcb7eb"
+	],
+	tasks: [{
+		uid: "3e6ed0fe",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:infinite_oxygen"
+		}],
+		consume_items: 0b,
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

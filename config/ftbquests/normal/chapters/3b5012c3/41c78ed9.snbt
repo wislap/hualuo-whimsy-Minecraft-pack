@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: -3.0d,
+	dependencies: [
+		"a6170ec1"
+	],
+	tasks: [{
+		uid: "e70bbe83",
+		type: "item",
+		items: [{
+			item: "thaumcraft:paving_stone_barrier"
+		}]
+	},
+	{
+		uid: "533403fd",
+		type: "item",
+		items: [{
+			item: "thaumcraft:paving_stone_travel"
+		}]
+	}]
+}

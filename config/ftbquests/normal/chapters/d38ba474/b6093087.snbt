@@ -1,0 +1,20 @@
+{
+	title: "创造能源",
+	x: 7.5d,
+	y: 0.0d,
+	description: "啊呀，骇死我力",
+	text: [
+		"输出只有1GRF/t，你甚至不如我的发电机"
+	],
+	dependencies: [
+		"7810da1e"
+	],
+	tasks: [{
+		uid: "767d4324",
+		type: "item",
+		items: [{
+			item: "draconicevolution:creative_rf_source"
+		}],
+		consume_items: 0b
+	}]
+}

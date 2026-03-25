@@ -1,0 +1,23 @@
+{
+	x: -3.5d,
+	y: -3.5d,
+	description: "元始之力",
+	text: [
+		"从腐化裂隙中，我们得到了一种在创始之初就存在的物质"
+	],
+	dependencies: [
+		"aaa9705c",
+		"3b5012c3",
+		"a93fb8f4"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "c185982e",
+		type: "item",
+		items: [{
+			item: "thaumcraft:primordial_pearl"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

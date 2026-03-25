@@ -1,0 +1,20 @@
+{
+	title: "创造强化",
+	x: -3.0d,
+	y: 3.0d,
+	description: "强化槽要不够了！",
+	text: [
+		"能加强化槽的头就是好头"
+	],
+	dependencies: [
+		"37fcb7eb"
+	],
+	tasks: [{
+		uid: "bdaef2dc",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials 1 50"
+		}],
+		consume_items: 0b
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "永夜？永昼？",
+	x: 0.0d,
+	y: 0.0d,
+	description: "永暮世界",
+	text: [
+		"随着你的探索，你知晓了一个永远处于暮色中的世界，前往那个世界获取更好的资源！"
+	],
+	dependencies: [
+		"a45c435f"
+	],
+	tasks: [{
+		uid: "7436958a",
+		type: "dimension",
+		dim: 7
+	}],
+	rewards: [{
+		uid: "5b373a16",
+		type: "item",
+		team_reward: 0b,
+		item: "twilightforest:knightmetal_ingot",
+		count: 2
+	}]
+}

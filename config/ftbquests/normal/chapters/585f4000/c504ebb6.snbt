@@ -1,0 +1,19 @@
+{
+	title: "电力时代",
+	x: 4.0d,
+	y: 1.0d,
+	description: "我想你会喜欢他",
+	text: [
+		"一个用电的熔炉，这很好，不是么？"
+	],
+	dependencies: [
+		"ef192e79"
+	],
+	tasks: [{
+		uid: "9bea5f7e",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 44"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	title: "天卫三",
+	x: 0.0d,
+	y: 2.0d,
+	description: "这里似乎没有什么值得注意的东西",
+	text: [
+		"如果你执意探索那也不是不行"
+	],
+	dependencies: [
+		"7081dd71"
+	],
+	tasks: [{
+		uid: "48c5d9b0",
+		type: "dimension",
+		dim: -1510
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 3.5d,
+	y: 6.5d,
+	tasks: [{
+		uid: "38ce6c4b",
+		type: "item",
+		items: [{
+			id: "flammpfeil.slashblade:slashbladenamed",
+			tag: {
+				CurrentItemName: "flammpfeil.slashblade.named.toyako",
+				SlashBlade: {},
+				TextureName: "named/toyako/toyako",
+				SB.SEffect: {},
+				baseAttackModifier: 5.0f,
+				ModelName: "named/toyako/toyako",
+				AttackAmplifier: 0.01f,
+				CustomMaxDamage: 70
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

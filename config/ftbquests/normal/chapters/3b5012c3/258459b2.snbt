@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 5.0d,
+	dependencies: [
+		"b403dbbc"
+	],
+	tasks: [{
+		uid: "4d9cae60",
+		type: "item",
+		items: [{
+			item: "thaumcraft:stone_ancient"
+		}]
+	}]
+}

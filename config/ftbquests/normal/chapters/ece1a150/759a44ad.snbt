@@ -1,0 +1,48 @@
+{
+	x: 14.0d,
+	y: 0.0d,
+	dependencies: [
+		"02cfe4e1"
+	],
+	tasks: [{
+		uid: "8563b8c7",
+		type: "item",
+		items: [{
+			id: "flammpfeil.slashblade:slashbladewrapper",
+			tag: {
+				SpecialAttackType: 47,
+				isDestructable: 0b,
+				isSpecialWrapper: 1b,
+				CurrentItemName: "flammpfeil.slashblade.named.Regresscabbard",
+				WrapItem: {
+					ForgeCaps: {
+						Parent: {}
+					},
+					id: "flammpfeil.slashblade:slashbladenamed",
+					Count: 1,
+					tag: {
+						CustomMaxDamage: 80,
+						SB.SEffect: {}
+					},
+					Damage: 0s
+				},
+				ench: [{
+					lvl: 3s,
+					id: 16
+				}],
+				TextureName: "silver/Regress",
+				ModelName: "silver/Regress",
+				AttackAmplifier: 0.01f,
+				baseAttackModifier: 7.0f,
+				SB.SEffect: {
+					BladeAttack: 10
+				}
+			},
+			ForgeCaps: {
+				Parent: {}
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 2b
+	}]
+}

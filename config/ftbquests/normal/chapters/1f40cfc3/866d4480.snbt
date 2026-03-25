@@ -1,0 +1,20 @@
+{
+	title: "八阶设计图",
+	x: 15.5d,
+	y: 0.0d,
+	description: "突破边界",
+	text: [
+		"可以前往冥王星"
+	],
+	dependencies: [
+		"9b0542e3"
+	],
+	tasks: [{
+		uid: "04a136c5",
+		type: "item",
+		items: [{
+			item: "extraplanets:schematic_tier8"
+		}],
+		ignore_nbt: 1b
+	}]
+}

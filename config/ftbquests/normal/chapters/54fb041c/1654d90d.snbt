@@ -1,0 +1,21 @@
+{
+	title: "星系-part2",
+	x: 9.0d,
+	y: -2.5d,
+	description: "飞向深空",
+	text: [
+		"我们要前往更远的地方"
+	],
+	dependencies: [
+		"1207e5a3",
+		"2aa1236c"
+	],
+	tasks: [{
+		uid: "ae05c102",
+		type: "item",
+		items: [{
+			item: "extraplanets:item_tier4_rocket"
+		}],
+		ignore_nbt: 1b
+	}]
+}

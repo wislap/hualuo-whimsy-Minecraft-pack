@@ -1,0 +1,39 @@
+{
+	title: "撕裂法杖.3",
+	x: 13.5d,
+	y: 7.5d,
+	description: "撕裂恐惧",
+	text: [
+		"再次升级，威力更强"
+	],
+	dependencies: [
+		"437051a2"
+	],
+	tasks: [{
+		uid: "e300164e",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:drainstaff 1 2"
+		}],
+		consume_items: 0b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "df7164ad",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 5,
+					id: 40
+				}]
+			}
+		}
+	},
+	{
+		uid: "57363445",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

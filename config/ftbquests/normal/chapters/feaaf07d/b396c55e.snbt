@@ -1,0 +1,31 @@
+{
+	title: "暮色里有个高塔，高塔里住着？",
+	x: 9.0d,
+	y: 0.0d,
+	description: "巫妖，巫妖王。",
+	text: [
+		"击败他，然后去讨伐其他首领"
+	],
+	dependencies: [
+		"c031ab9e"
+	],
+	tasks: [{
+		uid: "b4f9e73f",
+		type: "kill",
+		icon: "twilightforest:miniature_structure 1 6",
+		entity: "twilightforest:lich",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "0e603481",
+		type: "choice",
+		icon: "minecraft:golden_sword",
+		table: 0
+	},
+	{
+		uid: "b23c3340",
+		type: "item",
+		item: "minecraft:ender_pearl",
+		count: 4
+	}]
+}

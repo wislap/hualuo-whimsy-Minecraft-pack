@@ -1,0 +1,14 @@
+{
+	x: 2.0d,
+	y: 3.0d,
+	dependencies: [
+		"a6170ec1"
+	],
+	tasks: [{
+		uid: "6889336f",
+		type: "item",
+		items: [{
+			item: "thaumcraft:stabilizer"
+		}]
+	}]
+}

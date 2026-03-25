@@ -1,0 +1,20 @@
+{
+	title: "五阶设计图",
+	x: -17.5d,
+	y: 0.0d,
+	description: "更强，更快",
+	text: [
+		"可以前往土星及其卫星"
+	],
+	dependencies: [
+		"9f513516"
+	],
+	tasks: [{
+		uid: "7eae3cca",
+		type: "item",
+		items: [{
+			item: "extraplanets:schematic_tier5"
+		}],
+		ignore_nbt: 1b
+	}]
+}

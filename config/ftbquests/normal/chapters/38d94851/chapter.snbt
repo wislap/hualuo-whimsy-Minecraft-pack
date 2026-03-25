@@ -1,0 +1,7 @@
+{
+	title: "星系-part1",
+	icon: "galacticraftcore:rocket_t1",
+	always_invisible: 0b,
+	group: 78023026,
+	default_quest_shape: ""
+}

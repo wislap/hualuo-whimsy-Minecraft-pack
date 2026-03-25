@@ -1,0 +1,21 @@
+{
+	title: "一阶火箭",
+	x: 6.5d,
+	y: 4.0d,
+	description: "第二宇宙速度",
+	text: [
+		"准备进入太空，记得准备降落伞"
+	],
+	dependencies: [
+		"0afa0bb6",
+		"b68d9b07"
+	],
+	tasks: [{
+		uid: "fb1d482e",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:rocket_t1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

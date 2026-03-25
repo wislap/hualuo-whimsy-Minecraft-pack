@@ -1,0 +1,17 @@
+{
+	title: "土星",
+	x: -11.0d,
+	y: 0.0d,
+	description: "美丽的星环",
+	text: [
+		"虽然重力没有木星大，但他想压碎你也是十分轻易，在这里获取六阶设计图"
+	],
+	dependencies: [
+		"3985225e"
+	],
+	tasks: [{
+		uid: "d44326b7",
+		type: "dimension",
+		dim: -16
+	}]
+}

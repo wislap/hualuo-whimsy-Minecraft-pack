@@ -1,0 +1,24 @@
+{
+	x: 10.0d,
+	y: 7.0d,
+	dependencies: [
+		"77c6d4fe",
+		"23df0cfb",
+		"405e1f30"
+	],
+	tasks: [{
+		uid: "14816987",
+		type: "item",
+		items: [{
+			id: "draconicevolution:draconic_staff_of_power",
+			ForgeCaps: {
+				Parent: {
+					Size: 27,
+					Items: []
+				}
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

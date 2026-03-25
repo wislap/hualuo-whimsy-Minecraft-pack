@@ -1,0 +1,24 @@
+{
+	title: "深渊",
+	x: 8.0d,
+	y: 0.0d,
+	description: "珊瑚侵染的世界",
+	text: [
+		"这是深渊的第一层，一个黑暗，幽绿，充满着亡灵生物的地方。据传遗忘者在看守这个地方，或者他的龙——阿索拉。或许这是珊瑚瘟疫的来源。",
+		"从这里踏上深渊之旅"
+	],
+	dependencies: [
+		"d700857f"
+	],
+	tasks: [{
+		uid: "f8c2d4ef",
+		type: "dimension",
+		dim: 50
+	}],
+	rewards: [{
+		uid: "d6bf7726",
+		type: "item",
+		item: "abyssalcraft:cingot",
+		count: 4
+	}]
+}

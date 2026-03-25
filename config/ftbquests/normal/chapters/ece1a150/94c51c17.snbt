@@ -1,0 +1,31 @@
+{
+	x: -4.5d,
+	y: -6.0d,
+	dependencies: [
+		"defd74b8"
+	],
+	tasks: [{
+		uid: "6f068e82",
+		type: "item",
+		items: [{
+			id: "flammpfeil.slashblade:slashbladenamed",
+			tag: {
+				CurrentItemName: "flammpfeil.slashblade.named.laemmle",
+				SlashBlade: {},
+				baseAttackModifier: 7.0f,
+				ench: [{
+					lvl: 3s,
+					id: 16
+				}],
+				TextureName: "named/laemmle/lem",
+				SB.SEffect: {},
+				CustomMaxDamage: 80,
+				ModelName: "named/laemmle/blade",
+				AttackAmplifier: 0.01f,
+				StandbyRenderType: 2
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

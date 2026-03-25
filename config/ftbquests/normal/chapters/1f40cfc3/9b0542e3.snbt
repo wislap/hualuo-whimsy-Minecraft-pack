@@ -1,0 +1,17 @@
+{
+	title: "海王星",
+	x: 11.5d,
+	y: 0.0d,
+	description: "为什么你这个星球也是五颜六色的！？",
+	text: [
+		"这个星球也存在一个风暴眼，据说其中有着巨大的能量。在这里获取八阶设计图"
+	],
+	dependencies: [
+		"f2dfca0a"
+	],
+	tasks: [{
+		uid: "e937f5b3",
+		type: "dimension",
+		dim: -18
+	}]
+}

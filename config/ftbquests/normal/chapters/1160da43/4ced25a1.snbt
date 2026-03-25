@@ -1,0 +1,25 @@
+{
+	title: "深渊的精华",
+	x: 9.5d,
+	y: -3.5d,
+	description: "深渊在你手中",
+	text: [
+		"浓缩的深渊之力，用于升级死灵之书"
+	],
+	dependencies: [
+		"47dc753c"
+	],
+	tasks: [{
+		uid: "04413e5b",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:essence"
+		}],
+		consume_items: 0b
+	}],
+	rewards: [{
+		uid: "af9eb8df",
+		type: "item",
+		item: "abyssalcraft:essence"
+	}]
+}

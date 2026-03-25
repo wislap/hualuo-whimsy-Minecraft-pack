@@ -1,0 +1,20 @@
+{
+	title: "星系-part1",
+	x: 5.5d,
+	y: -2.5d,
+	description: "飞向太空",
+	text: [
+		"我们要冲破地球！"
+	],
+	dependencies: [
+		"9e7937bd"
+	],
+	tasks: [{
+		uid: "dcd52662",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:rocket_t1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

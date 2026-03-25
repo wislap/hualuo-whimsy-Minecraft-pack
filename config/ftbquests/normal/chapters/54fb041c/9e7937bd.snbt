@@ -1,0 +1,21 @@
+{
+	title: "第四章",
+	icon: "mekanism:reinforcedalloy",
+	x: 5.5d,
+	y: 0.0d,
+	description: "科技时代",
+	text: [
+		""
+	],
+	dependencies: [
+		"3fa69942",
+		"44fd46e5"
+	],
+	tasks: [{
+		uid: "6c17af51",
+		type: "item",
+		items: [{
+			item: "mekanism:ingot 1 1"
+		}]
+	}]
+}

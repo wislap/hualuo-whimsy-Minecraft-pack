@@ -1,0 +1,21 @@
+{
+	title: "神龙弓",
+	x: 10.0d,
+	y: 5.0d,
+	description: "怎么你的狙击枪和加特林一样的射速",
+	text: [
+		""
+	],
+	dependencies: [
+		"799b7a94"
+	],
+	tasks: [{
+		uid: "0a50c89e",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_bow"
+		}],
+		consume_items: 0b,
+		ignore_nbt: 1b
+	}]
+}

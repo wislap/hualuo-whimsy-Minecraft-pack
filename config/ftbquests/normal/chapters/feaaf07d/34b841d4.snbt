@@ -1,0 +1,26 @@
+{
+	title: "来无影，去无踪",
+	x: 9.0d,
+	y: 3.0d,
+	description: "幻影骑士？幻影忍者！（雾）",
+	text: [
+		"击败他，获得砷铅铁反应堆权限"
+	],
+	dependencies: [
+		"b396c55e"
+	],
+	tasks: [{
+		uid: "460e928f",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 4"
+		}],
+		consume_items: 0b
+	}],
+	rewards: [{
+		uid: "b66315a4",
+		type: "item",
+		item: "twilightforest:knightmetal_ingot",
+		count: 8
+	}]
+}

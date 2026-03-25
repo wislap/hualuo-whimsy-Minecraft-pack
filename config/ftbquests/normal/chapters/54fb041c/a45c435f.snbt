@@ -1,0 +1,22 @@
+{
+	title: "第二章",
+	icon: "twilightforest:miniature_structure",
+	x: -1.5d,
+	y: 0.0d,
+	description: "好起来了~",
+	text: [
+		""
+	],
+	dependencies: [
+		"6b0fab6f",
+		"7d4bbbf5"
+	],
+	tasks: [{
+		uid: "04bffba7",
+		type: "item",
+		icon: "minecraft:diamond",
+		items: [{
+			item: "minecraft:diamond"
+		}]
+	}]
+}

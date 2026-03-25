@@ -1,0 +1,17 @@
+{
+	title: "巴纳德C",
+	x: -1.5d,
+	y: -3.5d,
+	description: "另一个类地星球",
+	text: [
+		"这里和地球十分相似！"
+	],
+	dependencies: [
+		"7081dd71"
+	],
+	tasks: [{
+		uid: "a5dde6d1",
+		type: "dimension",
+		dim: -1030
+	}]
+}

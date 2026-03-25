@@ -1,0 +1,12 @@
+{
+	title: "植物魔法",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "puredaisy"
+		}
+	},
+	always_invisible: 0b,
+	group: -22351747,
+	default_quest_shape: ""
+}

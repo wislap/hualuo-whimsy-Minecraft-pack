@@ -1,0 +1,20 @@
+{
+	title: "九阶设计图",
+	x: 27.0d,
+	y: 0.0d,
+	description: "第三宇宙速度！",
+	text: [
+		"我们可以前往冥王星外的天体！"
+	],
+	dependencies: [
+		"acb9605d"
+	],
+	tasks: [{
+		uid: "5ff58646",
+		type: "item",
+		items: [{
+			item: "extraplanets:schematic_tier9"
+		}],
+		ignore_nbt: 1b
+	}]
+}

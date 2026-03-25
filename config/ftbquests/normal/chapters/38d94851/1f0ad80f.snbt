@@ -1,0 +1,18 @@
+{
+	title: "卡恩塔斯",
+	x: 26.0d,
+	y: 0.5d,
+	description: "*资料已失效*",
+	text: [
+		"error！！！",
+		"*该卫星数据因不明原因失效*"
+	],
+	dependencies: [
+		"88c890e7"
+	],
+	tasks: [{
+		uid: "9724da44",
+		type: "dimension",
+		dim: -2642
+	}]
+}

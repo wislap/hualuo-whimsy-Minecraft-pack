@@ -1,0 +1,17 @@
+{
+	title: "尼比鲁",
+	x: 23.0d,
+	y: 7.5d,
+	description: "有毒，这里有毒",
+	text: [
+		"请谨慎探索此星球，这里有许多毒物"
+	],
+	dependencies: [
+		"88c890e7"
+	],
+	tasks: [{
+		uid: "2e27e5ef",
+		type: "dimension",
+		dim: -2544
+	}]
+}

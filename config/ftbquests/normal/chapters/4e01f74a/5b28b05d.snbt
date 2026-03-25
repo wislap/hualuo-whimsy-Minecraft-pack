@@ -1,0 +1,51 @@
+{
+	x: 12.0d,
+	y: -3.0d,
+	dependencies: [
+		"3aa10bdd"
+	],
+	tasks: [{
+		uid: "9473d1da",
+		type: "item",
+		items: [{
+			id: "flammpfeil.slashblade:slashbladenamed",
+			tag: {
+				SpecialAttackType: 39,
+				CurrentItemName: "flammpfeil.slashblade.named.terra",
+				TextureName: "named/terra/terra",
+				AttackAmplifier: -5.0f,
+				ModelName: "named/terra/terra",
+				baseAttackModifier: 7.0f,
+				SB.SEffect: {
+					ManaBurst: 10,
+					ManaPoolRepair: 1
+				},
+				AttributeModifiers: [{
+					Name: "Weapon modifier",
+					UUIDMost: -3801225194067177672L,
+					UUIDLeast: -6586624321849018929L,
+					Amount: 2.0d,
+					Operation: 0,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage"
+				},
+				{
+					Name: "Weapon modifier",
+					UUIDMost: -422425648963762075L,
+					UUIDLeast: -5756800103171642205L,
+					Amount: -2.4000000953674316d,
+					Operation: 0,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed"
+				}],
+				SummonedSwordColor: 3524113,
+				SlashBlade: {},
+				CustomMaxDamage: 100,
+				StandbyRenderType: 3,
+				RepairOreDicMaterial: "ingotTerrasteel"
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

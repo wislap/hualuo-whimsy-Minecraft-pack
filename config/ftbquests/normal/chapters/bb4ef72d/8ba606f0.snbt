@@ -1,0 +1,18 @@
+{
+	title: "拓荒者套装",
+	x: 4.0d,
+	y: 4.0d,
+	description: "毕业套装",
+	text: [
+		"升级拉满强度远超无尽！"
+	],
+	dependencies: [
+		"a1517f49",
+		"fc246569"
+	],
+	tasks: [{
+		uid: "7b7b92cc",
+		type: "checkmark",
+		title: "尤里卡!"
+	}]
+}

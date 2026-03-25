@@ -1,0 +1,18 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	description: "超级电脑",
+	text: [
+		"已经抵达精度最高峰"
+	],
+	dependencies: [
+		"7493d5da"
+	],
+	tasks: [{
+		uid: "e7d8c861",
+		type: "item",
+		items: [{
+			item: "mekanism:controlcircuit 1 3"
+		}]
+	}]
+}

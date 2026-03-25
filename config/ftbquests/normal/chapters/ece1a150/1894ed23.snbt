@@ -1,0 +1,45 @@
+{
+	x: -7.0d,
+	y: 3.5d,
+	dependencies: [
+		"ca211760"
+	],
+	tasks: [{
+		uid: "fbe3b6c0",
+		type: "item",
+		items: [{
+			id: "flammpfeil.slashblade:slashbladenamed",
+			tag: {
+				SpecialAttackType: 1,
+				CurrentItemName: "flammpfeil.slashblade.named.nihil",
+				isDefaultBewitched: 1b,
+				StandbyRenderType: 1,
+				SB.SEffect: {},
+				ench: [{
+					lvl: 3s,
+					id: 34
+				},
+				{
+					lvl: 2s,
+					id: 16
+				},
+				{
+					lvl: 1s,
+					id: 17
+				},
+				{
+					lvl: 1s,
+					id: 20
+				}],
+				TextureName: "named/nihil/nihil",
+				baseAttackModifier: 8.0f,
+				AttackAmplifier: 0.01f,
+				ModelName: "named/nihil/nihil",
+				CustomMaxDamage: 45,
+				SlashBlade: {}
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

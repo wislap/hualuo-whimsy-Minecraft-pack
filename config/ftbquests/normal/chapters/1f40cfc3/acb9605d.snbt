@@ -1,0 +1,17 @@
+{
+	title: "冥王星",
+	x: 23.0d,
+	y: 0.0d,
+	description: "被“除名”的第九行星",
+	text: [
+		"作为一个矮行星，探索他是十分容易的，据说这里的地质活动很活跃，在这里获取九阶设计图"
+	],
+	dependencies: [
+		"866d4480"
+	],
+	tasks: [{
+		uid: "d7a5b851",
+		type: "dimension",
+		dim: -19
+	}]
+}

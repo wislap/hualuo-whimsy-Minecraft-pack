@@ -1,0 +1,11 @@
+{
+	x: 1.0d,
+	y: 4.0d,
+	tasks: [{
+		uid: "e1a2c6b7",
+		type: "item",
+		items: [{
+			item: "modularmachinery:wloreactivaredplant_factory_controller"
+		}]
+	}]
+}

@@ -1,0 +1,11 @@
+{
+	x: 18.0d,
+	y: 8.0d,
+	tasks: [{
+		uid: "f4e9b1df",
+		type: "item",
+		items: [{
+			item: "threng:material"
+		}]
+	}]
+}

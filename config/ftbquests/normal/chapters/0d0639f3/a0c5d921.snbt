@@ -1,0 +1,37 @@
+{
+	title: "源质数字运输",
+	x: 5.0d,
+	y: -2.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"cbc23592"
+	],
+	tasks: [{
+		uid: "637d614a",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:essentia_export"
+		}]
+	},
+	{
+		uid: "304ae117",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:essentia_import"
+		}]
+	}],
+	rewards: [{
+		uid: "aa469f72",
+		type: "item",
+		item: "thaumicenergistics:diffusion_core",
+		count: 4
+	},
+	{
+		uid: "1852aa95",
+		type: "item",
+		item: "thaumicenergistics:coalescence_core",
+		count: 4
+	}]
+}

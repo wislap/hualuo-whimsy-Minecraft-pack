@@ -1,0 +1,17 @@
+{
+	title: "谷神星",
+	x: -23.0d,
+	y: 3.5d,
+	description: "你说什么？辐射？",
+	text: [
+		"这个星球表面存在大量盐水和放射性水，地下则存在铀矿石"
+	],
+	dependencies: [
+		"8bfb3083"
+	],
+	tasks: [{
+		uid: "2bce97cd",
+		type: "dimension",
+		dim: -20
+	}]
+}

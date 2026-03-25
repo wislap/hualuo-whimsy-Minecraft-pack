@@ -1,0 +1,28 @@
+{
+	title: "雪怪群的首领",
+	x: 12.0d,
+	y: 0.0d,
+	description: "你真的是首领吗？？？",
+	text: [
+		"一个会被其他雪怪暴揍的“首领”",
+		"击败他以获得重要材料：雪怪首领毛皮"
+	],
+	dependencies: [
+		"b396c55e"
+	],
+	tasks: [{
+		uid: "ef541228",
+		type: "item",
+		items: [{
+			item: "twilightforest:alpha_fur"
+		}],
+		consume_items: 0b
+	}],
+	rewards: [{
+		uid: "719b6aac",
+		type: "item",
+		item: "twilightforest:alpha_fur",
+		count: 8,
+		random_bonus: 8
+	}]
+}

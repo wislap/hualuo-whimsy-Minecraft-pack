@@ -1,0 +1,14 @@
+{
+	x: 10.5d,
+	y: 3.5d,
+	dependencies: [
+		"ea9f63d5"
+	],
+	tasks: [{
+		uid: "b08eab38",
+		type: "item",
+		items: [{
+			item: "ecoaeextension:extendable_digital_storage_subsystem_l9"
+		}]
+	}]
+}

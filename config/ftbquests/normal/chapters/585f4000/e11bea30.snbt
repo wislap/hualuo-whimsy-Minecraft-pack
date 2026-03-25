@@ -1,0 +1,19 @@
+{
+	title: "产能",
+	x: -4.0d,
+	y: 0.0d,
+	description: "我需要更多能量！",
+	text: [
+		"有用电器一定会有发电机"
+	],
+	dependencies: [
+		"ef192e79"
+	],
+	tasks: [{
+		uid: "c0ee8e24",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 3"
+		}]
+	}]
+}

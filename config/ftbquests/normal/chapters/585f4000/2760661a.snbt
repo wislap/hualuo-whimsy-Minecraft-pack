@@ -1,0 +1,35 @@
+{
+	x: -4.0d,
+	y: 5.5d,
+	dependencies: [
+		"ef192e79",
+		"ca211760"
+	],
+	tasks: [{
+		uid: "c573a772",
+		type: "item",
+		items: [{
+			id: "mets:trblade_first",
+			tag: {
+				SpecialAttackType: 3,
+				CurrentItemName: "flammpfeil.slashblade.named.trblade_first",
+				isDefaultBewitched: 0b,
+				ench: [{
+					lvl: 1s,
+					id: 48
+				}],
+				TextureName: "named/mrblade/trfirst",
+				AttackAmplifier: 0.01f,
+				ModelName: "named/mrblade/basic",
+				baseAttackModifier: 7.0f,
+				SB.SEffect: {},
+				SummonedSwordColor: 14276889,
+				SlashBlade: {},
+				CustomMaxDamage: 141,
+				StandbyRenderType: 3
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	title: "源质数位化",
+	x: 0.0d,
+	y: 0.0d,
+	description: "伟大的ae2！",
+	text: [
+		""
+	],
+	dependencies: [
+		"3b6e07fc"
+	],
+	tasks: [{
+		uid: "695747f4",
+		type: "checkmark",
+		icon: "thaumicenergistics:knowledge_core"
+	}]
+}

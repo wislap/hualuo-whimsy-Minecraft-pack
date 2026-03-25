@@ -1,0 +1,24 @@
+{
+	title: "我去，牛头人！",
+	x: 9.0d,
+	y: -3.0d,
+	description: "拿着斧子的狠人（？）",
+	text: [
+		"听说他的肉做成的汤很好喝"
+	],
+	dependencies: [
+		"b396c55e"
+	],
+	tasks: [{
+		uid: "dd570065",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "5891f3b1",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

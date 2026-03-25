@@ -1,0 +1,18 @@
+{
+	title: "迎接末日",
+	x: -4.0d,
+	y: -3.5d,
+	description: "在毁灭与创造中诞生，末日的先驱",
+	text: [
+		"萨托斯是在黑暗领域里的最为强大的生物，同时也是活阴影的统治者。"
+	],
+	dependencies: [
+		"82c081a4"
+	],
+	tasks: [{
+		uid: "70389e3f",
+		type: "kill",
+		entity: "abyssalcraft:shadowboss",
+		value: 1L
+	}]
+}

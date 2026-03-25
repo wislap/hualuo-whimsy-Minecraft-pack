@@ -1,0 +1,17 @@
+{
+	title: "金星",
+	x: 24.5d,
+	y: 4.0d,
+	description: "怎么这里到处都是酸雨！？",
+	text: [
+		"在这里获取四阶设计图，记得寻找防护力场控制器"
+	],
+	dependencies: [
+		"88c890e7"
+	],
+	tasks: [{
+		uid: "3a8d96ca",
+		type: "dimension",
+		dim: -29
+	}]
+}

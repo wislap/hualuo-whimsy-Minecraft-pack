@@ -1,0 +1,42 @@
+{
+	x: -11.0d,
+	y: 2.0d,
+	dependencies: [
+		"713b6771"
+	],
+	tasks: [{
+		uid: "3535956a",
+		type: "item",
+		items: [{
+			id: "slashblade_addon:slashblade_tc",
+			tag: {
+				SpecialAttackType: 1,
+				infench: [{
+					lvl: 3s,
+					id: 5s
+				}],
+				CurrentItemName: "flammpfeil.slashblade.named.zephyr",
+				isDefaultBewitched: 1b,
+				ench: [{
+					lvl: 5s,
+					id: 48
+				},
+				{
+					lvl: 5s,
+					id: 2
+				}],
+				TextureName: "zephyr/tex",
+				StandbyRenderType: 3,
+				SB.SEffect: {},
+				ModelName: "zephyr/model",
+				CustomMaxDamage: 70,
+				SlashBlade: {}
+			},
+			ForgeCaps: {
+				Parent: {}
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

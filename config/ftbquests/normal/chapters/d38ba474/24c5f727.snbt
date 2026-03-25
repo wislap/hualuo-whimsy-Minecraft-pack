@@ -1,0 +1,20 @@
+{
+	title: "永恒魔力池",
+	x: 0.0d,
+	y: 7.0d,
+	description: "听说石板转移魔力能力有限",
+	text: [
+		"用火花传输无穷的魔力吧！"
+	],
+	dependencies: [
+		"ee879498"
+	],
+	tasks: [{
+		uid: "aea57370",
+		type: "item",
+		items: [{
+			item: "botania:pool 1 1"
+		}],
+		consume_items: 0b
+	}]
+}

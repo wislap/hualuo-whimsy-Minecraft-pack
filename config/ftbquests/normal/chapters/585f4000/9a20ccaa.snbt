@@ -1,0 +1,19 @@
+{
+	title: "压力山大",
+	x: 4.0d,
+	y: 3.5d,
+	description: "用于制造致密材料",
+	text: [
+		"谁来帮我释放压力！"
+	],
+	dependencies: [
+		"ef192e79"
+	],
+	tasks: [{
+		uid: "b94fa44b",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 43"
+		}]
+	}]
+}

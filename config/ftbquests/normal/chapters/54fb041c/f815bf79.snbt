@@ -1,0 +1,20 @@
+{
+	title: "MEK-进阶",
+	x: 9.0d,
+	y: 2.5d,
+	description: "我们的产能不能限于精英！",
+	text: [
+		"更强大的机器，甚至接近创造！"
+	],
+	dependencies: [
+		"9e7937bd",
+		"2aa1236c"
+	],
+	tasks: [{
+		uid: "e51207a4",
+		type: "item",
+		items: [{
+			item: "mekanism:cosmicalloy"
+		}]
+	}]
+}

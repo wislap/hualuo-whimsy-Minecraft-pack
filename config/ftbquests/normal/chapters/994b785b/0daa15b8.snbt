@@ -1,0 +1,11 @@
+{
+	x: 14.0d,
+	y: -4.0d,
+	tasks: [{
+		uid: "7f6fbc60",
+		type: "item",
+		items: [{
+			item: "modularmachinery:moleculartransformer_factory_controller"
+		}]
+	}]
+}

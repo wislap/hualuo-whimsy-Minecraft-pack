@@ -1,0 +1,17 @@
+{
+	title: "天苍五F",
+	x: -3.5d,
+	y: 3.5d,
+	description: "一个相对宜居的星球",
+	text: [
+		"但还是更推荐开普勒22b，巴纳德C，糖果星"
+	],
+	dependencies: [
+		"7081dd71"
+	],
+	tasks: [{
+		uid: "a9285f7d",
+		type: "dimension",
+		dim: -1338
+	}]
+}

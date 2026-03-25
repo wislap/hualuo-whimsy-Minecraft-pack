@@ -1,0 +1,18 @@
+{
+	title: "木星",
+	x: -21.5d,
+	y: 0.0d,
+	description: "神秘的风暴眼",
+	text: [
+		"太阳系中最大的行星，木星的重力足以压碎绝大多数结构，从这里获取五阶设计图"
+	],
+	dependencies: [
+		"8bfb3083",
+		"01f89b29"
+	],
+	tasks: [{
+		uid: "8b41a6d5",
+		type: "dimension",
+		dim: -15
+	}]
+}

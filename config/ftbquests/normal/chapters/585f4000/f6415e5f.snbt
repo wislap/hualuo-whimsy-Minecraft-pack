@@ -1,0 +1,19 @@
+{
+	title: "裂变反应堆",
+	x: -8.0d,
+	y: 0.0d,
+	description: "物理的力量",
+	text: [
+		"使用核燃料发电"
+	],
+	dependencies: [
+		"e11bea30"
+	],
+	tasks: [{
+		uid: "b6713c24",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 22"
+		}]
+	}]
+}

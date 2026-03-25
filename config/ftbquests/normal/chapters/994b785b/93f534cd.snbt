@@ -1,0 +1,14 @@
+{
+	x: 20.0d,
+	y: 0.0d,
+	dependencies: [
+		"92f98167"
+	],
+	tasks: [{
+		uid: "2e109ba3",
+		type: "item",
+		items: [{
+			item: "modularmachinery:createmanipulator_factory_controller"
+		}]
+	}]
+}

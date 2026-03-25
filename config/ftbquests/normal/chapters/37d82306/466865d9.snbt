@@ -1,0 +1,16 @@
+{
+	x: 6.0d,
+	y: -4.0d,
+	dependencies: [
+		"160b07fc"
+	],
+	tasks: [{
+		uid: "a8865cac",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_legs"
+		}],
+		consume_items: 0b,
+		ignore_nbt: 1b
+	}]
+}

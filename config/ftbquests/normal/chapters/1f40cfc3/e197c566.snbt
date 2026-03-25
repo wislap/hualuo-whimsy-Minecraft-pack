@@ -1,0 +1,17 @@
+{
+	title: "土卫五",
+	x: -11.0d,
+	y: -2.0d,
+	description: "这里似乎没有什么值得注意的东西",
+	text: [
+		"如果你执意探索那也不是不行"
+	],
+	dependencies: [
+		"3985225e"
+	],
+	tasks: [{
+		uid: "d8a7630e",
+		type: "dimension",
+		dim: -1507
+	}]
+}

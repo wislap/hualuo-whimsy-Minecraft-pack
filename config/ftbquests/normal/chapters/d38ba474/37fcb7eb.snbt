@@ -1,0 +1,19 @@
+{
+	title: "创造万物",
+	x: 0.0d,
+	y: 0.0d,
+	description: "超脱极限",
+	text: [
+		"我们需要更多，更多！"
+	],
+	dependencies: [
+		"a51a8461"
+	],
+	tasks: [{
+		uid: "cf6e119c",
+		type: "item",
+		items: [{
+			item: "mekanism:controlcircuit 1 4"
+		}]
+	}]
+}

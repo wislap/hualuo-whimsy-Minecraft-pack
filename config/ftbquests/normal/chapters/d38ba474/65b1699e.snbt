@@ -1,0 +1,19 @@
+{
+	title: "创造升级2",
+	x: -5.5d,
+	y: 5.5d,
+	description: "你是谁？",
+	text: [
+		"隔壁mek的创造升级都能用在机器上为什么你不行"
+	],
+	dependencies: [
+		"37fcb7eb"
+	],
+	tasks: [{
+		uid: "00c8c9f3",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:upgrade 1 256"
+		}]
+	}]
+}

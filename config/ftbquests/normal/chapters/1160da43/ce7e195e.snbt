@@ -1,0 +1,20 @@
+{
+	x: -4.0d,
+	y: 4.0d,
+	dependencies: [
+		"588734ba"
+	],
+	tasks: [{
+		uid: "1488c48f",
+		type: "item",
+		items: [{
+			id: "abyssalcraft:necronomicon_omt",
+			tag: {
+				PotEnergy: 0.0f
+			}
+		}],
+		consume_items: 0b,
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

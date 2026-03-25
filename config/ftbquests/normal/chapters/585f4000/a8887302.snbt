@@ -1,0 +1,19 @@
+{
+	title: "锤子？剪刀？",
+	x: 4.0d,
+	y: -3.5d,
+	description: "受够了手动合成？",
+	text: [
+		"一台机器解放你的工作台，不再需要手动合成板材线材"
+	],
+	dependencies: [
+		"ef192e79"
+	],
+	tasks: [{
+		uid: "9aae799a",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 55"
+		}]
+	}]
+}

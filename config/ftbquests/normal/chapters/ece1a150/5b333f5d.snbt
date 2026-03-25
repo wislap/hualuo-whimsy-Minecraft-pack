@@ -1,0 +1,33 @@
+{
+	x: -7.0d,
+	y: -7.5d,
+	description: "鲜血四溅！",
+	text: [
+		""
+	],
+	dependencies: [
+		"defd74b8"
+	],
+	tasks: [{
+		uid: "24e9cd2d",
+		type: "item",
+		items: [{
+			id: "slashblade_addon:slashblade_rf",
+			tag: {
+				SpecialAttackType: 20,
+				CurrentItemName: "flammpfeil.slashblade.named.murasamablade",
+				isDefaultBewitched: 1b,
+				StandbyRenderType: 2,
+				baseAttackModifier: 7.0f,
+				TextureName: "named/murasamablade/murasama",
+				SB.SEffect: {},
+				AttackAmplifier: 0.01f,
+				ModelName: "named/murasamablade/murasama",
+				CustomMaxDamage: 250,
+				SlashBlade: {}
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

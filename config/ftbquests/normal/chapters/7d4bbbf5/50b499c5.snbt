@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	description: "我想你需要看看",
+	text: [
+		"没有什么好看的捏qwq"
+	],
+	dependencies: [
+		"6b0fab6f"
+	],
+	tasks: [{
+		uid: "68017ee1",
+		type: "checkmark",
+		title: "第一步"
+	}],
+	rewards: [{
+		uid: "8d86feea",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

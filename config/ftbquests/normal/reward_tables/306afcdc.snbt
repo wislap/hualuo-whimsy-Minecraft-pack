@@ -1,0 +1,16 @@
+{
+	title: "巫妖王的法杖",
+	loot_size: 1,
+	rewards: [{
+		item: "twilightforest:shield_scepter"
+	},
+	{
+		item: "twilightforest:zombie_scepter"
+	},
+	{
+		item: "twilightforest:lifedrain_scepter"
+	},
+	{
+		item: "twilightforest:twilight_scepter"
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "创造能源元件",
+	x: -4.0d,
+	y: 0.0d,
+	description: "廉价的系统能源",
+	text: [
+		"门外竖着！"
+	],
+	dependencies: [
+		"37fcb7eb"
+	],
+	tasks: [{
+		uid: "017e97cc",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:creative_energy_cell"
+		}],
+		consume_items: 0b
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: 14.0d,
+	y: 8.5d,
+	dependencies: [
+		"ba395c67"
+	],
+	tasks: [{
+		uid: "fd966e8a",
+		type: "item",
+		items: [{
+			id: "flammpfeil.slashblade:slashbladewrapper",
+			tag: {
+				TextureName: "BalkonIron",
+				SB.SEffect: {},
+				baseAttackModifier: 6.0f,
+				CurrentItemName: "wrap.reforged.iron_katana",
+				WrapItem: {
+					id: "minecraft:wooden_sword",
+					Count: 1,
+					Damage: 0s
+				},
+				ench: [{
+					lvl: 1s,
+					id: 21
+				}]
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

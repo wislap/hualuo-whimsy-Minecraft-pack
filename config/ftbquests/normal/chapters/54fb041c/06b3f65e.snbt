@@ -1,0 +1,19 @@
+{
+	title: "应用能源",
+	x: 2.0d,
+	y: -2.5d,
+	description: "我们的箱子不够用了",
+	text: [
+		""
+	],
+	dependencies: [
+		"44fd46e5"
+	],
+	tasks: [{
+		uid: "c2b7d144",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:controller"
+		}]
+	}]
+}

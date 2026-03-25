@@ -1,0 +1,18 @@
+{
+	x: 3.5d,
+	y: 0.0d,
+	description: "换条思路",
+	text: [
+		"或许我们可以用别的办法利用腐化裂隙"
+	],
+	dependencies: [
+		"192af236"
+	],
+	tasks: [{
+		uid: "af15d364",
+		type: "item",
+		items: [{
+			item: "thaumcraft:void_siphon"
+		}]
+	}]
+}

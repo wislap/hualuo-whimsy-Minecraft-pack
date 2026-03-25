@@ -1,0 +1,16 @@
+{
+	x: 2.0d,
+	y: 2.5d,
+	dependencies: [
+		"160b07fc"
+	],
+	tasks: [{
+		uid: "9a36c045",
+		type: "item",
+		items: [{
+			item: "draconicevolution:energy_storage_core"
+		}],
+		consume_items: 0b,
+		ignore_nbt: 1b
+	}]
+}

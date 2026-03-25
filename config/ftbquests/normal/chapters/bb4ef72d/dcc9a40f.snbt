@@ -1,0 +1,16 @@
+{
+	x: 4.0d,
+	y: 7.0d,
+	dependencies: [
+		"8ba606f0"
+	],
+	tasks: [{
+		uid: "c021f75c",
+		type: "item",
+		items: [{
+			item: "mekanism:meka_tool"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 20.5d,
+	y: 7.0d,
+	dependencies: [
+		"f3cd7386"
+	],
+	tasks: [{
+		uid: "23ad7347",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:item_basic_asteroids"
+		}]
+	}]
+}

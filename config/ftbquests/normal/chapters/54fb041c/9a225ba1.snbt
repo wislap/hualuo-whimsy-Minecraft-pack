@@ -1,0 +1,19 @@
+{
+	title: "工业时代",
+	x: 2.0d,
+	y: 2.5d,
+	description: "科技的起始",
+	text: [
+		""
+	],
+	dependencies: [
+		"44fd46e5"
+	],
+	tasks: [{
+		uid: "9ff7bd38",
+		type: "item",
+		items: [{
+			item: "ic2:resource 1 12"
+		}]
+	}]
+}

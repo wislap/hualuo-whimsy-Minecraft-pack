@@ -1,0 +1,21 @@
+{
+	title: "四阶设计图",
+	x: -28.0d,
+	y: 0.0d,
+	description: "外太阳系！",
+	text: [
+		"可以前往谷神星，木星及其卫星"
+	],
+	dependencies: [
+		"a9799ee2",
+		"40cd6fea"
+	],
+	tasks: [{
+		uid: "21ac7680",
+		type: "item",
+		items: [{
+			item: "extraplanets:schematic_tier4"
+		}],
+		ignore_nbt: 1b
+	}]
+}

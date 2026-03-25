@@ -1,0 +1,14 @@
+{
+	x: -7.5d,
+	y: 0.0d,
+	description: "我是谁？我在哪？我要干什么？",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "ab5df411",
+		type: "checkmark",
+		title: "一切的开始",
+		icon: "minecraft:grass"
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	title: "一点小提示",
+	x: 0.0d,
+	y: 3.0d,
+	description: "（一定要看）",
+	text: [
+		"这里十分适合狩猎巨龙（当然别被巨龙狩猎了）"
+	],
+	dependencies: [
+		"a67afdf5"
+	],
+	tasks: [{
+		uid: "6fbd296d",
+		type: "checkmark"
+	}]
+}

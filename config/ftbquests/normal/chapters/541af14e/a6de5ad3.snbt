@@ -1,0 +1,9 @@
+{
+	title: "需要匠魂炉的好材料",
+	icon: "tconstruct:cast",
+	x: 0.0d,
+	y: 8.0d,
+	text: [
+		""
+	]
+}

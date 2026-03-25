@@ -1,0 +1,17 @@
+{
+	title: "糖果星",
+	x: 26.0d,
+	y: 7.5d,
+	description: "就连空气都是香甜的",
+	text: [
+		"吃货的天堂！"
+	],
+	dependencies: [
+		"88c890e7"
+	],
+	tasks: [{
+		uid: "6ff225dd",
+		type: "dimension",
+		dim: -2545
+	}]
+}

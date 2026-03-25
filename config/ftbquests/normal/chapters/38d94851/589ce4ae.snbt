@@ -1,0 +1,17 @@
+{
+	title: "地球",
+	x: 0.0d,
+	y: 0.0d,
+	description: "我想没有外星人比你更熟悉它",
+	text: [
+		"梦开始的地方"
+	],
+	dependencies: [
+		"1207e5a3"
+	],
+	tasks: [{
+		uid: "604208b0",
+		type: "dimension",
+		dim: 0
+	}]
+}

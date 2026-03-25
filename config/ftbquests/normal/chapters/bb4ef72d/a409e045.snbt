@@ -1,0 +1,17 @@
+{
+	x: 7.5d,
+	y: 5.0d,
+	dependencies: [
+		"669d58e8",
+		"8ba606f0"
+	],
+	tasks: [{
+		uid: "53ee713c",
+		type: "item",
+		items: [{
+			item: "mekanism:mekasuit_boots"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

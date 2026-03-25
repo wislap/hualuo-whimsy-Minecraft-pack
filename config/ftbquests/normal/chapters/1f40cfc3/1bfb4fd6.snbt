@@ -1,0 +1,14 @@
+{
+	x: 49.5d,
+	y: -2.0d,
+	dependencies: [
+		"2906c3c0"
+	],
+	tasks: [{
+		uid: "be674843",
+		type: "item",
+		items: [{
+			item: "extraplanets:tier11_items 1 1"
+		}]
+	}]
+}

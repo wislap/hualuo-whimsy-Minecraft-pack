@@ -458,7 +458,7 @@ RecipeBuilder.newBuilder("assemblyplant_cr","assemblyplant",600)
 	.addItemOutput(<modularmachinery:chaosreactor_factory_controller>*1)
 	.build();
 
-RecipeBuilder.newBuilder("assemblyplant_mekax","assemblyplant",1200)
+RecipeBuilder.newBuilder("assemblyplant_mekaxz","assemblyplant",1200)
 	.addEnergyPerTickInput(10000000)
 	.addItemInputs([
 		<thermalfoundation:geode>*5,
@@ -484,7 +484,7 @@ RecipeBuilder.newBuilder("assemblyplant_mekak","assemblyplant",1200)
 	.addItemOutput(<mekanism:mekasuit_pants>*1)
 	.build();
 
-RecipeBuilder.newBuilder("assemblyplant_mekax","assemblyplant",1200)
+RecipeBuilder.newBuilder("assemblyplant_mekaxj","assemblyplant",1200)
 	.addEnergyPerTickInput(10000000)
 	.addItemInputs([
 		<thermalfoundation:geode>*5,
@@ -508,32 +508,6 @@ RecipeBuilder.newBuilder("assemblyplant_mekat","assemblyplant",1200)
 		<draconicevolution:draconic_helm>*1
 	])
 	.addItemOutput(<mekanism:mekasuit_helmet>*1)
-	.build();
-
-RecipeBuilder.newBuilder("assemblyplant_mekag","assemblyplant",1200)
-	.addEnergyPerTickInput(10000000)
-	.addItemInputs([
-		<thermalfoundation:geode>*5,
-		<draconicevolution:chaotic_core>*1,
-		<mekanism:controlcircuit:3>*2,
-		<mekanism:cosmicalloy>*4,
-		<ore:PoloniumPellet>*4,
-		<draconicevolution:draconic_bow>*1
-	])
-	.addItemOutput(<mekaweapons:bow_riser>*1)
-	.build();
-
-RecipeBuilder.newBuilder("assemblyplant_mekaj","assemblyplant",1200)
-	.addEnergyPerTickInput(10000000)
-	.addItemInputs([
-		<thermalfoundation:geode>*5,
-		<draconicevolution:chaotic_core>*1,
-		<mekanism:controlcircuit:3>*2,
-		<mekanism:cosmicalloy>*4,
-		<ore:PoloniumPellet>*4,
-		<draconicevolution:draconic_sword>*1
-	])
-	.addItemOutput(<mekaweapons:katana_blade>*1)
 	.build();
 
 RecipeBuilder.newBuilder("assemblyplant_czkzq","assemblyplant",1200)

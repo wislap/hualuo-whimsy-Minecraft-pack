@@ -1,0 +1,39 @@
+{
+	title: "撕裂法杖.2",
+	x: 6.5d,
+	y: -3.5d,
+	description: "撕裂深渊",
+	text: [
+		"更强大的撕裂法杖"
+	],
+	dependencies: [
+		"47dc753c"
+	],
+	tasks: [{
+		uid: "d2ece1af",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:drainstaff 1 1"
+		}],
+		consume_items: 0b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7321485b",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 40
+				}]
+			}
+		}
+	},
+	{
+		uid: "58dead02",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

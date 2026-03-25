@@ -1,0 +1,28 @@
+{
+	x: 7.0d,
+	y: 7.5d,
+	dependencies: [
+		"0785ade7"
+	],
+	tasks: [{
+		uid: "1f61bd16",
+		type: "item",
+		items: [{
+			id: "flammpfeil.slashblade:slashbladenamed",
+			tag: {
+				SpecialAttackType: 30,
+				CurrentItemName: "flammpfeil.slashblade.named.wanderer",
+				StandbyRenderType: 1,
+				SB.SEffect: {},
+				TextureName: "named/wanderer/wanderer",
+				baseAttackModifier: 7.0f,
+				SlashBlade: {},
+				ModelName: "named/wanderer/wanderer",
+				AttackAmplifier: 0.01f,
+				CustomMaxDamage: 60
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

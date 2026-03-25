@@ -1,0 +1,22 @@
+{
+	x: 7.0d,
+	y: -2.5d,
+	dependencies: [
+		"160b07fc"
+	],
+	tasks: [{
+		uid: "b9b67d2d",
+		type: "item",
+		items: [{
+			id: "draconicevolution:wyvern_shovel",
+			ForgeCaps: {
+				Parent: {
+					Size: 9,
+					Items: []
+				}
+			}
+		}],
+		consume_items: 0b,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 3.5d,
+	y: -10.5d,
+	dependencies: [
+		"cbbd0016"
+	],
+	tasks: [{
+		uid: "cfa87a42",
+		type: "item",
+		items: [{
+			item: "ecoaeextension:extendable_fabricator_subsystem_l6"
+		}]
+	}]
+}

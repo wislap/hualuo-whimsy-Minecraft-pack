@@ -1,0 +1,14 @@
+{
+	x: 8.0d,
+	y: -3.0d,
+	dependencies: [
+		"1dfe9308"
+	],
+	tasks: [{
+		uid: "bf790d20",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:upgrade 1 1"
+		}]
+	}]
+}

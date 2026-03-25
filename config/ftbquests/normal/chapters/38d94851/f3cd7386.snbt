@@ -1,0 +1,17 @@
+{
+	title: "火星",
+	x: 17.0d,
+	y: 4.0d,
+	description: "殖民火星！",
+	text: [
+		"恭喜你来到星系的第三个星球，火星，在这里获取三阶设计图"
+	],
+	dependencies: [
+		"bc5b0a96"
+	],
+	tasks: [{
+		uid: "5a0c9fed",
+		type: "dimension",
+		dim: -29
+	}]
+}

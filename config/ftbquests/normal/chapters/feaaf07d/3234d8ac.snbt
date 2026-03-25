@@ -1,0 +1,33 @@
+{
+	title: "好多的头",
+	x: 12.0d,
+	y: -3.0d,
+	description: "九头蛇？我看你也不像蛇。",
+	text: [
+		"击败他以获得重要材料：炽热的血"
+	],
+	dependencies: [
+		"2bf3375e"
+	],
+	tasks: [{
+		uid: "47fa7679",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 2"
+		}],
+		consume_items: 0b
+	}],
+	rewards: [{
+		uid: "a1f7fcd4",
+		type: "item",
+		item: "twilightforest:fiery_blood",
+		count: 8
+	},
+	{
+		uid: "62e041e8",
+		type: "item",
+		item: "twilightforest:hydra_chop",
+		count: 16,
+		random_bonus: 16
+	}]
+}

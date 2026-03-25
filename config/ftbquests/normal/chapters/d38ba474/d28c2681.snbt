@@ -1,0 +1,19 @@
+{
+	title: "创造源质元件",
+	x: -5.5d,
+	y: -5.5d,
+	description: "荒古炼金炉？狗都不用！",
+	text: [
+		"这才对嘛！"
+	],
+	dependencies: [
+		"37fcb7eb"
+	],
+	tasks: [{
+		uid: "383ef602",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:essentia_cell_creative"
+		}]
+	}]
+}

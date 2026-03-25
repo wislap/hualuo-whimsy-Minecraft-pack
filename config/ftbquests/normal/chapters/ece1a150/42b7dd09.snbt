@@ -1,0 +1,69 @@
+{
+	x: 3.5d,
+	y: 3.5d,
+	description: "you shell die!",
+	text: [
+		"I am the storm that is approaching"
+	],
+	dependencies: [
+		"fae0edab"
+	],
+	tasks: [{
+		uid: "ccd27be9",
+		type: "item",
+		items: [{
+			id: "flammpfeil.slashblade:slashbladenamed",
+			tag: {
+				SpecialAttackType: 0,
+				CurrentItemName: "flammpfeil.slashblade.named.yamato",
+				isDefaultBewitched: 1b,
+				AttributeModifiers: [{
+					Name: "Weapon modifier",
+					UUIDMost: -3801225194067177672L,
+					UUIDLeast: -6586624321849018929L,
+					Amount: 2.0d,
+					Operation: 0,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage"
+				},
+				{
+					Name: "Weapon modifier",
+					UUIDMost: -422425648963762075L,
+					UUIDLeast: -5756800103171642205L,
+					Amount: -2.4000000953674316d,
+					Operation: 0,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed"
+				}],
+				ench: [{
+					lvl: 1s,
+					id: 7
+				},
+				{
+					lvl: 4s,
+					id: 2
+				},
+				{
+					lvl: 5s,
+					id: 48
+				},
+				{
+					lvl: 2s,
+					id: 49
+				}],
+				TextureName: "named/yamato",
+				AttackAmplifier: -5.0f,
+				ModelName: "named/yamato",
+				baseAttackModifier: 7.0f,
+				SB.SEffect: {},
+				killCount: 1000,
+				ProudSoul: 1000,
+				StandbyRenderType: 1,
+				SlashBlade: {},
+				CustomMaxDamage: 40
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

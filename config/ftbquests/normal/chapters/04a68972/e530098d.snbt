@@ -1,0 +1,18 @@
+{
+	x: 7.5d,
+	y: 4.0d,
+	description: "大风车吱呀吱悠悠地转~",
+	text: [
+		""
+	],
+	dependencies: [
+		"8b820af3"
+	],
+	tasks: [{
+		uid: "183d2495",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:turbineblade"
+		}]
+	}]
+}

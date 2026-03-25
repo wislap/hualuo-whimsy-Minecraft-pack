@@ -1,0 +1,19 @@
+{
+	title: "创造容量升级",
+	x: 0.0d,
+	y: -4.0d,
+	description: "无限存储",
+	text: [
+		"你说啥？不如AE？"
+	],
+	dependencies: [
+		"37fcb7eb"
+	],
+	tasks: [{
+		uid: "3646e07b",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_creative"
+		}]
+	}]
+}

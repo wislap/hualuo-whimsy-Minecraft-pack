@@ -1,0 +1,27 @@
+{
+	x: 0.0d,
+	y: -15.0d,
+	tasks: [{
+		uid: "814f08d4",
+		type: "item",
+		items: [{
+			id: "flammpfeil.slashblade:slashbladenamed",
+			tag: {
+				SpecialAttackType: 2,
+				CurrentItemName: "flammpfeil.slashblade.named.orotiagito.rust",
+				StandbyRenderType: 2,
+				AttackAmplifier: 0.01f,
+				baseAttackModifier: 5.0f,
+				TextureName: "named/agito_rust_true",
+				SB.SEffect: {},
+				isSealed: 1b,
+				ModelName: "named/agito",
+				SlashBlade: {},
+				CustomMaxDamage: 60,
+				TrueItemName: "flammpfeil.slashblade.named.orotiagito.seald"
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

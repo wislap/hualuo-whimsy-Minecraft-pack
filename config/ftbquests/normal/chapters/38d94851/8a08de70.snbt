@@ -1,0 +1,16 @@
+{
+	title: "火卫一",
+	x: 15.5d,
+	y: 6.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"bc5b0a96"
+	],
+	tasks: [{
+		uid: "e0820976",
+		type: "dimension",
+		dim: -1502
+	}]
+}

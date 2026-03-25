@@ -1,0 +1,19 @@
+{
+	x: -8.0d,
+	y: -4.0d,
+	description: "最终的清洁能源",
+	text: [
+		"利用地磁发电，使用地磁探测器探测地磁强度，高原发电x1.2"
+	],
+	dependencies: [
+		"0703a8fe",
+		"f6415e5f"
+	],
+	tasks: [{
+		uid: "4d9ce5e7",
+		type: "item",
+		items: [{
+			item: "mets:te 1 21"
+		}]
+	}]
+}

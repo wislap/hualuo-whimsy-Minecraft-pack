@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	description: "最高精度",
+	text: [
+		"抵达极限！"
+	],
+	dependencies: [
+		"f815bf79",
+		"86e45119"
+	],
+	tasks: [{
+		uid: "d6e96c87",
+		type: "item",
+		items: [{
+			item: "mekanism:atomicalloy"
+		}]
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "进入暮色森林的第一步",
+	x: 3.0d,
+	y: 0.0d,
+	dependencies: [
+		"a67afdf5"
+	],
+	tasks: [{
+		uid: "2db8435f",
+		type: "item",
+		items: [{
+			item: "twilightforest:magic_map_focus"
+		}],
+		consume_items: 0b
+	}],
+	rewards: [{
+		uid: "33900908",
+		type: "item",
+		team_reward: 0b,
+		item: "minecraft:paper",
+		count: 8
+	}]
+}

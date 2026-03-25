@@ -1,0 +1,25 @@
+{
+	title: "是电池（雾）",
+	x: 3.0d,
+	y: 0.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"226bd255"
+	],
+	tasks: [{
+		uid: "940cee55",
+		type: "item",
+		items: [{
+			item: "botania:pool"
+		}]
+	},
+	{
+		uid: "c69d4a33",
+		type: "item",
+		items: [{
+			item: "botania:spreader"
+		}]
+	}]
+}

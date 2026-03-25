@@ -1,0 +1,48 @@
+{
+	x: -11.0d,
+	y: 2.5d,
+	dependencies: [
+		"75c11a6b"
+	],
+	tasks: [{
+		uid: "85681553",
+		type: "item",
+		items: [{
+			id: "mets:bloodrev_extra",
+			tag: {
+				SpecialAttackType: 13248569,
+				CurrentItemName: "flammpfeil.slashblade.named.bloodrev_extra",
+				isDefaultBewitched: 1b,
+				ench: [{
+					lvl: 12s,
+					id: 48
+				},
+				{
+					lvl: 12s,
+					id: 34
+				},
+				{
+					lvl: 12s,
+					id: 16
+				},
+				{
+					lvl: 3s,
+					id: 21
+				}],
+				TextureName: "named/mrblade/texture_blood",
+				AttackAmplifier: 0.01f,
+				ModelName: "named/mrblade/advanced",
+				baseAttackModifier: 1024.0f,
+				SB.SEffect: {
+					BloodRevSE: 35
+				},
+				SummonedSwordColor: 12326679,
+				SlashBlade: {},
+				CustomMaxDamage: 1280,
+				StandbyRenderType: 2
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

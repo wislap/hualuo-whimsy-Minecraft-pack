@@ -1,0 +1,21 @@
+{
+	title: "撕裂法杖.1",
+	x: 4.0d,
+	y: 0.0d,
+	description: "为什么我看不到伤口?",
+	text: [
+		"从怪物身上汲取PE，在特定维度可以获得对应精华"
+	],
+	dependencies: [
+		"207bdc7a"
+	],
+	tasks: [{
+		uid: "2aa1d91b",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:drainstaff"
+		}],
+		consume_items: 0b,
+		ignore_nbt: 1b
+	}]
+}

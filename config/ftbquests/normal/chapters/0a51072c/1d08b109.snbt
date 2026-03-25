@@ -1,0 +1,14 @@
+{
+	x: -8.0d,
+	y: 0.0d,
+	dependencies: [
+		"2d6b1a2f"
+	],
+	tasks: [{
+		uid: "d21081c9",
+		type: "item",
+		items: [{
+			item: "thaumcraft:mirror"
+		}]
+	}]
+}

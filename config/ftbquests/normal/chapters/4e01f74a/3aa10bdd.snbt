@@ -1,0 +1,18 @@
+{
+	title: "盖亚守护者",
+	icon: "botania:gaiahead",
+	x: 12.0d,
+	y: 0.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"ad34e22d"
+	],
+	tasks: [{
+		uid: "e2de3685",
+		type: "kill",
+		entity: "botania:doppleganger",
+		value: 1L
+	}]
+}

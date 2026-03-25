@@ -1,0 +1,20 @@
+{
+	title: "炼金学",
+	x: 6.5d,
+	y: 0.0d,
+	description: "是时候炼金了！",
+	text: [
+		"神秘分支-炼金学"
+	],
+	dependencies: [
+		"1ad880d0"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "141d2ffc",
+		type: "item",
+		items: [{
+			item: "thaumcraft:crucible"
+		}]
+	}]
+}

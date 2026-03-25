@@ -1,0 +1,20 @@
+{
+	title: "六阶设计图",
+	x: -7.0d,
+	y: 0.0d,
+	description: "隔离磁场",
+	text: [
+		"更强劲的动力，足以前往比邻星B，巴纳德C，天苍五F，柯伊伯带，天王星及其卫星"
+	],
+	dependencies: [
+		"a8a2a0c6"
+	],
+	tasks: [{
+		uid: "8ddec34d",
+		type: "item",
+		items: [{
+			item: "extraplanets:schematic_tier6"
+		}],
+		ignore_nbt: 1b
+	}]
+}

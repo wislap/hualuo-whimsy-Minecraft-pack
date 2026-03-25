@@ -1,0 +1,23 @@
+{
+	title: "炼化学",
+	icon: "thaumcraft:goggles",
+	x: 9.5d,
+	y: -3.0d,
+	description: "将机械与灵气结合",
+	text: [
+		"用机械和灵气创造实用工具"
+	],
+	dependencies: [
+		"d2b0ff7f"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "6f303798",
+		type: "item",
+		items: [{
+			item: "thaumcraft:goggles"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

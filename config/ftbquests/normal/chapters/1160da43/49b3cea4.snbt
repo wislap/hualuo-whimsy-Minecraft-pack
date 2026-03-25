@@ -1,0 +1,40 @@
+{
+	title: "扎哈尔",
+	icon: {
+		id: "minecraft:spawn_egg",
+		tag: {
+			EntityTag: {
+				id: "abyssalcraft:jzahar"
+			}
+		}
+	},
+	x: -4.0d,
+	y: 0.0d,
+	description: "深渊的守门者",
+	text: [
+		"扎哈尔是旧日支配者中唯一没有被流放到永恒虚空的存在。",
+		"因为他拥有的力量使他可以逆转时间和空间再造自身，他被任命去守卫他那陷入永恒沉睡中的的同伴魔神。"
+	],
+	dependencies: [
+		"ce7e195e"
+	],
+	tasks: [{
+		uid: "0e18633c",
+		type: "kill",
+		entity: "abyssalcraft:jzahar",
+		value: 1L
+	},
+	{
+		uid: "3fa69942",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:gatekeeperessence"
+		}],
+		consume_items: 0b
+	}],
+	rewards: [{
+		uid: "917db1ae",
+		type: "item",
+		item: "abyssalcraft:gatekeeperessence"
+	}]
+}

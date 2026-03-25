@@ -1,0 +1,14 @@
+{
+	x: 12.0d,
+	y: 0.0d,
+	dependencies: [
+		"a635884e"
+	],
+	tasks: [{
+		uid: "634a377a",
+		type: "item",
+		items: [{
+			item: "modularmachinery:assemblyplant_factory_controller"
+		}]
+	}]
+}

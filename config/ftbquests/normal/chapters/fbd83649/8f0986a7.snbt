@@ -1,0 +1,17 @@
+{
+	x: 3.5d,
+	y: 10.5d,
+	dependencies: [
+		"a28f92bc"
+	],
+	tasks: [{
+		uid: "c7a9a9e3",
+		type: "item",
+		items: [{
+			id: "ecoaeextension:estorage_cell_fluid_256m",
+			tag: {}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

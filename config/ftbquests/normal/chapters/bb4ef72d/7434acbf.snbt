@@ -1,0 +1,14 @@
+{
+	x: 8.0d,
+	y: -3.5d,
+	dependencies: [
+		"b4d4ed28"
+	],
+	tasks: [{
+		uid: "45d89847",
+		type: "item",
+		items: [{
+			item: "mekanism:cosmicmatter"
+		}]
+	}]
+}

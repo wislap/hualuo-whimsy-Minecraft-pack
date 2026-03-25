@@ -1,0 +1,39 @@
+{
+	title: "虚空神秘使套装",
+	x: 0.0d,
+	y: 3.5d,
+	description: "来自虚空",
+	text: [
+		"虚空材料制作的装备或许能更好的降低魔力消耗"
+	],
+	dependencies: [
+		"192af236"
+	],
+	tasks: [{
+		uid: "699e30f0",
+		type: "item",
+		items: [{
+			item: "thaumcraft:void_robe_helm"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3e450668",
+		type: "item",
+		items: [{
+			item: "thaumcraft:void_robe_chest"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "518c3126",
+		type: "item",
+		items: [{
+			item: "thaumcraft:void_robe_legs"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

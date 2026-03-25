@@ -1,0 +1,19 @@
+{
+	x: 7.5d,
+	y: 0.0d,
+	description: "高科技",
+	text: [
+		""
+	],
+	dependencies: [
+		"65744330",
+		"8b820af3"
+	],
+	tasks: [{
+		uid: "db93b32c",
+		type: "item",
+		items: [{
+			item: "mekanism:controlcircuit 1 1"
+		}]
+	}]
+}

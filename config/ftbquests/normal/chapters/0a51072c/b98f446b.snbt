@@ -1,0 +1,14 @@
+{
+	x: 6.0d,
+	y: -2.0d,
+	dependencies: [
+		"dacb3e16"
+	],
+	tasks: [{
+		uid: "2e96fe9f",
+		type: "item",
+		items: [{
+			item: "thaumcraft:bellows"
+		}]
+	}]
+}

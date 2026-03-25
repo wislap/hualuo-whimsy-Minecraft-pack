@@ -1,0 +1,22 @@
+{
+	title: "冰雪女王的宝库",
+	loot_size: 1,
+	rewards: [{
+		item: "twilightforest:ender_bow"
+	},
+	{
+		item: "twilightforest:ice_bow"
+	},
+	{
+		item: "twilightforest:seeker_bow"
+	},
+	{
+		item: "twilightforest:triple_bow"
+	},
+	{
+		item: "twilightforest:glass_sword"
+	},
+	{
+		item: "twilightforest:ice_sword"
+	}]
+}

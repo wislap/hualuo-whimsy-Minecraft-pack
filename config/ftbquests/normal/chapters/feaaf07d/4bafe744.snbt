@@ -1,0 +1,20 @@
+{
+	title: "砷铅铁",
+	x: 12.0d,
+	y: 4.5d,
+	description: "崩坏的机器",
+	text: [
+		"重要材料！"
+	],
+	dependencies: [
+		"34b841d4"
+	],
+	tasks: [{
+		uid: "7d215be7",
+		type: "item",
+		items: [{
+			item: "twilightforest:carminite"
+		}],
+		consume_items: 0b
+	}]
+}

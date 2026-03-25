@@ -1,0 +1,25 @@
+{
+	x: 7.0d,
+	y: -7.5d,
+	dependencies: [
+		"c526cdfa"
+	],
+	tasks: [{
+		uid: "a5f1d509",
+		type: "item",
+		items: [{
+			id: "flammpfeil.slashblade:slashbladenamed",
+			tag: {
+				CurrentItemName: "slashblade.tofucraft.diamondkatana",
+				TextureName: "tofudiamond_katana",
+				SlashBlade: {},
+				SB.SEffect: {},
+				AttackAmplifier: 0.01f,
+				baseAttackModifier: 8.0f,
+				CustomMaxDamage: 4626
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

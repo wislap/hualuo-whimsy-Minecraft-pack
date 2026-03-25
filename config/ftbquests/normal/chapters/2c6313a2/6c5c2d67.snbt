@@ -1,0 +1,23 @@
+{
+	title: "虚空之力",
+	x: -3.5d,
+	y: 0.0d,
+	description: "在虚空之力下，我可以将扭曲为我所用",
+	text: [
+		"扭曲也不一定就是坏的"
+	],
+	dependencies: [
+		"192af236",
+		"ec629f1b"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "5ad93409",
+		type: "item",
+		items: [{
+			item: "thaumcraft:voidseer_charm"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

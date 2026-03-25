@@ -1,0 +1,20 @@
+{
+	title: "注魔",
+	x: 9.5d,
+	y: 0.0d,
+	description: "将物品和源质注入",
+	text: [
+		"需要炼金学加以辅助，创造强大的物品"
+	],
+	dependencies: [
+		"d2b0ff7f"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "4d26f347",
+		type: "item",
+		items: [{
+			item: "thaumcraft:infusion_matrix"
+		}]
+	}]
+}

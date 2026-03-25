@@ -1,0 +1,17 @@
+{
+	title: "奶酪星",
+	x: 23.0d,
+	y: 0.5d,
+	description: "杰瑞的天堂",
+	text: [
+		"这里到处都是奶酪！"
+	],
+	dependencies: [
+		"88c890e7"
+	],
+	tasks: [{
+		uid: "482975df",
+		type: "dimension",
+		dim: -2543
+	}]
+}

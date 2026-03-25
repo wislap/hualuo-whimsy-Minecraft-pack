@@ -1,0 +1,17 @@
+{
+	x: -3.5d,
+	y: 7.0d,
+	dependencies: [
+		"f6828f82"
+	],
+	tasks: [{
+		uid: "b9880921",
+		type: "item",
+		items: [{
+			id: "mekeng:gas_cell_64k",
+			tag: {}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

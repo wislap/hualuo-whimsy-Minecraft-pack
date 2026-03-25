@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	description: "来自虚空",
+	text: [
+		"通过腐化裂隙我们获得了新的材料"
+	],
+	dependencies: [
+		"aaa9705c",
+		"93c1fa9f"
+	],
+	tasks: [{
+		uid: "d92a3c15",
+		type: "item",
+		items: [{
+			item: "thaumcraft:void_seed"
+		}]
+	}]
+}

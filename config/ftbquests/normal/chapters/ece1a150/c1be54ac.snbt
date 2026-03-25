@@ -1,0 +1,29 @@
+{
+	x: 14.0d,
+	y: -1.5d,
+	dependencies: [
+		"02cfe4e1"
+	],
+	tasks: [{
+		uid: "5ec452dc",
+		type: "item",
+		items: [{
+			id: "flammpfeil.slashblade:slashbladenamed",
+			tag: {
+				CurrentItemName: "flammpfeil.slashblade.named.wa.tachi",
+				CustomMaxDamage: 457,
+				TextureName: "wa/waB",
+				AttackAmplifier: 0.01f,
+				SB.SEffect: {},
+				ModelName: "wa/model",
+				baseAttackModifier: 3.0f,
+				SlashBlade: {}
+			},
+			ForgeCaps: {
+				Parent: {}
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 2b
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	title: "海卫一",
+	x: 11.5d,
+	y: -2.0d,
+	description: "超频玩家狂喜",
+	text: [
+		"在这颗卫星上存在大量的液氮"
+	],
+	dependencies: [
+		"f2dfca0a"
+	],
+	tasks: [{
+		uid: "e00ca9d6",
+		type: "dimension",
+		dim: -1504
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "创造通量电容",
+	x: 4.0d,
+	y: 0.0d,
+	description: "充盈的能量",
+	text: [
+		"什么？龙套又没电了？"
+	],
+	dependencies: [
+		"37fcb7eb"
+	],
+	tasks: [{
+		uid: "fab3c239",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_capacitor 1 2"
+		}],
+		consume_items: 0b,
+		ignore_nbt: 1b
+	}]
+}

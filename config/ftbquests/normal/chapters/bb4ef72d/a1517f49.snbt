@@ -1,0 +1,20 @@
+{
+	title: "钋(Po)",
+	x: 4.0d,
+	y: 2.0d,
+	description: "最毒的物质",
+	text: [
+		"据说1克就可以杀死上千万人。",
+		"能变成哥斯拉吗？"
+	],
+	dependencies: [
+		"b4d4ed28"
+	],
+	tasks: [{
+		uid: "0c7e0aba",
+		type: "item",
+		items: [{
+			item: "mekanism:poloniumpellet"
+		}]
+	}]
+}

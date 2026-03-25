@@ -1,0 +1,45 @@
+{
+	x: -11.5d,
+	y: 6.5d,
+	dependencies: [
+		"43d67fd1"
+	],
+	tasks: [{
+		uid: "4f5bf58e",
+		type: "item",
+		items: [{
+			id: "flammpfeil.slashblade:slashbladenamed",
+			tag: {
+				SpecialAttackType: 37,
+				CurrentItemName: "flammpfeil.slashblade.named.kamuy.fire",
+				isDefaultBewitched: 1b,
+				StandbyRenderType: 2,
+				SB.SEffect: {},
+				ench: [{
+					lvl: 3s,
+					id: 34
+				},
+				{
+					lvl: 2s,
+					id: 20
+				},
+				{
+					lvl: 5s,
+					id: 18
+				},
+				{
+					lvl: 1s,
+					id: 3
+				}],
+				TextureName: "named/kamuy/fire",
+				baseAttackModifier: 7.0f,
+				AttackAmplifier: 0.01f,
+				ModelName: "named/kamuy/kamuy",
+				SlashBlade: {},
+				CustomMaxDamage: 60
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

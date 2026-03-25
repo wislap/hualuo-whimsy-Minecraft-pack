@@ -1,0 +1,20 @@
+{
+	x: 3.5d,
+	y: 0.0d,
+	dependencies: [
+		"17db5cb8"
+	],
+	tasks: [{
+		uid: "a0c4e8ad",
+		type: "item",
+		items: [{
+			id: "flammpfeil.slashblade:slashbladebamboolight",
+			tag: {
+				SlashBlade: {},
+				SB.SEffect: {}
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

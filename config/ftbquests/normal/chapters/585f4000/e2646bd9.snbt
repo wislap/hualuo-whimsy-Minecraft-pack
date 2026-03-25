@@ -1,0 +1,48 @@
+{
+	x: -11.0d,
+	y: 8.0d,
+	dependencies: [
+		"fa6c01e3"
+	],
+	tasks: [{
+		uid: "739e95dc",
+		type: "item",
+		items: [{
+			id: "mets:craftrev_extra",
+			tag: {
+				SpecialAttackType: 13248999,
+				CurrentItemName: "flammpfeil.slashblade.named.craftrev_extra",
+				isDefaultBewitched: 0b,
+				ench: [{
+					lvl: 12s,
+					id: 48
+				},
+				{
+					lvl: 3s,
+					id: 21
+				},
+				{
+					lvl: 12s,
+					id: 34
+				},
+				{
+					lvl: 12s,
+					id: 16
+				}],
+				TextureName: "named/mrblade/texture_craft",
+				AttackAmplifier: 10.0f,
+				ModelName: "named/mrblade/advanced",
+				baseAttackModifier: 1024.0f,
+				SB.SEffect: {
+					CraftRevSE: 35
+				},
+				SummonedSwordColor: 10506995,
+				SlashBlade: {},
+				CustomMaxDamage: 1280,
+				StandbyRenderType: 2
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

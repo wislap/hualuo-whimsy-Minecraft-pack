@@ -1,0 +1,14 @@
+{
+	title: "写在最前面",
+	x: -1.5d,
+	y: -2.5d,
+	description: "在你正式开始你的锻刀之旅之前",
+	text: [
+		"本章节仅有指引作用，以防没有玩过拔刀剑的人不明白什么意思",
+		"拔刀剑的合成需要前置拔刀剑达到一定条件，例如&cKillCount(杀敌数)&f，&5ProudSoul(荣耀值)&f以及&7Refine(锻造数)"
+	],
+	tasks: [{
+		uid: "43c2fb2e",
+		type: "checkmark"
+	}]
+}

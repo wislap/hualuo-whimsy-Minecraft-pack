@@ -1,0 +1,21 @@
+{
+	title: "五颜六色",
+	x: 54.0d,
+	y: 0.0d,
+	description: "为什么这么多种钻石！",
+	text: [
+		"这将是你的最后一步"
+	],
+	dependencies: [
+		"0eb330a1",
+		"a0883dfc",
+		"1bfb4fd6",
+		"d850d46e",
+		"deb221c4"
+	],
+	tasks: [{
+		uid: "bf751dc5",
+		type: "checkmark",
+		title: "复选任务"
+	}]
+}

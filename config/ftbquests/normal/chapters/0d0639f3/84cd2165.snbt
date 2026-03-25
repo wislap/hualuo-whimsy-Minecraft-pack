@@ -1,0 +1,15 @@
+{
+	x: 2.5d,
+	y: -5.0d,
+	dependencies: [
+		"cbc23592",
+		"a0c5d921"
+	],
+	tasks: [{
+		uid: "3cded9ac",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:infusion_provider"
+		}]
+	}]
+}

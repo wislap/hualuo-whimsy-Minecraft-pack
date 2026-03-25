@@ -1,0 +1,16 @@
+{
+	title: "注意！",
+	x: -21.5d,
+	y: -2.0d,
+	description: "不要去木卫二",
+	text: [
+		"前往木卫二可能导致存档损坏，请注意"
+	],
+	dependencies: [
+		"8bfb3083"
+	],
+	tasks: [{
+		uid: "c9e2a2ad",
+		type: "checkmark"
+	}]
+}

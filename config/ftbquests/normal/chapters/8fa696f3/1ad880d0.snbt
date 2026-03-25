@@ -1,0 +1,20 @@
+{
+	title: "神秘的世界",
+	x: 3.5d,
+	y: 0.0d,
+	description: "你需要一个指导书对不对",
+	text: [
+		"将世界盐洒在书架上"
+	],
+	dependencies: [
+		"3d6bebff"
+	],
+	tasks: [{
+		uid: "a0dfb654",
+		type: "item",
+		items: [{
+			item: "thaumcraft:thaumonomicon"
+		}],
+		ignore_nbt: 1b
+	}]
+}

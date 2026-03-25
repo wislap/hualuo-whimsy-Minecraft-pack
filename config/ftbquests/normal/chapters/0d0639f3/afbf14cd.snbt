@@ -1,0 +1,14 @@
+{
+	x: -5.0d,
+	y: 0.0d,
+	dependencies: [
+		"71ae967e"
+	],
+	tasks: [{
+		uid: "70fa84a0",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:essentia_component_4k"
+		}]
+	}]
+}

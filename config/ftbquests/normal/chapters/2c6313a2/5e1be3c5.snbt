@@ -1,0 +1,32 @@
+{
+	x: 0.0d,
+	y: -3.5d,
+	description: "腐化物也挡不住我",
+	text: [
+		"用元始珍珠和虚空金属制造的工具可以轻松破坏腐化物"
+	],
+	dependencies: [
+		"192af236",
+		"ec629f1b"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "b3b657f5",
+		type: "item",
+		items: [{
+			id: "thaumcraft:primal_crusher",
+			tag: {
+				infench: [{
+					lvl: 1s,
+					id: 1s
+				},
+				{
+					lvl: 1s,
+					id: 4s
+				}]
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,59 @@
+{
+	x: 8.5d,
+	y: -6.0d,
+	dependencies: [
+		"75e7abbf"
+	],
+	tasks: [{
+		uid: "af2a75de",
+		type: "item",
+		items: [{
+			id: "flammpfeil.slashblade:slashbladewrapper",
+			tag: {
+				SpecialAttackType: 0,
+				CurrentItemName: "flammpfeil.slashblade.named.fox.white",
+				isDefaultBewitched: 1b,
+				ench: [{
+					lvl: 2s,
+					id: 19
+				},
+				{
+					lvl: 2s,
+					id: 18
+				},
+				{
+					lvl: 3s,
+					id: 34
+				},
+				{
+					lvl: 3s,
+					id: 21
+				},
+				{
+					lvl: 2s,
+					id: 20
+				}],
+				TextureName: "named/sange/white",
+				baseAttackModifier: 4.0f,
+				isBroken: 0b,
+				ModelName: "named/sange/sange",
+				SB.SEffect: {},
+				TrueItemName: "flammpfeil.slashblade.named.fox.white",
+				display: {
+					Lore: [
+						"is demo item. is wooden sword",
+						"true performance : please crafting"
+					]
+				},
+				WrapItem: {
+					id: "minecraft:wooden_sword",
+					Count: 1,
+					Damage: 0s
+				},
+				StandbyRenderType: 1
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	x: -3.5d,
+	y: 3.5d,
+	dependencies: [
+		"5cb0e3f9"
+	],
+	tasks: [{
+		uid: "b92c0acd",
+		type: "item",
+		items: [{
+			id: "flammpfeil.slashblade:slashbladenamed",
+			tag: {
+				SpecialAttackType: 4,
+				CurrentItemName: "flammpfeil.slashblade.named.tboen",
+				SummonedSwordColor: 16746632,
+				SlashBlade: {},
+				TextureName: "named/tboen/texture",
+				baseAttackModifier: 7.0f,
+				AttackAmplifier: 0.01f,
+				ModelName: "named/tboen/model",
+				SB.SEffect: {},
+				CustomMaxDamage: 70
+			}
+		}],
+		ignore_nbt: 1b,
+		only_from_crafting: 1b
+	}]
+}

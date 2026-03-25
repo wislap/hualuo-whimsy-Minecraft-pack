@@ -1,0 +1,30 @@
+{
+	title: "恐惧之地",
+	x: 12.0d,
+	y: 4.0d,
+	description: "小心用眼疲劳",
+	text: [
+		"这以前是一个渊素组成的世界，但恐惧瘟疫被释放在世界之上，杀死了所有的矿工并污染了渊素傀儡，恐惧之地的名字就由此而来。",
+		"充满恐惧之物的世界，小心恐惧瘟疫"
+	],
+	dependencies: [
+		"095ac04d"
+	],
+	tasks: [{
+		uid: "82384a3a",
+		type: "dimension",
+		dim: 51
+	}],
+	rewards: [{
+		uid: "c4090dbb",
+		type: "item",
+		item: "abyssalcraft:abyingot",
+		count: 4
+	},
+	{
+		uid: "adc0f900",
+		type: "item",
+		item: "abyssalcraft:dreadiumingot",
+		count: 4
+	}]
+}

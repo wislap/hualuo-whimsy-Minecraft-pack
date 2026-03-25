@@ -1,0 +1,11 @@
+{
+	x: 33.0d,
+	y: 8.0d,
+	tasks: [{
+		uid: "3f7e0c34",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonsteel_fire_ingot"
+		}]
+	}]
+}

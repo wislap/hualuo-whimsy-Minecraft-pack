@@ -1,0 +1,17 @@
+{
+	title: "木卫三",
+	x: -21.5d,
+	y: 2.0d,
+	description: "这里似乎没有什么值得注意的东西",
+	text: [
+		"如果你执意探索那也不是不行"
+	],
+	dependencies: [
+		"8bfb3083"
+	],
+	tasks: [{
+		uid: "683ff925",
+		type: "dimension",
+		dim: -1506
+	}]
+}

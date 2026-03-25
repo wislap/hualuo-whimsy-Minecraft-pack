@@ -1,0 +1,16 @@
+{
+	x: 8.0d,
+	y: -4.0d,
+	dependencies: [
+		"160b07fc"
+	],
+	tasks: [{
+		uid: "26478105",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_boots"
+		}],
+		consume_items: 0b,
+		ignore_nbt: 1b
+	}]
+}

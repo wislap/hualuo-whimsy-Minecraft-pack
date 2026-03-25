@@ -1,0 +1,7 @@
+{
+	title: "热力膨胀",
+	icon: "thermalexpansion:frame 1 148",
+	always_invisible: 0b,
+	group: 291560003,
+	default_quest_shape: ""
+}

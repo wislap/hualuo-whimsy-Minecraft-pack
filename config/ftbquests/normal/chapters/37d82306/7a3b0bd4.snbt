@@ -1,0 +1,38 @@
+{
+	title: "神龙反应堆",
+	x: 15.0d,
+	y: 4.0d,
+	description: "听说你喜欢炸存档毕业？",
+	text: [
+		"发电量大幅加强，燃料消耗速度大幅增加"
+	],
+	dependencies: [
+		"669d58e8"
+	],
+	tasks: [{
+		uid: "aa3b28fe",
+		type: "item",
+		items: [{
+			item: "draconicevolution:reactor_component"
+		}],
+		count: 4L,
+		consume_items: 0b,
+		ignore_damage: 1b
+	},
+	{
+		uid: "e4350a23",
+		type: "item",
+		items: [{
+			item: "draconicevolution:reactor_core"
+		}],
+		consume_items: 0b
+	},
+	{
+		uid: "406fb764",
+		type: "item",
+		items: [{
+			item: "draconicevolution:reactor_component 1 1"
+		}],
+		consume_items: 0b
+	}]
+}

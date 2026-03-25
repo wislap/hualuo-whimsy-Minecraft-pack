@@ -1,0 +1,19 @@
+{
+	title: "热力时代",
+	x: 3.5d,
+	y: 1.5d,
+	description: "经典回归",
+	text: [
+		""
+	],
+	dependencies: [
+		"44fd46e5"
+	],
+	tasks: [{
+		uid: "75f2c6c9",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:frame"
+		}]
+	}]
+}

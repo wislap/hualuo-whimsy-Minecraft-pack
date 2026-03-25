@@ -1,0 +1,35 @@
+{
+	x: 11.0d,
+	y: -3.5d,
+	dependencies: [
+		"5d16f496"
+	],
+	tasks: [{
+		uid: "6dd1132d",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 61"
+		}]
+	},
+	{
+		uid: "dd528907",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 62"
+		}]
+	},
+	{
+		uid: "614e54cf",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 64"
+		}]
+	},
+	{
+		uid: "8129c675",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 63"
+		}]
+	}]
+}

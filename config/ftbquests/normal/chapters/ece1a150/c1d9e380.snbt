@@ -1,0 +1,27 @@
+{
+	x: 8.5d,
+	y: 10.0d,
+	dependencies: [
+		"0785ade7"
+	],
+	tasks: [{
+		uid: "f9b68d4a",
+		type: "item",
+		items: [{
+			id: "flammpfeil.slashblade:slashbladenamed",
+			tag: {
+				SpecialAttackType: 30,
+				CurrentItemName: "flammpfeil.slashblade.named.frostwolfa",
+				StandbyRenderType: 2,
+				SB.SEffect: {},
+				TextureName: "named/frostwolf/frostwolfa",
+				baseAttackModifier: 7.0f,
+				SlashBlade: {},
+				ModelName: "named/frostwolf/frostwolfa",
+				AttackAmplifier: 0.01f,
+				CustomMaxDamage: 50
+			}
+		}],
+		ignore_damage: 1b
+	}]
+}

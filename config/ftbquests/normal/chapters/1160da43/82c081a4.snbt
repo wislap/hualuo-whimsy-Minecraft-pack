@@ -1,0 +1,19 @@
+{
+	title: "湮灭之力",
+	x: 0.0d,
+	y: -3.5d,
+	description: "在毁灭中创造",
+	text: [
+		"毁灭与创造并生，缺一不可"
+	],
+	dependencies: [
+		"207bdc7a"
+	],
+	tasks: [{
+		uid: "7ccf2026",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:oc"
+		}]
+	}]
+}

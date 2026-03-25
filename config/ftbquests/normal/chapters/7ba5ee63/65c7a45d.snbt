@@ -1,0 +1,16 @@
+{
+	x: -2.0d,
+	y: -2.0d,
+	dependencies: [
+		"58bed1e0"
+	],
+	tasks: [{
+		uid: "93a200f2",
+		type: "item",
+		items: [{
+			item: "thaumcraft:focus_pouch"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

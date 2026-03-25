@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: -7.0d,
+	dependencies: [
+		"e6dbdeef"
+	],
+	tasks: [{
+		uid: "62ac62cd",
+		type: "item",
+		items: [{
+			item: "threng:big_assembler 1 2"
+		}]
+	}]
+}

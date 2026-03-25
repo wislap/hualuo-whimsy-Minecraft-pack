@@ -1,0 +1,35 @@
+{
+	title: "作为原始人的第一件事",
+	x: 2.0d,
+	y: 0.0d,
+	description: "要致富，先撸树",
+	text: [
+		""
+	],
+	dependencies: [
+		"50b499c5"
+	],
+	tasks: [{
+		uid: "053bbb24",
+		type: "item",
+		items: [{
+			item: "minecraft:log"
+		}],
+		count: 4L,
+		consume_items: 0b,
+		ignore_damage: 1b
+	}],
+	rewards: [{
+		uid: "3dae7aec",
+		type: "item",
+		item: "minecraft:log",
+		count: 32,
+		random_bonus: 32
+	},
+	{
+		uid: "b2c8abcc",
+		type: "item",
+		item: "minecraft:sapling",
+		count: 4
+	}]
+}

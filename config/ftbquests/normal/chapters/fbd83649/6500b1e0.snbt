@@ -1,0 +1,14 @@
+{
+	x: 3.5d,
+	y: -7.0d,
+	dependencies: [
+		"5b77fd85"
+	],
+	tasks: [{
+		uid: "1bb90c30",
+		type: "item",
+		items: [{
+			item: "ecoaeextension:extendable_fabricator_subsystem_l9"
+		}]
+	}]
+}

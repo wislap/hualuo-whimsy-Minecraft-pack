@@ -1,0 +1,24 @@
+{
+	x: 12.5d,
+	y: 0.0d,
+	description: "qwq",
+	text: [
+		"傀儡学懒得做了，反正也用不上"
+	],
+	dependencies: [
+		"315c8e10",
+		"a7b72e67",
+		"93c1fa9f"
+	],
+	tasks: [{
+		uid: "14cacfde",
+		type: "checkmark",
+		title: "你需要知道的",
+		icon: {
+			id: "thaumcraft:golem",
+			tag: {
+				props: 0L
+			}
+		}
+	}]
+}

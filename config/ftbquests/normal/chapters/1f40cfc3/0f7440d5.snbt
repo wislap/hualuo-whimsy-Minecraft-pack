@@ -1,0 +1,14 @@
+{
+	x: 27.0d,
+	y: 4.0d,
+	dependencies: [
+		"acb9605d"
+	],
+	tasks: [{
+		uid: "ab05dcdd",
+		type: "item",
+		items: [{
+			item: "extraplanets:tier9_items 1 5"
+		}]
+	}]
+}

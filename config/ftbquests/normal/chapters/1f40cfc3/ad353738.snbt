@@ -1,0 +1,19 @@
+{
+	title: "阋神星",
+	x: 35.5d,
+	y: 0.0d,
+	description: "快乐老家（？）",
+	text: [
+		"某科员的常驻地，在这里获取十阶设计图"
+	],
+	can_repeat: 1b,
+	dependencies: [
+		"32396840",
+		"542b3aa4"
+	],
+	tasks: [{
+		uid: "845bfba8",
+		type: "dimension",
+		dim: -21
+	}]
+}

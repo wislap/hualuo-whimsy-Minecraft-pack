@@ -1,0 +1,21 @@
+{
+	title: "好多好多咒波",
+	x: 5.5d,
+	y: 5.5d,
+	description: "让咒波不在烦扰你",
+	text: [
+		"芜湖哈哈！（扭曲拉满）"
+	],
+	dependencies: [
+		"37fcb7eb"
+	],
+	tasks: [{
+		uid: "c883c94f",
+		type: "item",
+		items: [{
+			item: "thaumcraft:creative_flux_sponge"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: 4.0d,
+	y: -4.0d,
+	dependencies: [
+		"160b07fc"
+	],
+	tasks: [{
+		uid: "f7983d1c",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_chest"
+		}],
+		consume_items: 0b,
+		ignore_nbt: 1b
+	}]
+}

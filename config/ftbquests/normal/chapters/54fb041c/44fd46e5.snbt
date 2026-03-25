@@ -1,0 +1,25 @@
+{
+	title: "第三章",
+	x: 2.0d,
+	y: 0.0d,
+	description: "渐入佳境",
+	text: [
+		""
+	],
+	dependencies: [
+		"0c46361a",
+		"a45c435f"
+	],
+	tasks: [{
+		uid: "62d92af1",
+		type: "item",
+		items: [{
+			id: "abyssalcraft:necronomicon",
+			tag: {
+				PotEnergy: 0.0f
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

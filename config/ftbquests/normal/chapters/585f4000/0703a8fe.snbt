@@ -1,0 +1,19 @@
+{
+	title: "清洁能源",
+	x: -4.0d,
+	y: -4.0d,
+	description: "大风车吱呀吱悠悠地转",
+	text: [
+		"用风力计可以探测风力"
+	],
+	dependencies: [
+		"e11bea30"
+	],
+	tasks: [{
+		uid: "3caa7b84",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 21"
+		}]
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "月球",
+	x: 10.0d,
+	y: 4.0d,
+	description: "你的一小步，人类的一大步",
+	text: [
+		"太空之旅在此开始，在此获取二阶设计图",
+		"拿着这个指南针，他可以让你一路找到你要找的地方"
+	],
+	dependencies: [
+		"a399af51"
+	],
+	tasks: [{
+		uid: "daea5f7c",
+		type: "dimension",
+		dim: -28
+	}],
+	rewards: [{
+		uid: "1377b8d0",
+		type: "item",
+		item: "galacticraftcore:dungeonfinder"
+	}]
+}

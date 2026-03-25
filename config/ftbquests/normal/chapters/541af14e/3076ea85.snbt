@@ -1,0 +1,11 @@
+{
+	x: 9.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "cee478fd",
+		type: "item",
+		items: [{
+			item: "moretcon:gemetherstone"
+		}]
+	}]
+}

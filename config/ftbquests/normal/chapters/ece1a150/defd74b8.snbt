@@ -1,0 +1,29 @@
+{
+	x: -7.0d,
+	y: -3.5d,
+	dependencies: [
+		"ca211760"
+	],
+	tasks: [{
+		uid: "706f3d7e",
+		type: "item",
+		items: [{
+			id: "flammpfeil.slashblade:slashbladenamed",
+			tag: {
+				SpecialAttackType: 1,
+				CurrentItemName: "flammpfeil.slashblade.named.muramasa",
+				isDefaultBewitched: 1b,
+				StandbyRenderType: 2,
+				SB.SEffect: {},
+				TextureName: "named/muramasa/muramasa",
+				baseAttackModifier: 6.0f,
+				AttackAmplifier: 0.01f,
+				ModelName: "named/muramasa/muramasa",
+				SlashBlade: {},
+				CustomMaxDamage: 50
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

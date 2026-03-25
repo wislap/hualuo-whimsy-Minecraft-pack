@@ -1,0 +1,17 @@
+{
+	title: "比邻星B",
+	x: -3.5d,
+	y: -3.5d,
+	description: "三体人的老家~",
+	text: [
+		"什么？三体人要来了？这是mc啊，哪来的三体人！？"
+	],
+	dependencies: [
+		"7081dd71"
+	],
+	tasks: [{
+		uid: "82620f98",
+		type: "dimension",
+		dim: -1025
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: 7.0d,
+	y: 3.5d,
+	tasks: [{
+		uid: "57eba165",
+		type: "item",
+		items: [{
+			id: "flammpfeil.slashblade:slashbladenamed",
+			tag: {
+				CurrentItemName: "flammpfeil.slashblade.named.fluorescentbar",
+				SlashBlade: {},
+				ench: [{
+					lvl: 3s,
+					id: 34
+				}],
+				TextureName: "named/fluorescentbar/fluorescentbar",
+				SB.SEffect: {},
+				baseAttackModifier: 2.0f,
+				ModelName: "named/fluorescentbar/fluorescentbar",
+				AttackAmplifier: 0.01f,
+				CustomMaxDamage: 1561
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

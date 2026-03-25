@@ -1,0 +1,17 @@
+{
+	title: "小行星带",
+	x: 24.5d,
+	y: 6.0d,
+	description: "小心虚空",
+	text: [
+		"这里有这小行星遗迹，以及钛铁小行星，陨铁小行星等"
+	],
+	dependencies: [
+		"88c890e7"
+	],
+	tasks: [{
+		uid: "524a9b37",
+		type: "dimension",
+		dim: -30
+	}]
+}

@@ -1,0 +1,11 @@
+{
+	x: 10.0d,
+	y: -4.0d,
+	tasks: [{
+		uid: "79717f13",
+		type: "item",
+		items: [{
+			item: "modularmachinery:fusion_reactor_factory_controller"
+		}]
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 6.0d,
+	y: 2.0d,
+	dependencies: [
+		"9e0ba1dc"
+	],
+	tasks: [{
+		uid: "49e9200a",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_controller"
+		}],
+		consume_items: 0b
+	}],
+	rewards: [{
+		uid: "b41002f6",
+		type: "item",
+		item: "tconstruct:seared 1 3",
+		count: 64,
+		random_bonus: 256
+	}]
+}

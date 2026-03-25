@@ -1,0 +1,18 @@
+{
+	x: 3.5d,
+	y: 2.0d,
+	description: "狠狠地灌注",
+	text: [
+		""
+	],
+	dependencies: [
+		"0931743a"
+	],
+	tasks: [{
+		uid: "484fcbda",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock 1 8"
+		}]
+	}]
+}

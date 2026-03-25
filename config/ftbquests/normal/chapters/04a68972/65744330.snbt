@@ -1,0 +1,18 @@
+{
+	x: 5.0d,
+	y: 0.0d,
+	description: "第一台计算机",
+	text: [
+		""
+	],
+	dependencies: [
+		"0931743a"
+	],
+	tasks: [{
+		uid: "48442830",
+		type: "item",
+		items: [{
+			item: "mekanism:controlcircuit"
+		}]
+	}]
+}
